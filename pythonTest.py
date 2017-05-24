@@ -194,3 +194,12 @@ if os.system('ls -l') == 0:
     print "command carry out correct!"
 else:
     print "command has some problems!"
+name = raw_input("input your name:")
+sex = raw_input("input your sex:")
+age = int(raw_input("input your age:"))
+print "Information of student"
+print "name:\t", name, "\nsex:\t", sex, "\nage:\t", age
+print '''name:\t %s
+sex:\t %s
+\nage:\t %d''' %(name, sex, age)
+

@@ -169,6 +169,12 @@ print b
 del a
 # print a delete reference, this sentence will lead an error, name a is not defined
 print b
-
-
-
+name = 'name'
+if name == 'name':
+    print 'hello', name
+a = (1+1+1+1+1) > 6
+print a
+name = "I am Taylor"
+print name
+name = "I'm Taylor"
+print name

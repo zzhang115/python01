@@ -178,3 +178,19 @@ name = "I am Taylor"
 print name
 name = "I'm Taylor"
 print name
+name = '''hello
+    world three
+    quotes'''
+print name
+age = 23
+new_year_age = age + 1
+print new_year_age
+import sys, os
+print sys.path
+help(sys)
+print sys.version_info
+os.system('ls -l')
+if os.system('ls -l') == 0:
+    print "command carry out correct!"
+else:
+    print "command has some problems!"

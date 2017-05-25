@@ -20,5 +20,5 @@ for line in fileinput.input("result", inplace=0):
 
 with open("result", "r+") as f:
     old = f.read() #read everything in the file
-    f.seek(0) #rewind it means set the file's current position to 0
-    f.write("new line\n" + old) #write the new
+    f.seek(10) #rewind it means set the file's current position to 10,
+    f.write("new line\n" + old) #write the new add new line string after cursor position 10

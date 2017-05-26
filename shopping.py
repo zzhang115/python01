@@ -1,16 +1,35 @@
 print '''/---------menu----------/
-coffe: $11
+coffee: $11
 tea: $10
 coca cola: $1
 orange juice: $5
 '''
+itemList=[]
 salary = int(raw_input("input your salary:"))
 while salary > 0:
-    ifbuy = raw_input("Do you want to buy?")
-    if ifbuy == "yes":
-        if salary > 27:
-            salary -=27
+    ifbuy = raw_input("what do you want to buy?")
+    if ifbuy == "coffee":
+        if salary > 11:
+            salary -= 11
+            itemList.append("coffee")
             print "done, your balance%d" %salary
+            print "you have bought :", itemList
+        else:
+            print "sorry, your balance is not enough to support these beverage"
+    elif ifbuy == "tea":
+        if salary > 10:
+            salary -= 10
+            itemList.append("tea")
+            print "done, your balance%d" %salary
+            print "you have bought :", itemList
+        else:
+            print "sorry, your balance is not enough to support these beverage"
+    elif ifbuy == "orange juice":
+        if salary > 5:
+            salary -= 5
+            itemList.append("orange juice")
+            print "done, your balance%d" %salary
+            print "you have bought :", itemList
         else:
             print "sorry, your balance is not enough to support these beverage"
     else:

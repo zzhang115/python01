@@ -1,9 +1,9 @@
 print '''/---------menu----------/
-coffee: $11
-tea: $10
-coca cola: $1
-orange juice: $5
 '''
+f = file("item.txt")
+for line in f.readlines():
+    new_line = line.split("$") #split by '$'
+    print new_line[0], " price:", new_line[1]
 itemList=[]
 salary = int(raw_input("input your salary:"))
 while salary > 0:

@@ -1,0 +1,4 @@
+coffee $11
+tea $10
+coca_cola $1
+orange_juice $5

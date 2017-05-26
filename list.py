@@ -21,3 +21,5 @@ nameList[1]="lmn"
 print nameList
 nameList[nameList.index("def")]="newdef"
 print nameList
+staffList = ("xiaoming", "xiaohong", "xiaohua")
+print staffList.index("xiaohong")

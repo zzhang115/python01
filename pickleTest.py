@@ -29,3 +29,12 @@ with open('filename.pickle', 'rb') as handle:
     b = pickle.load(handle)
 
 print "if equal", a == b
+
+with open("pickTestFile.pkl", "wb") as handle:
+    pickle.dump(account_info, handle)
+
+with open("pickTestFile.pkl", "rb") as handle:
+    new = pickle.load(handle)
+handle.close()
+print new
+

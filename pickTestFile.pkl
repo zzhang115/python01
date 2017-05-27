@@ -1,0 +1,16 @@
+(dp0
+S'100'
+p1
+(lp2
+S'zzc'
+p3
+aS'deposit'
+p4
+asS'101'
+p5
+(lp6
+S'rachel'
+p7
+aI9000
+aI9000
+as.

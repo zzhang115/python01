@@ -29,3 +29,10 @@ DicName.pop("01")
 for i in DicName.keys():
    print i, "fourthprice:", DicName.get(i)
 
+DicName["04"] = "middle gender" #add new item
+for i, j in DicName.items():
+   print i, " and ", j
+input = raw_input("please input a string:").strip()
+print input
+print "\"", input, "\""
+

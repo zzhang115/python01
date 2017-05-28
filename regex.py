@@ -25,4 +25,3 @@ print r #result:['', '1', '2', '3', '']
 print re.sub("[abc]", "o", "Mark") #replace a to o, select replace item from abc
 print re.sub("\\d+", "cd", "123Mark")
 
-

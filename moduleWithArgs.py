@@ -17,5 +17,17 @@ for i in a.readlines():
 #os.mkdir("newDir")
 #os.chdir("~")
 import time
-time.sleep(5)
+# time.sleep(5)
 print "wake up"
+print time.time()
+print time.strftime("%H:%M:%S %m-%d-%Y")
+print time.timezone
+
+import datetime
+print datetime.datetime.now()
+
+import newModule
+print newModule.version
+
+import logging
+print logging._acquireLock()

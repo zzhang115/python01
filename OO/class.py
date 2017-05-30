@@ -1,11 +1,23 @@
 import sys
 print len(sys.argv)
 
-class Dog:
-    def sparking(self, name):
-        self.N = name
-        print "wang wang wang"
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    def speaking(self):
+        print "I am animal"
 
-D = Dog()
-D.sparking("dog")
-print D.N
+class Dog(Animal):
+    def __init__(self, name, age, sex):
+        Animal.__init__(self, name) #must (self, ..)
+        self.age = age
+        self.sex = sex
+    def sparking(self):
+        print "wang wang wang"
+    def attribute(self):
+        print "%s %d %s" %(self.name, self.age, self.sex)
+        self.speaking()
+D = Dog("small dog", 20, "male")
+D.sparking()
+D.attribute()
+print D.name

@@ -17,6 +17,7 @@ KeyError # try to use a unexists key in dic
 KeyboardInterrupt
 NameError #use a var which has no given object
 SyntaxError
+TypeError
 UnboundLocalError # trying to access a unintialized local var,
 ValueError # if you pass a unexpected value,
 '''
@@ -27,16 +28,37 @@ a = { "1" : "abc",
 try :
     print a["1"]
 except KeyError:
-    print "this is a keyerror"
+    print "key is not exits in this dic"
 
 # while 1:
 #     print "run"
-import time
-for i in range(1, 100):
-    try:
-        print i
-        time.sleep(3)
-    except KeyboardInterrupt:
-        print "this is keyboardInterrupt, you cannot do it"
-        continue
+# import time
+# for i in range(1, 100):
+#     try:
+#         print i
+#         time.sleep(3)
+#     except KeyboardInterrupt:
+#         print "this is keyboardInterrupt, you cannot do it"
+#         continue
 
+# build our own exception
+# class MyException(Exception):
+
+try:
+    for i in a:
+        print i
+        raise IndexError #if in some case we need to create a exception manually, use raise
+except IndexError:
+    print "this a raised IndexError"
+finally: # usually used to close some connection like socket
+    print "arrive finally"
+
+print "after Error"
+try:
+    for i in a:
+        print i
+        raise IndexError #if in some case we need to create a exception manually, use raise
+except IndexError:
+    print "this a raised IndexError"
+else:
+    print "no exception"

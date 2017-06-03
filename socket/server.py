@@ -5,14 +5,15 @@ PORT = 9999
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #TCP
 s.bind((HOST, PORT))
 s.listen(2)
-conn, addr = s.accept()
-
-print 'GOT connection from:', addr
+# conn, addr = s.accept()
+# print 'GOT connection from:', addr
 
 while 1:
+    conn, addr = s.accept()
+    print 'GOT connection from:', addr
     data = conn.recv(1024)#receive 4kb character once
     if not data:
-        break
+        continue
     conn.sendall(data)
     print data
 conn.close()

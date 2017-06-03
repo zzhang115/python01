@@ -14,7 +14,7 @@ while 1:
     while 1:
         data = conn.recv(1024)#receive 4kb character once
         if not data:
-            continue
+            break
         conn.sendall(data)
         print data
         time.sleep(1)

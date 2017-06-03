@@ -16,3 +16,5 @@ result = name_info("zzc", 23, "programmar", )
 print result
 print gl, gl1
 
+import os
+os.system("ls")

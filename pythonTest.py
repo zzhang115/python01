@@ -214,5 +214,11 @@ while os.system('ls') == 0:
         continue
     print "haha", i
 
+data = "abc"
+if data:
+    print "is data"
+elif not data:
+    print "not data"
+
 
 

@@ -8,7 +8,7 @@ s.connect((HOST, PORT))
 while 1:
     send = raw_input("input:")
     s.sendall(send)
-    data = s.recv(1024)
-    time.sleep(5)
-    print "receive message from server", repr(data)
+    data = s.recv(8192)
+    time.sleep(1)
+    print "receive message from server", data
 s.close()

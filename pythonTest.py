@@ -219,6 +219,8 @@ if data:
     print "is data"
 elif not data:
     print "not data"
+data = "a.b.c.d.e.f"
 
+print data.split('.')[0]
 
 

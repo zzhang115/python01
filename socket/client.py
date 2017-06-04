@@ -6,8 +6,9 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #TCP
 s.connect((HOST, PORT))
 
 while 1:
-    s.sendall("first message from client1")
+    send = raw_input("input:")
+    s.sendall(send)
     data = s.recv(1024)
-    time.sleep(1)
+    time.sleep(5)
     print "receive message from server", repr(data)
 s.close()

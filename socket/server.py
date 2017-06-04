@@ -1,4 +1,4 @@
-import socket, time
+import socket, time, os
 
 HOST = 'localhost'#'0.0.0.0'#'0.0.0.0' #represent default
 PORT = 9999
@@ -12,10 +12,13 @@ while 1:
     conn, addr = s.accept()
     print 'GOT connection from:', addr
     while 1:
+        #if connection has not been closed, conn.recv will waiting until get message from client
         data = conn.recv(1024)#receive 4kb character once
+        send = os.popen(data)
+        result = send.read()
         if not data:
             break
-        conn.sendall(data)
-        print data
+        conn.sendall(result)
+        print result
         time.sleep(1)
 conn.close()

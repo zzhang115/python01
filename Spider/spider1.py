@@ -29,7 +29,7 @@ def save_contents_from_url(url):
 	filename = filename.replace(".","_")
 	filename = filename.replace("/","|")
 
-	opene = open("/tmp/c/%s"%filename,"w")
+	opene = open("%s"%filename,"w")
 	opene.write(contents)
 	opene.close()
 	return 

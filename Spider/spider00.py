@@ -1,7 +1,8 @@
 import urllib
 import re
 
-r = re.compile(r'href="(http://www\.cnpythoner\.com/.*?)"')
+r = re.compile(r'href="(http://www.cnpythoner.com/.*?)"')
+
 
 def get_urls_from_inside_url(url):
     try:

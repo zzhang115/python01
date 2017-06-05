@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="zh-CN" />
+<title>django&#25945;&#31243;-老王python-第1页</title>
+<meta name="Description" content="老王python-带给你大家喜欢看的python 教程，全方位的带你走入python世界。第1页" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+</head>
+<body class="multi catalog">
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+			<div class="banner"><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+			<ul>
+			<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+			</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+		<div class="post-nav">当前位置:<a href="http://www.cnpythoner.com">python</a>>>django&#25945;&#31243;</div>
+		<h2 class="post-title">django&#25945;&#31243;</h2>
+		       <div class="postlist">
+<span class="postdate">2015/1/11&nbsp;11:28</span>
+<h3><a href="http://www.cnpythoner.com/post/320.html">django sql语句查询（不需要插件）</a></h3>
+<p><p>我们通常用<a href="http://www.cnpythoner.com/post/113.html" target="_blank">django model&nbsp;</a>来进行一些数据查询的时候，对内部执行的sql语句流程是不了解的，这对我们做一些sql方面的优化造成了一些困扰。</p><p>其实django model对象内部就有一个能够查询当前执行的sql语句。</p><p>比如：</p><p>你需要调用文章类别：</p><p>antype = Articletype.objects.values('id').filter(parent__isnull=True).exclude(id=6)</p><p>...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2010/12/29&nbsp;20:42</span>
+<h3><a href="http://www.cnpythoner.com/post/135.html">django 一对多关系操作</a></h3>
+<p>这段时间用django 做程序用到了一对多的关系的操作，下面分享一些心得体会，希望对大家有帮助。<br/><br/><br/>我先定义两个模型，一个是作者，一个是作者出版的书籍，算是一对多的类型。<br/><br/>class Person(models.Model);<br/>    name =  models.CharField('作者姓名', max_length=10)<br/>    age = models.IntegerField('作者年龄')<br/><br/><br/>class Book(models.Model):<br/>    person = models.ForeignKey(Person, related_name='person_book')<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2010/9/10&nbsp;22:47</span>
+<h3><a href="http://www.cnpythoner.com/post/113.html">提高django model效率的几个小方法</a></h3>
+<p> <a href="http://www.cnpythoner.com" target="_blank">django</a>的model效率不是很高，特别是在做大量的数据库操作的时候，如果你只用django来开企业站或者外包项目的话，那可以小跳过下，而你恰巧是效率狂或者说是对程序的效率要求比较高的话，那就要注意下面的几个方法。<br/> <br/> 1. count()方法：<br/> 我们想用count方法来获取记录的条数可以采用下面的方法：<br/> <br/> nu</p>
+</div> <div class="postlist">
+<span class="postdate">2010/8/23&nbsp;22:51</span>
+<h3><a href="http://www.cnpythoner.com/post/105.html">django get_object_or_404</a></h3>
+<p><strong>django get_object_or_404</strong> 是django shortcuts模块里面一个比较简便的方法，特别是用django get来操作数据库的时候，可以帮 我们少写一些代码，加快开发速度。get_object_or_404的介绍：  我们原来调用django 的get方法，如果查询的对象不存在的话，会抛出一个DoesNotExist的异常， 现在我们调用django get_objec</p>
+</div> <div class="postlist">
+<span class="postdate">2010/8/2&nbsp;22:24</span>
+<h3><a href="http://www.cnpythoner.com/post/94.html">django in</a></h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;我们在用<a href="http://www.cnpythoner.com" target="_blank">django</a>开发项目的的时候，经常要和数据库打交道，而django操作数据库非常的方便，有很多非常简便的方法让你能够快速的从<br/>数据库里获得你想要的数据。今天我就介绍给大家一个很好用的方法，那就是<b>django in</b>操作了<br/>我们经常查数据库的时候要把几个符合条</p>
+</div> <div class="postlist">
+<span class="postdate">2010/5/11&nbsp;21:20</span>
+<h3><a href="http://www.cnpythoner.com/post/56.html">django request 方法</a></h3>
+<p>   上面一节大概介绍了<a href="http://www.cnpythoner.com/post/54.html" target="_blank">django request 对象</a>，这一节主要介绍下django request方法<br/>django request方法很多，但是一般开发的时候也就用到那几个，其它的要用的时候直接dir下<br/>就可以了<br/><br/>1HttpRequest.get_full_path()<br/>返回请求的全路径<br/>比如你要做这样一个需求，假设用户是在/product/addprodct这里登录的<br/>然后你想用户登录以后还跳到这个/product/addprodct这里，那用这个方法就很好<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2010/5/9&nbsp;21:42</span>
+<h3><a href="http://www.cnpythoner.com/post/54.html">django request 对象</a></h3>
+<p>    django request对象对web请求这块非常的重要，所以今天简单的介绍下：<br/>首先用python的dir方法来查看的他里面的成员属性和方法<br/>它有2个属性比较重要，一个是<b>django request post</b>,还有一个是<b>django request get</b><br/>这2个属性看起来的类型有点像字典，都是由{'参数名':参数值}组成的，比如你有一个表单<br/><br/>然后请求的方法的post<br/>你可以通过<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2010/4/17&nbsp;00:33</span>
+<h3><a href="http://www.cnpythoner.com/post/32.html">django 中间件</a></h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.cnpythoner.com" target="_blank">django</a>处理一个Request的过程是首先通过django 中间件，然后再通过默认的URL方式进 行的。所以说我们要做的就是在django 中间件这个地方把所有Request拦截住，用我们自己的方式完成处理以后直接返回Response,那么我们可以简化原来的设计思路，把中</p>
+</div> <div class="postlist">
+<span class="postdate">2010/4/6&nbsp;22:51</span>
+<h3><a href="http://www.cnpythoner.com/post/23.html">django template filter</a></h3>
+<p><p><b>djang template filter</b>  上一节老王我说了下<a href="http://www.cnpythoner.com/post/22.html" target="_blank">django template 语法</a>,可以通过django来把view里的数据 显示在页面里，这节主要说下django template filter.  <b>django template 字符截取</b> <b>slice</b>  Returns a slice of the list.  Example:  {{ some_list|slice:&quot;:2&quot; }} ...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2010/3/30&nbsp;13:57</span>
+<h3><a href="http://www.cnpythoner.com/post/16.html">django template extends</a></h3>
+<p><p>今天说下<strong>django template extends<br /></strong><br />我之前写php的时候一般把公用的模板比如页面头部和页面底部全部分离出来，<br />然后用require 'footer.php' 等<br />这样如果要修改头部后者尾部连接的话。只要修改2个文件就可以了。<br />开始我觉的这个已经非常好用了。但是我接触了django以后。发现<strong>django模板的继承</strong>功能<br />比php的还更强大。。<br />...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2010/3/29&nbsp;10:22</span>
+<h3><a href="http://www.cnpythoner.com/post/15.html">django template 基础</a></h3>
+<p><p>&nbsp; django template为设计者和程序员提供了不同的用法我先说下对设计者这块的把它里面主要分为3个部分把1是基本语法这块:和python的语法比较相似。也是if else for 等等。可以看下<a href="http://www.cnpythoner.com/post/40.html" target="_blank">python 控制语句</a>如果熟悉python的话，学起这个来应该比较简单2管道符号这块:</p></p>
+</div> <div class="postlist">
+<span class="postdate">2010/3/27&nbsp;11:45</span>
+<h3><a href="http://www.cnpythoner.com/post/13.html">django forms DateTimeField</a></h3>
+<p><p>&nbsp;&nbsp;&nbsp;&nbsp; <strong>django forms DateTimeField</strong>是<a href="http://www.cnpythoner.com/post/4.html" title="django form">django form</a>的其中一个字段类型,他和<a python="" href="http://www.cnpythoner.com title=">python</a>里面的<strong>datetime.datetime</strong>对象非常的相似，也可以</p><p>...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2010/3/24&nbsp;21:05</span>
+<h3><a href="http://www.cnpythoner.com/post/7.html">django form 显示</a></h3>
+<p><p>&nbsp;&nbsp; 第2节讲了下<a href="http://www.cnpythoner.com/post/6.html" title="django form"><strong>django form</strong></a>的验证处理过程,这一节我们一起来学习下<strong>django form </strong>的显示部分</p><p>django form的显示部分主要分为2部分：</p><p>1统一的显示:</p><p>比如在模板里是{{form.as_table}},{{form.as_p}}</p><p>...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2010/3/24&nbsp;16:16</span>
+<h3><a href="http://www.cnpythoner.com/post/6.html">django form 验证</a></h3>
+<p><p>&nbsp;&nbsp;&nbsp; 前面讲了<a href="http://www.cnpythoner.com/post/4.html" target="_blank"><strong>django form</strong>的定义</a>这一块,对django的form有个大概的认识，这一节我主要讲下<strong>django form</strong>的验证处理</p><p>处理分为两部分：</p><p>1form自身处理</p><p>2views里的处理</p><p>form自身处理:</p><p>...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2010/3/24&nbsp;11:09</span>
+<h3><a href="http://www.cnpythoner.com/post/4.html">django form 定义</a></h3>
+<p><p>&nbsp;&nbsp;&nbsp;<b>django form</b>是我接触过的框架中最好用的form,之前我也搞过php,也用过php的一些框架。但是感觉他们在处理form的时候都是力不从心。要不就是集成度太高了,不好扩展。要不就是功能不太强大不能应对web现在的复杂的环境,但是自从我学习了<b><a href="http://www.cnpythoner.com" target="_blank">python</a></b>,</p></p>
+</div>
+<div class="post pagebar">分页:<a href="http://www.cnpythoner.com/catalog.asp?cate=2&amp;page=1">[&laquo;]</a><span class="now-page">1</span><a href="http://www.cnpythoner.com/catalog.asp?cate=2&amp;page=1">[&raquo;]</a></div>
+		</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+           <img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>热门资料</h3>
+<ul>
+<ul>
+<li><a href="http://www.cnpythoner.com/post/65.html" title="replace">字符串替换</a></li>
+<li><a href="http://www.cnpythoner.com/post/69.html" title="file">文件操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/35.html">多线程</a></li>
+<li><a href="http://www.cnpythoner.com/post/67.html">字符串连接</a></li>
+<li><a href="http://www.cnpythoner.com/post/62.html">字典</a></li>
+<li><a href="http://www.cnpythoner.com/post/46.html" title="队列">queue</a></li>
+<li><a href="http://www.cnpythoner.com/post/48.html">字符串截取</a></li>
+<li><a href="http://www.cnpythoner.com/post/87.html">popen</a></li>
+<li><a href="http://www.cnpythoner.com/post/43.html">编辑器</a></li>
+<li><a href="http://www.cnpythoner.com/post/42.html">2.6 版本下载</a></li>
+<li><a href="http://www.cnpythoner.com/post/50.html">列表</a></li>
+<li><a href="http://www.cnpythoner.com/post/89.html" title="time">当前时间</a></li>
+<li><a href="http://www.cnpythoner.com/post/74.html">数据类型</a></li>
+<li><a href="http://www.cnpythoner.com/post/80.html">switch</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/73.html" title="set">集合</a></li>
+<li><a href="http://www.cnpythoner.com/post/140.html" title="def">lambda</a></li>
+<li><a href="http://www.cnpythoner.com/post/92.html">os</a></li>
+<li><a href="http://www.cnpythoner.com/post/2.html">__init__.py</a></li>
+<li><a href="http://www.cnpythoner.com/post/12.html">sys.path</a></li>
+<li><a href="http://www.cnpythoner.com/post/45.html">wxpython</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5.4</a></li>
+<li><a href="http://www.cnpythoner.com/post/176.html">ulipad</a></li>
+<li><a href="http://www.cnpythoner.com/post/84.html">path</a></li>
+<li><a href="http://www.cnpythoner.com/post/102.html">os system</a></li>
+<li><a href="http://www.cnpythoner.com/post/111.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/145.html">模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/116.html">beautifulsoup</a></li>
+<li><a href="http://www.cnpythoner.com/post/83.html">迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/djangoreverse.html">django reverse</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</ul>
+</div>
+
+<div class="function" id="divPrevious">
+<h3>最新文章</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/320.html" title="django sql语句查询（不需要插件）"><span class="article-date">[01/11]</span>django sql语句查询（不需要插件）</a></li><li><a href="http://www.cnpythoner.com/post/319.html" title="python 生成word中文字体"><span class="article-date">[12/25]</span>python 生成word中文字体</a></li><li><a href="http://www.cnpythoner.com/post/318.html" title="我用python经常做的事情"><span class="article-date">[11/13]</span>我用python经常做的事情</a></li><li><a href="http://www.cnpythoner.com/post/317.html" title="Python 在 Linux 系统运维中都有哪些应用？ "><span class="article-date">[10/07]</span>Python 在 Linux 系统运维中都有哪些应用？ </a></li><li><a href="http://www.cnpythoner.com/post/316.html" title="python编写调用shell命令脚本"><span class="article-date">[10/04]</span>python编写调用shell命令脚本</a></li><li><a href="http://www.cnpythoner.com/post/315.html" title="python被越来越多的SEO人员重视"><span class="article-date">[10/04]</span>python被越来越多的SEO人员重视</a></li><li><a href="http://www.cnpythoner.com/post/314.html" title="urllib2添加header头"><span class="article-date">[08/01]</span>urllib2添加header头</a></li><li><a href="http://www.cnpythoner.com/post/313.html" title="python程序批量挖掘百度长尾关键词"><span class="article-date">[07/14]</span>python程序批量挖掘百度长尾关键词</a></li><li><a href="http://www.cnpythoner.com/post/312.html" title="python 算术运算符"><span class="article-date">[06/22]</span>python 算术运算符</a></li><li><a href="http://www.cnpythoner.com/post/311.html" title="python 保留字"><span class="article-date">[06/22]</span>python 保留字</a></li><li><a href="http://www.cnpythoner.com/post/310.html" title="python抓取中文网页乱码通用解决方法"><span class="article-date">[06/02]</span>python抓取中文网页乱码通用解决方法</a></li><li><a href="http://www.cnpythoner.com/post/309.html" title="python setattr,delattr() 操作对象的属性和方法"><span class="article-date">[06/01]</span>python setattr,delattr() 操作对象的属性和方法</a></li><li><a href="http://www.cnpythoner.com/post/308.html" title="python classmethod类方法"><span class="article-date">[06/01]</span>python classmethod类方法</a></li><li><a href="http://www.cnpythoner.com/post/307.html" title="python ASCII返回对应的值（chr）"><span class="article-date">[06/01]</span>python ASCII返回对应的值（chr）</a></li><li><a href="http://www.cnpythoner.com/post/306.html" title="python 判断对象是否可以调用（callable）"><span class="article-date">[06/01]</span>python 判断对象是否可以调用（callable）</a></li><li><a href="http://www.cnpythoner.com/post/305.html" title="python 整数转为二进制bin()"><span class="article-date">[06/01]</span>python 整数转为二进制bin()</a></li><li><a href="http://www.cnpythoner.com/post/304.html" title="函数应用习题"><span class="article-date">[05/30]</span>函数应用习题</a></li><li><a href="http://www.cnpythoner.com/post/303.html" title="python unittest单元测试方法和用例"><span class="article-date">[05/30]</span>python unittest单元测试方法和用例</a></li><li><a href="http://www.cnpythoner.com/post/302.html" title="软件测试方法"><span class="article-date">[05/30]</span>软件测试方法</a></li><li><a href="http://www.cnpythoner.com/post/301.html" title="python 字典(dict)get方法应用"><span class="article-date">[05/26]</span>python 字典(dict)get方法应用</a></li>
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+		<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+		 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html><!-- 113ms -->

@@ -1,0 +1,84 @@
+/*文章投票（打分）开始*/
+#Rating {
+text-align:left;
+border:1px #B0BDC6 solid;
+padding:10px;
+margin: 10px 0 10px 0;
+overflow: auto;
+_height: 1%;
+}
+#Star {
+    background-image: url(/PLUGIN/Rating/star.gif);
+    height: 30px;
+    width: 150px;
+    float: left;
+}
+#Star-Cur {
+    background-image: url(/PLUGIN/Rating/star.gif);
+    background-position: 0px -60px;
+    width: 0px;
+    position: absolute;
+    z-index: 11;
+    height: 30px;
+}
+#Star1 {
+    position: absolute;
+    z-index: 20;
+    height: 30px;
+    width: 30px;
+}
+#Star2 {
+    position: absolute;
+    z-index: 19;
+    height: 30px;
+    width: 60px;
+}
+#Star3 {
+    position: absolute;
+    z-index: 18;
+    height: 30px;
+    width: 90px;
+}
+#Star4 {
+    position: absolute;
+    z-index: 17;
+    height: 30px;
+    width: 120px;
+}
+#Star5 {
+    position: absolute;
+    z-index: 16;
+    height: 30px;
+    width: 150px;
+}
+#Star1:hover, #Star2:hover, #Star3:hover, #Star4:hover, #Star5:hover {
+    background-image: url(/PLUGIN/Rating/star.gif);
+    background-position: -30px;
+}
+#Score {
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    width: 250px;
+}
+
+#Rating-show{    /*文章得分及投票次数*/
+
+}
+Rating-now{    /*正在投票,请稍候*/
+    color: #FF0000;    
+}
+#Rating-Tanks {    /*投票成功,感谢您的投票*/
+    color:Green;
+    font-weight: bold;    
+}
+#Rating-already{    /*已投过票*/
+    color:red;
+    font-weight: bold;    
+}
+#Rating-err{    /*遇到错误*/
+    color:red;
+    font-weight: bold;    
+}
+/*文章投票（打分）结束*/
+

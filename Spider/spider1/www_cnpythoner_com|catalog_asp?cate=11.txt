@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="zh-CN" />
+<title>python &#20837;&#38376;&#25945;&#31243;-老王python-第1页</title>
+<meta name="Description" content="老王python-带给你大家喜欢看的python 教程，全方位的带你走入python世界。第1页" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+</head>
+<body class="multi catalog">
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+			<div class="banner"><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+			<ul>
+			<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+			</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+		<div class="post-nav">当前位置:<a href="http://www.cnpythoner.com">python</a>>>python &#20837;&#38376;&#25945;&#31243;</div>
+		<h2 class="post-title">python &#20837;&#38376;&#25945;&#31243;</h2>
+		       <div class="postlist">
+<span class="postdate">2013/6/22&nbsp;11:26</span>
+<h3><a href="http://www.cnpythoner.com/post/312.html">python 算术运算符</a></h3>
+<p><p><span lang="zh-CN" id="result_box" class="short_text"><span>下表列出了</span><span>所有</span><span>支持</span><span>Python语言</span><span>的</span><span>算术运算符</span><span>。</span></span></p><table class="src">    <tbody>        <tr>            <th style="width:10%">Operator</th>...</table></p>
+</div> <div class="postlist">
+<span class="postdate">2013/6/22&nbsp;11:16</span>
+<h3><a href="http://www.cnpythoner.com/post/311.html">python 保留字</a></h3>
+<p><p>下面的列表显示了在Python中的保留字。这些保留字不能用作常数或变数，或任何其他标识符名称。所有Python的关键字只包含小写字母.   andexecnot assertfinallyor breakforpass classfromprint continueglobalraise defifreturn delimporttry elifinwhile elseiswith exceptl</p></p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/26&nbsp;18:20</span>
+<h3><a href="http://www.cnpythoner.com/post/301.html">python 字典(dict)get方法应用</a></h3>
+<p><p>如果我们需要获取字典值的话，我们有两种方法，一个是通过dict['key'],另外一个就是dict.get()方法。<br /><br />今天给大家分享的就是字典的get()方法。<br /><br />这里我们可以用字典做一个小游戏，假设用户在终端输入字符串：&quot;1&quot;或者是&quot;2&quot;或者是&quot;3&quot;，返回对应的内容，如果是输入其他的，则返回&quot;error&quot;<br /><br />这里有的朋友可能会用<a href="http://www.cnpythoner.com/post/248.html" target="_blank">if elif else判断语句</a>来操作，确实可以，但是比较繁琐。给大家推荐一个字典的get()方法非常的方便。</p>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/23&nbsp;22:57</span>
+<h3><a href="http://www.cnpythoner.com/post/298.html">python yield和generators(生成器)</a></h3>
+<p><p>在python中，yield就是这样的一个生成器。<br />yield 生成器的运行机制：<br />当你问生成器要一个数时，生成器会执行，直至出现 yield 语句，生成器把 yield 的参数给你，之后生成器就不会往下继续运行。 当你问他要下一个数时，他会从上次的状态。开始运行，直至出现yield语句，把参数给你，之后停下。如此反复 直至退出函数。（以上关于yield的描述，在后面列举一个简单的例子来解释这段话）<br /><br />yield的使用：<br />在python中，当你定义一个函数，使用了yield关键字时，这个函数就是一个生成器，它的执行会和其他普通的函数有很多不同，函数返回的是一个对象，而不是你平常 所用return语句那样，能得到结果值。如果想取得值，那得调用next()函数，如：</p><p>...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/15&nbsp;22:17</span>
+<h3><a href="http://www.cnpythoner.com/post/295.html">python 私有属性和方法</a></h3>
+<p><p>python默认的成员函数和成员变量都是公开的，并且没有类似别的语言的public,private等关键词来修饰。  在python中定义私有变量只需要在变量名或函数名前加上 &quot;__&quot;两个下划线，那么这个函数或变量就会为私有的了。  在内部，python使用一种 name mangling 技术，将 __membername替换成 _classname__membername，所以你在外部使用原来的私有成员的名字时，会提示找不到。  比如：</p><div class="source" style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);"><span style="color: rgb(0, 0, 128); font-weight: bold;">class</span> <span style="color: rgb(0, 0, 0);">Person</span><span style="color: rgb(0, 0, 0);">:</span><br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/4&nbsp;15:59</span>
+<h3><a href="http://www.cnpythoner.com/post/292.html">python 自定义异常的定义和代码</a></h3>
+<p><p>如果你需要自定义异常的话，可以从Exception类派生。     在这个例子中，默认的__init__()异常已被我们重写。</p><div class="source" style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);"><span style="color: rgb(0, 0, 0);">&gt;&gt;&gt;</span> <span style="color: rgb(0, 0, 128); font-weight: bold;">class</span> <span style="color: rgb(0, 0, 0);">MyError</span>(<span style="color: rgb(0, 0, 0);">Exception</span><span style="color: rgb(0, 0, 0);">):</span><br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/4&nbsp;15:13</span>
+<h3><a href="http://www.cnpythoner.com/post/291.html">python 字符串(string) format介绍和代码</a></h3>
+<p><p>你可以用字符串的format方法来格式化输出字符串。  	比如；</p><div class="source" style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);"><span style="color: rgb(0, 0, 0);">&gt;&gt;&gt;</span> <span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 255);">'We are the {0} who say &quot;{1}!&quot;'</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">format</span>(<span style="color: rgb(0, 0, 255);">'knights'</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 255);">'Ni'</span>)<br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/3&nbsp;23:05</span>
+<h3><a href="http://www.cnpythoner.com/post/290.html">python 包的定义,结构,导入过程</a></h3>
+<p><p>假设你想设计一个模块集（也就是一个&ldquo;包&rdquo;）来统一处理声音文件和声音数据。通常由它们的扩展有不同的声音格式，例如：WAV，AIFF，AU），所以你可能需要创建和维护一个不断增长的各种文件格式之间的转换的模块集合。并且可能要执行声音数据处理（如混合，添加回声，应用平衡功能），所以你写一个永无止境的流模块来执行这些操作：模块设计的包如下：</p><div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">sound</span><span style="color: rgb(0, 0, 0);">/</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(0, 0, 0);">Top</span><span style="color: rgb(0, 0, 0);">-</span><span style="color: rgb(0, 0, 0);">level</span> <span style="color: rgb(0, 0, 0);">package</span><br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/3&nbsp;22:42</span>
+<h3><a href="http://www.cnpythoner.com/post/289.html">python dir 自省方法</a></h3>
+<p><p>内置的dir()函数是用来找出一个模块内置的方法。它返回一个排序的字符串列表 &gt;&gt;&gt; import fibo, sys &gt;&gt;&gt; dir(fibo) ['__name__', 'fib', 'fib2'] &gt;&gt;&gt; dir(sys) ['__displayhook__', '__doc__', '__excepthook__', '__name__</p></p>
+</div> <div class="postlist">
+<span class="postdate">2013/4/30&nbsp;17:43</span>
+<h3><a href="http://www.cnpythoner.com/post/288.html">python del语句</a></h3>
+<p><p>python del方法从列表中删除某个项目索引,这个和列表的pop方法不一样，pop方法则返回一个值。</p><div class="source" style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);"><span style="color: rgb(0, 0, 0);">&gt;&gt;&gt;</span> <span style="color: rgb(0, 0, 0);">a</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">[</span><span style="color: rgb(0, 0, 0);">-</span><span style="color: rgb(0, 0, 255);">1</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 255);">1</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 255);">66.25</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 255);">333</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 255);">333</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 255);">1234.5</span><span style="color: rgb(0, 0, 0);">]</span><br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/4/30&nbsp;17:05</span>
+<h3><a href="http://www.cnpythoner.com/post/287.html">python  filter, map, 和reduce</a></h3>
+<p>filter(function, sequence)：对sequence中的item依次执行function(item)，将执行结果为True的item组成一个List/String/Tuple（取决于sequence的类型）返回：<br/>>>> def f(x): return x % 2 != 0 and x % 3 != 0 <br/>>>> filter(f, range(2, 25)) <br/>[5, 7, 11, 13, 17, 19, 23]<br/>>>> def f(x): return x != 'a' <br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/4/30&nbsp;16:16</span>
+<h3><a href="http://www.cnpythoner.com/post/286.html">python pass (空操作)语句</a></h3>
+<p><p>pass语句通常什么都不做。它可以表示语句，但这个程序不需要的执行相应的动作。例如：</p><div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">&gt;&gt;&gt;</span> <span style="color: rgb(0, 0, 128); font-weight: bold;">while</span> <span style="color: rgb(0, 0, 0);">True</span><span style="color: rgb(0, 0, 0);">:</span><br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/4/30&nbsp;15:53</span>
+<h3><a href="http://www.cnpythoner.com/post/285.html">python break和continue语句</a></h3>
+<p><p>break语句，就像在C语言中，打破了最小封闭for或while循环。  而continue语句，终止这次循环，继续执行下一次迭代的循环。  for和while循环可以设置一个else子句;如果你的循环不是通过break终止的话，最后会执行else语句的内容。比如搜索素数的例子：</p><div class="source" style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);"><span style="color: rgb(0, 0, 0);">&gt;&gt;&gt;</span> <span style="color: rgb(0, 0, 128); font-weight: bold;">for</span> n <span style="font-weight: bold;">in</span> <span style="color: rgb(0, 0, 0);">range</span>(<span style="color: rgb(0, 0, 255);">2</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 255);">10</span><span style="color: rgb(0, 0, 0);">):</span><br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/4/30&nbsp;15:39</span>
+<h3><a href="http://www.cnpythoner.com/post/284.html">python range方法</a></h3>
+<p><p>如果你需要遍历一个数字序列，内置函数range（）就派上用场了。</p><div class="source" style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);"><span style="color: rgb(0, 0, 0);">&gt;&gt;&gt;</span> <span style="color: rgb(0, 0, 0);">range</span>(<span style="color: rgb(0, 0, 255);">10</span>)<br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/4/30&nbsp;10:53</span>
+<h3><a href="http://www.cnpythoner.com/post/283.html">python 字符串特点</a></h3>
+<p><p>除了数值，Python可以操作字符串，它可以表现在以下几个方面。包含在单引号或双引号：</p><div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">&gt;&gt;&gt;</span> <span style="color: rgb(0, 0, 255);">'spam eggs'</span><br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/4/30&nbsp;10:06</span>
+<h3><a href="http://www.cnpythoner.com/post/282.html">Python 数学计算</a></h3>
+<p><p>让我们尝试一些简单的Python命令。启动解释器然后等待主提示符&gt;&gt;&gt;</p><p>解释器的行为就像是一个计算器：你可以输入一个表达式，来进行试验。表达式的语法很简单：符+， - ，*，/就像工作在大多数其他语言（比如C或Pascal），括号可以用于分组。例如：</p><div class="source" style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);"><span style="color: rgb(0, 0, 0);">&gt;&gt;&gt;</span> <span style="color: rgb(0, 0, 255);">2</span><span style="color: rgb(0, 0, 0);">+</span><span style="color: rgb(0, 0, 255);">2</span><br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/4/29&nbsp;17:52</span>
+<h3><a href="http://www.cnpythoner.com/post/281.html">python 调用解释器</a></h3>
+<p>如果你是linux系统的话。Python的解释器通常安装目录/usr/local/bin/python 在这些机器上把/usr/local/bin目录设置成你的Unix Shell的搜索路径中，使得它可以通过键入命令启动。<br/><br/>Python安装在Windows机器上，通常是放置在C:\Python26，但你可以改变这个，当你运行安装程序。要将此目录添加到您的路径，你可以进入命令提示符在DOS框中键入以下命令：<br/><br/>设置path =％PATH％; C:\python26<br/><br/>在主提示符下键入文件结束符（Unix上使用Control-D，Ctrl-Z键在Windows上）导致的解释退出一个零退出状态。如果不工作，你可以通过键入以下命令：导入系统;了sys.exit（）退出程序。<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/4/29&nbsp;17:07</span>
+<h3><a href="http://www.cnpythoner.com/post/279.html">python 语言介绍</a></h3>
+<p>Python是一种简单易学，功能强大的编程语言。它具有高效的高层次的数据结构和面向对象编程。 Python的优雅的语法，动态类型，以及它天然的解释，使之成为一个理想的脚本语言，在大多数平台上的许多领域和快速应用程序开发上都是不错的。<br/><br/>Python解释器和大量标准库是你可以从Python的Web站点，[URL=http://www.python.org/]http://www.python.org</p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/31&nbsp;10:34</span>
+<h3><a href="http://www.cnpythoner.com/post/277.html">笨方法学python</a></h3>
+<p>《笨办法学 Python》(Learn Python The Hard Way)是 Zed Shaw 编写的一本 Python 入门书籍。适合对计算机了解不多，没有学过编程，但对编程感兴趣的朋友学习使用。这本书以习题的方式引导读者一步一步学习编程，从简单的打印一直讲到完整项目的实现。也许读完这本书并不意味着你已经学会了编程，但至少你会对编程语言以及编程这个行业有一个初步的了解。<br/><br/>笔者认为本书区别于其它入门书籍的特点如下：<br/><br/>    注重实践。本书提供了足够的练习代码，如果你完成了所有的练习（包括加分习题），那你已经写了上万行的代码。要知道很多职业程序员一年也就写几万行代码而已。<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/31&nbsp;09:55</span>
+<h3><a href="http://www.cnpythoner.com/post/275.html">python 获取日期</a></h3>
+<p>python 获取日期我们需要用到time模块，比如time.strftime方法<br/><br/>time.strftime('%Y-%m-%d',time.localtime(time.time()))<br/><br/>最后用time.strftime()方法，把刚才的一大串信息格式化成我们想要的东西，现在的结果是：<br/>2013-03-31<br/><br/>time.strftime里面有很多参数，可以让你能够更随意的输出自己想要的东西</p>
+</div>
+<div class="post pagebar">分页:<a href="http://www.cnpythoner.com/catalog.asp?cate=11&amp;page=1">[&laquo;]</a><span class="now-page">1</span><a href="http://www.cnpythoner.com/catalog.asp?cate=11&amp;page=2">[2]</a><a href="http://www.cnpythoner.com/catalog.asp?cate=11&amp;page=3">[3]</a><a href="http://www.cnpythoner.com/catalog.asp?cate=11&amp;page=4">[4]</a><a href="http://www.cnpythoner.com/catalog.asp?cate=11&amp;page=5">[5]</a><a href="http://www.cnpythoner.com/catalog.asp?cate=11&amp;page=6">[6]</a><a href="http://www.cnpythoner.com/catalog.asp?cate=11&amp;page=6">[&raquo;]</a></div>
+		</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+           <img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>热门资料</h3>
+<ul>
+<ul>
+<li><a href="http://www.cnpythoner.com/post/65.html" title="replace">字符串替换</a></li>
+<li><a href="http://www.cnpythoner.com/post/69.html" title="file">文件操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/35.html">多线程</a></li>
+<li><a href="http://www.cnpythoner.com/post/67.html">字符串连接</a></li>
+<li><a href="http://www.cnpythoner.com/post/62.html">字典</a></li>
+<li><a href="http://www.cnpythoner.com/post/46.html" title="队列">queue</a></li>
+<li><a href="http://www.cnpythoner.com/post/48.html">字符串截取</a></li>
+<li><a href="http://www.cnpythoner.com/post/87.html">popen</a></li>
+<li><a href="http://www.cnpythoner.com/post/43.html">编辑器</a></li>
+<li><a href="http://www.cnpythoner.com/post/42.html">2.6 版本下载</a></li>
+<li><a href="http://www.cnpythoner.com/post/50.html">列表</a></li>
+<li><a href="http://www.cnpythoner.com/post/89.html" title="time">当前时间</a></li>
+<li><a href="http://www.cnpythoner.com/post/74.html">数据类型</a></li>
+<li><a href="http://www.cnpythoner.com/post/80.html">switch</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/73.html" title="set">集合</a></li>
+<li><a href="http://www.cnpythoner.com/post/140.html" title="def">lambda</a></li>
+<li><a href="http://www.cnpythoner.com/post/92.html">os</a></li>
+<li><a href="http://www.cnpythoner.com/post/2.html">__init__.py</a></li>
+<li><a href="http://www.cnpythoner.com/post/12.html">sys.path</a></li>
+<li><a href="http://www.cnpythoner.com/post/45.html">wxpython</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5.4</a></li>
+<li><a href="http://www.cnpythoner.com/post/176.html">ulipad</a></li>
+<li><a href="http://www.cnpythoner.com/post/84.html">path</a></li>
+<li><a href="http://www.cnpythoner.com/post/102.html">os system</a></li>
+<li><a href="http://www.cnpythoner.com/post/111.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/145.html">模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/116.html">beautifulsoup</a></li>
+<li><a href="http://www.cnpythoner.com/post/83.html">迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/djangoreverse.html">django reverse</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</ul>
+</div>
+
+<div class="function" id="divPrevious">
+<h3>最新文章</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/320.html" title="django sql语句查询（不需要插件）"><span class="article-date">[01/11]</span>django sql语句查询（不需要插件）</a></li><li><a href="http://www.cnpythoner.com/post/319.html" title="python 生成word中文字体"><span class="article-date">[12/25]</span>python 生成word中文字体</a></li><li><a href="http://www.cnpythoner.com/post/318.html" title="我用python经常做的事情"><span class="article-date">[11/13]</span>我用python经常做的事情</a></li><li><a href="http://www.cnpythoner.com/post/317.html" title="Python 在 Linux 系统运维中都有哪些应用？ "><span class="article-date">[10/07]</span>Python 在 Linux 系统运维中都有哪些应用？ </a></li><li><a href="http://www.cnpythoner.com/post/316.html" title="python编写调用shell命令脚本"><span class="article-date">[10/04]</span>python编写调用shell命令脚本</a></li><li><a href="http://www.cnpythoner.com/post/315.html" title="python被越来越多的SEO人员重视"><span class="article-date">[10/04]</span>python被越来越多的SEO人员重视</a></li><li><a href="http://www.cnpythoner.com/post/314.html" title="urllib2添加header头"><span class="article-date">[08/01]</span>urllib2添加header头</a></li><li><a href="http://www.cnpythoner.com/post/313.html" title="python程序批量挖掘百度长尾关键词"><span class="article-date">[07/14]</span>python程序批量挖掘百度长尾关键词</a></li><li><a href="http://www.cnpythoner.com/post/312.html" title="python 算术运算符"><span class="article-date">[06/22]</span>python 算术运算符</a></li><li><a href="http://www.cnpythoner.com/post/311.html" title="python 保留字"><span class="article-date">[06/22]</span>python 保留字</a></li><li><a href="http://www.cnpythoner.com/post/310.html" title="python抓取中文网页乱码通用解决方法"><span class="article-date">[06/02]</span>python抓取中文网页乱码通用解决方法</a></li><li><a href="http://www.cnpythoner.com/post/309.html" title="python setattr,delattr() 操作对象的属性和方法"><span class="article-date">[06/01]</span>python setattr,delattr() 操作对象的属性和方法</a></li><li><a href="http://www.cnpythoner.com/post/308.html" title="python classmethod类方法"><span class="article-date">[06/01]</span>python classmethod类方法</a></li><li><a href="http://www.cnpythoner.com/post/307.html" title="python ASCII返回对应的值（chr）"><span class="article-date">[06/01]</span>python ASCII返回对应的值（chr）</a></li><li><a href="http://www.cnpythoner.com/post/306.html" title="python 判断对象是否可以调用（callable）"><span class="article-date">[06/01]</span>python 判断对象是否可以调用（callable）</a></li><li><a href="http://www.cnpythoner.com/post/305.html" title="python 整数转为二进制bin()"><span class="article-date">[06/01]</span>python 整数转为二进制bin()</a></li><li><a href="http://www.cnpythoner.com/post/304.html" title="函数应用习题"><span class="article-date">[05/30]</span>函数应用习题</a></li><li><a href="http://www.cnpythoner.com/post/303.html" title="python unittest单元测试方法和用例"><span class="article-date">[05/30]</span>python unittest单元测试方法和用例</a></li><li><a href="http://www.cnpythoner.com/post/302.html" title="软件测试方法"><span class="article-date">[05/30]</span>软件测试方法</a></li><li><a href="http://www.cnpythoner.com/post/301.html" title="python 字典(dict)get方法应用"><span class="article-date">[05/26]</span>python 字典(dict)get方法应用</a></li>
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+		<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+		 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html><!-- 125ms -->

@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--[if IE 6]>
+<html id="ie6" lang="zh-CN">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="zh-CN">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="zh-CN">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<title>python+django视频教程和实战案例-老王python网络培训</title>
+<meta name="description" content="老王python网络视频培训提供python基础,进阶视频教程和实战案例，提高你的python基础和实战水平">
+<link href="px.css" rel="stylesheet" type="text/css">
+</script>
+</head>
+<body>
+<div style="margin-top:10px;font-size:18px;padding:10px">扫描下面二维码，马上获得价值300元的python精品教程，并且我们会在微信公众号上不定期地分享python相关应用和实战技巧。</div>
+<div style="text-align:center"><img src="http://www.cnpythoner.com/images/erweima.jpeg" alt="二维码" width="180" height="180">
+</body>
+</html>

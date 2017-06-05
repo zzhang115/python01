@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="zh-CN" />
+<title>&#30456;&#20851;&#36164;&#26009;&#19979;&#36733;-老王python-第1页</title>
+<meta name="Description" content="老王python-带给你大家喜欢看的python 教程，全方位的带你走入python世界。第1页" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+</head>
+<body class="multi catalog">
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+			<div class="banner"><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+			<ul>
+			<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+			</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+		<div class="post-nav">当前位置:<a href="http://www.cnpythoner.com">python</a>>>&#30456;&#20851;&#36164;&#26009;&#19979;&#36733;</div>
+		<h2 class="post-title">&#30456;&#20851;&#36164;&#26009;&#19979;&#36733;</h2>
+		       <div class="postlist">
+<span class="postdate">2012/2/21&nbsp;21:15</span>
+<h3><a href="http://www.cnpythoner.com/post/187.html">ulipad 编辑器下载</a></h3>
+<p> 最近很多新手的朋友都在问我学习python需要哪些东西，其中就问到了编辑器这块，我一直都在用ulipad编辑器，也很感激limodou提供这么方便的编辑器给我们，所以也推荐给大家去试用下，希望对大家选择编辑器有帮助。<br/><br/>这里给大家提供下<a href="http://pan.baidu.com/s/1qWjYdo4" target="_blank">ulipad2.5下载地址</a>。感兴趣的朋友可以试试。<br/>如果你有ulipad相关</p>
+</div> <div class="postlist">
+<span class="postdate">2011/11/8&nbsp;18:55</span>
+<h3><a href="http://www.cnpythoner.com/post/python-string.html">字符串一次替换多个字符</a></h3>
+<p><p>最近在用<a href="http://wwww.cnpythoner.com" target="_blank">python</a>给自己的seo工作提高效率和节省时间，发现真的很不错，可以完成很多事情，下面是我最近在用为网站自动更新文章做了一个替换锚文本的工作，也是<b>python 字符串一次替换多个字符</b>的很好的应用。  主要的思路是: 一篇文章里有一些我需要做锚文本的字符，我的目的是把字符替换成链接的形式，自动给网站加外链，而且为了链接的多样性，我用了几个候选的链接，让程序自己去选择，这个如果懂得SEO的朋友应该是清楚为什么要这么做的。 ...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2010/8/29&nbsp;08:59</span>
+<h3><a href="http://www.cnpythoner.com/post/107.html">给大家提供相关运行环境下载</a></h3>
+<p>  为了让大家能够更好的学习<a href="http://www.cnpythoner.com" target="_blank">python</a>,不会因为开始学python的时候到处找<b>python 下载</b>而苦恼，应该官网容易被墙。我收集了相关的python 下载信息，希望大家喜欢！下面是python 下载的地址：[URL=http://www.cnpythoner.com/pythondown/pythondown</p>
+</div> <div class="postlist">
+<span class="postdate">2010/5/23&nbsp;22:12</span>
+<h3><a href="http://www.cnpythoner.com/post/63.html">2.5 版本下载</a></h3>
+<p><a href="http://www.cnpythoner.com" target="_blank">python</a>是一种面向对象、直译式计算机程序设计语言，也是一种功能强大而完善的通用型语言，已经具有十多年的发展历史，成熟且稳定。<br/>这种语言具有非常简捷而清晰的语法特点，适合完成各种高层任务，几乎可以在所有的操作系统中运行。<br/>目前，基于这种语言的相关技术正在飞速的发展，用户数量急剧扩大，相关的资源非常多。<br/><br/>常常被拿来跟Jav</p>
+</div> <div class="postlist">
+<span class="postdate">2010/4/27&nbsp;22:52</span>
+<h3><a href="http://www.cnpythoner.com/post/42.html">2.6 版本下载</a></h3>
+<p><b>python 2.6 下载</b>,让大家能够更好的学习python<a href="http://www.cnpythoner.com" target="_blank">python</a>是一种面向对象、直译式计算机程序设计语言，也是一种功能强大而完善的通用型语言，已经具有十多年的发展历史，成熟且稳定。<br/>这种语言具有非常简捷而清晰的语法特点，适合完成各种高层任务，几乎可以在所有的操作系统中运行。<br/>目前，基于这种语言的相关技术</p>
+</div> <div class="postlist">
+<span class="postdate">2010/4/23&nbsp;11:11</span>
+<h3><a href="http://www.cnpythoner.com/post/38.html">2.5.4 版本下载</a></h3>
+<p><a href="http://www.cnpythoner.com" target="_blank">python</a>是一种面向对象、直译式计算机程序设计语言，也是一种功能强大而完善的通用型语言，已经具有十多年的发展历史，成熟且稳定。这种语言具有非常简捷而清晰的语法特点，适合完成各种高层任务，几乎可以在所有的操作系统中运行。目前，基于这种语言的相关技术正在飞速的发展，用户数量急剧扩大，相关的资源非常多。<br/></p>
+</div>
+<div class="post pagebar">分页:<a href="http://www.cnpythoner.com/catalog.asp?cate=6&amp;page=1">[&laquo;]</a><span class="now-page">1</span><a href="http://www.cnpythoner.com/catalog.asp?cate=6&amp;page=1">[&raquo;]</a></div>
+		</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+           <img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>热门资料</h3>
+<ul>
+<ul>
+<li><a href="http://www.cnpythoner.com/post/65.html" title="replace">字符串替换</a></li>
+<li><a href="http://www.cnpythoner.com/post/69.html" title="file">文件操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/35.html">多线程</a></li>
+<li><a href="http://www.cnpythoner.com/post/67.html">字符串连接</a></li>
+<li><a href="http://www.cnpythoner.com/post/62.html">字典</a></li>
+<li><a href="http://www.cnpythoner.com/post/46.html" title="队列">queue</a></li>
+<li><a href="http://www.cnpythoner.com/post/48.html">字符串截取</a></li>
+<li><a href="http://www.cnpythoner.com/post/87.html">popen</a></li>
+<li><a href="http://www.cnpythoner.com/post/43.html">编辑器</a></li>
+<li><a href="http://www.cnpythoner.com/post/42.html">2.6 版本下载</a></li>
+<li><a href="http://www.cnpythoner.com/post/50.html">列表</a></li>
+<li><a href="http://www.cnpythoner.com/post/89.html" title="time">当前时间</a></li>
+<li><a href="http://www.cnpythoner.com/post/74.html">数据类型</a></li>
+<li><a href="http://www.cnpythoner.com/post/80.html">switch</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/73.html" title="set">集合</a></li>
+<li><a href="http://www.cnpythoner.com/post/140.html" title="def">lambda</a></li>
+<li><a href="http://www.cnpythoner.com/post/92.html">os</a></li>
+<li><a href="http://www.cnpythoner.com/post/2.html">__init__.py</a></li>
+<li><a href="http://www.cnpythoner.com/post/12.html">sys.path</a></li>
+<li><a href="http://www.cnpythoner.com/post/45.html">wxpython</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5.4</a></li>
+<li><a href="http://www.cnpythoner.com/post/176.html">ulipad</a></li>
+<li><a href="http://www.cnpythoner.com/post/84.html">path</a></li>
+<li><a href="http://www.cnpythoner.com/post/102.html">os system</a></li>
+<li><a href="http://www.cnpythoner.com/post/111.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/145.html">模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/116.html">beautifulsoup</a></li>
+<li><a href="http://www.cnpythoner.com/post/83.html">迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/djangoreverse.html">django reverse</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</ul>
+</div>
+
+<div class="function" id="divPrevious">
+<h3>最新文章</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/320.html" title="django sql语句查询（不需要插件）"><span class="article-date">[01/11]</span>django sql语句查询（不需要插件）</a></li><li><a href="http://www.cnpythoner.com/post/319.html" title="python 生成word中文字体"><span class="article-date">[12/25]</span>python 生成word中文字体</a></li><li><a href="http://www.cnpythoner.com/post/318.html" title="我用python经常做的事情"><span class="article-date">[11/13]</span>我用python经常做的事情</a></li><li><a href="http://www.cnpythoner.com/post/317.html" title="Python 在 Linux 系统运维中都有哪些应用？ "><span class="article-date">[10/07]</span>Python 在 Linux 系统运维中都有哪些应用？ </a></li><li><a href="http://www.cnpythoner.com/post/316.html" title="python编写调用shell命令脚本"><span class="article-date">[10/04]</span>python编写调用shell命令脚本</a></li><li><a href="http://www.cnpythoner.com/post/315.html" title="python被越来越多的SEO人员重视"><span class="article-date">[10/04]</span>python被越来越多的SEO人员重视</a></li><li><a href="http://www.cnpythoner.com/post/314.html" title="urllib2添加header头"><span class="article-date">[08/01]</span>urllib2添加header头</a></li><li><a href="http://www.cnpythoner.com/post/313.html" title="python程序批量挖掘百度长尾关键词"><span class="article-date">[07/14]</span>python程序批量挖掘百度长尾关键词</a></li><li><a href="http://www.cnpythoner.com/post/312.html" title="python 算术运算符"><span class="article-date">[06/22]</span>python 算术运算符</a></li><li><a href="http://www.cnpythoner.com/post/311.html" title="python 保留字"><span class="article-date">[06/22]</span>python 保留字</a></li><li><a href="http://www.cnpythoner.com/post/310.html" title="python抓取中文网页乱码通用解决方法"><span class="article-date">[06/02]</span>python抓取中文网页乱码通用解决方法</a></li><li><a href="http://www.cnpythoner.com/post/309.html" title="python setattr,delattr() 操作对象的属性和方法"><span class="article-date">[06/01]</span>python setattr,delattr() 操作对象的属性和方法</a></li><li><a href="http://www.cnpythoner.com/post/308.html" title="python classmethod类方法"><span class="article-date">[06/01]</span>python classmethod类方法</a></li><li><a href="http://www.cnpythoner.com/post/307.html" title="python ASCII返回对应的值（chr）"><span class="article-date">[06/01]</span>python ASCII返回对应的值（chr）</a></li><li><a href="http://www.cnpythoner.com/post/306.html" title="python 判断对象是否可以调用（callable）"><span class="article-date">[06/01]</span>python 判断对象是否可以调用（callable）</a></li><li><a href="http://www.cnpythoner.com/post/305.html" title="python 整数转为二进制bin()"><span class="article-date">[06/01]</span>python 整数转为二进制bin()</a></li><li><a href="http://www.cnpythoner.com/post/304.html" title="函数应用习题"><span class="article-date">[05/30]</span>函数应用习题</a></li><li><a href="http://www.cnpythoner.com/post/303.html" title="python unittest单元测试方法和用例"><span class="article-date">[05/30]</span>python unittest单元测试方法和用例</a></li><li><a href="http://www.cnpythoner.com/post/302.html" title="软件测试方法"><span class="article-date">[05/30]</span>软件测试方法</a></li><li><a href="http://www.cnpythoner.com/post/301.html" title="python 字典(dict)get方法应用"><span class="article-date">[05/26]</span>python 字典(dict)get方法应用</a></li>
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+		<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+		 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html><!-- 94ms -->

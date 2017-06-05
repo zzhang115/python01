@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="zh-CN" />
+<title>it&#36816;&#32500;&#31649;&#29702;&#31995;&#32479;&#21644;&#36719;&#20214;-老王python-第1页</title>
+<meta name="Description" content="老王python-带给你大家喜欢看的python 教程，全方位的带你走入python世界。第1页" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+</head>
+<body class="multi catalog">
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+			<div class="banner"><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+			<ul>
+			<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+			</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+		<div class="post-nav">当前位置:<a href="http://www.cnpythoner.com">python</a>>>it&#36816;&#32500;&#31649;&#29702;&#31995;&#32479;&#21644;&#36719;&#20214;</div>
+		<h2 class="post-title">it&#36816;&#32500;&#31649;&#29702;&#31995;&#32479;&#21644;&#36719;&#20214;</h2>
+		       <div class="postlist">
+<span class="postdate">2013/10/7&nbsp;22:16</span>
+<h3><a href="http://www.cnpythoner.com/post/317.html">Python 在 Linux 系统运维中都有哪些应用？ </a></h3>
+<p>python在系统管理上的优势在与强大的开发能力和完整的工具链。python的工程开发能力强大，远强于各种shell和perl。易读易写，兼具面向对象和函数式风格，还有不错元编程能力。通过系统化的将各种管理工具结合，对上述的各类工具进行二次开发，形成统一的服务器管理系统,非常合适运维人员编写一些自动化的软件程序。<br/><br/>python在服务器管理工具上非常丰富，配置管理(saltstack) 批量执行( <a href="http://www.cnpythoner.com/post/297.html" target="_blank">fabric</a>, saltstack) 监控(Zenoss, nagios 插件) 虚拟化管理( python-libvirt) 进程管理 (supervisor) 云计算(openstack) ...... 还有大部分系统C库都有python绑定。<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/10/4&nbsp;22:16</span>
+<h3><a href="http://www.cnpythoner.com/post/316.html">python编写调用shell命令脚本</a></h3>
+<p>很多运维人员习惯用shell脚本来处理一些linux下的相关应用，今天给大家推荐python,并且<b>python写相关的shell脚本</b>可读性和维护性会比用shell好。 下面介绍和linux相关的一些小的应用。<br/><br/>os.system(command)<br/><br/>这个函数可以调用 shell运行命令行command并且返回它的返回值。试一下在 python的解释器里输入os.system(”ls -l”)，就可以看到”ls”列出了当前目录下的文件。可以说，通过这个函数，python就拥有了shell的所有能力。呵呵。。不过，通常这条命令不需要用到。因为shell常用的那些命令在python中通常有对应而且同样简洁的写法。<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/22&nbsp;22:25</span>
+<h3><a href="http://www.cnpythoner.com/post/297.html">python fabric 自动部署和使用examples</a></h3>
+<p><p>上节我们已经把<a href="http://www.cnpythoner.com/post/296.html" target="_blank">fabric给配置</a>好了。这节我们通过fabric编写批量执行服务器任务和自动化运维管理。<br /><br />先介绍下fabric的特点，这个在官方文档里面已经介绍过:<br /><br />1 代码可读性强，完全是python语言。<br />2 封装了本地、远程操，内置了一些方法。<br />3 可以根据需求灵活的定义参数。<br />...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/20&nbsp;11:14</span>
+<h3><a href="http://www.cnpythoner.com/post/296.html">fabric的安装和配置</a></h3>
+<p>fabric的安装可以选择用python的pip安装或者easy_install来安装。在xubuntu下，我<br/>这里用的是sudo apt-get install fabric来安装<br/><br/>安装完以后我们进入控制台，然后improt fabric导入下模块，如果没报错，说明安装模块成功。<br/><img onload="ResizeImage(this,520)" src="http://www.cnpythoner.com/upload/os.jpg" alt="" title=""/><br/><br/>如果你是2.5的话，那需要写个声明：<br/><br/>from __future__ import with_statement<br/><br/>2.6+的就不需要了。<br/><br/>下面演示一个最简单的程序。<br/>...</p>
+</div>
+<div class="post pagebar">分页:<a href="http://www.cnpythoner.com/catalog.asp?cate=16&amp;page=1">[&laquo;]</a><span class="now-page">1</span><a href="http://www.cnpythoner.com/catalog.asp?cate=16&amp;page=1">[&raquo;]</a></div>
+		</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+           <img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>热门资料</h3>
+<ul>
+<ul>
+<li><a href="http://www.cnpythoner.com/post/65.html" title="replace">字符串替换</a></li>
+<li><a href="http://www.cnpythoner.com/post/69.html" title="file">文件操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/35.html">多线程</a></li>
+<li><a href="http://www.cnpythoner.com/post/67.html">字符串连接</a></li>
+<li><a href="http://www.cnpythoner.com/post/62.html">字典</a></li>
+<li><a href="http://www.cnpythoner.com/post/46.html" title="队列">queue</a></li>
+<li><a href="http://www.cnpythoner.com/post/48.html">字符串截取</a></li>
+<li><a href="http://www.cnpythoner.com/post/87.html">popen</a></li>
+<li><a href="http://www.cnpythoner.com/post/43.html">编辑器</a></li>
+<li><a href="http://www.cnpythoner.com/post/42.html">2.6 版本下载</a></li>
+<li><a href="http://www.cnpythoner.com/post/50.html">列表</a></li>
+<li><a href="http://www.cnpythoner.com/post/89.html" title="time">当前时间</a></li>
+<li><a href="http://www.cnpythoner.com/post/74.html">数据类型</a></li>
+<li><a href="http://www.cnpythoner.com/post/80.html">switch</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/73.html" title="set">集合</a></li>
+<li><a href="http://www.cnpythoner.com/post/140.html" title="def">lambda</a></li>
+<li><a href="http://www.cnpythoner.com/post/92.html">os</a></li>
+<li><a href="http://www.cnpythoner.com/post/2.html">__init__.py</a></li>
+<li><a href="http://www.cnpythoner.com/post/12.html">sys.path</a></li>
+<li><a href="http://www.cnpythoner.com/post/45.html">wxpython</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5.4</a></li>
+<li><a href="http://www.cnpythoner.com/post/176.html">ulipad</a></li>
+<li><a href="http://www.cnpythoner.com/post/84.html">path</a></li>
+<li><a href="http://www.cnpythoner.com/post/102.html">os system</a></li>
+<li><a href="http://www.cnpythoner.com/post/111.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/145.html">模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/116.html">beautifulsoup</a></li>
+<li><a href="http://www.cnpythoner.com/post/83.html">迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/djangoreverse.html">django reverse</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</ul>
+</div>
+
+<div class="function" id="divPrevious">
+<h3>最新文章</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/320.html" title="django sql语句查询（不需要插件）"><span class="article-date">[01/11]</span>django sql语句查询（不需要插件）</a></li><li><a href="http://www.cnpythoner.com/post/319.html" title="python 生成word中文字体"><span class="article-date">[12/25]</span>python 生成word中文字体</a></li><li><a href="http://www.cnpythoner.com/post/318.html" title="我用python经常做的事情"><span class="article-date">[11/13]</span>我用python经常做的事情</a></li><li><a href="http://www.cnpythoner.com/post/317.html" title="Python 在 Linux 系统运维中都有哪些应用？ "><span class="article-date">[10/07]</span>Python 在 Linux 系统运维中都有哪些应用？ </a></li><li><a href="http://www.cnpythoner.com/post/316.html" title="python编写调用shell命令脚本"><span class="article-date">[10/04]</span>python编写调用shell命令脚本</a></li><li><a href="http://www.cnpythoner.com/post/315.html" title="python被越来越多的SEO人员重视"><span class="article-date">[10/04]</span>python被越来越多的SEO人员重视</a></li><li><a href="http://www.cnpythoner.com/post/314.html" title="urllib2添加header头"><span class="article-date">[08/01]</span>urllib2添加header头</a></li><li><a href="http://www.cnpythoner.com/post/313.html" title="python程序批量挖掘百度长尾关键词"><span class="article-date">[07/14]</span>python程序批量挖掘百度长尾关键词</a></li><li><a href="http://www.cnpythoner.com/post/312.html" title="python 算术运算符"><span class="article-date">[06/22]</span>python 算术运算符</a></li><li><a href="http://www.cnpythoner.com/post/311.html" title="python 保留字"><span class="article-date">[06/22]</span>python 保留字</a></li><li><a href="http://www.cnpythoner.com/post/310.html" title="python抓取中文网页乱码通用解决方法"><span class="article-date">[06/02]</span>python抓取中文网页乱码通用解决方法</a></li><li><a href="http://www.cnpythoner.com/post/309.html" title="python setattr,delattr() 操作对象的属性和方法"><span class="article-date">[06/01]</span>python setattr,delattr() 操作对象的属性和方法</a></li><li><a href="http://www.cnpythoner.com/post/308.html" title="python classmethod类方法"><span class="article-date">[06/01]</span>python classmethod类方法</a></li><li><a href="http://www.cnpythoner.com/post/307.html" title="python ASCII返回对应的值（chr）"><span class="article-date">[06/01]</span>python ASCII返回对应的值（chr）</a></li><li><a href="http://www.cnpythoner.com/post/306.html" title="python 判断对象是否可以调用（callable）"><span class="article-date">[06/01]</span>python 判断对象是否可以调用（callable）</a></li><li><a href="http://www.cnpythoner.com/post/305.html" title="python 整数转为二进制bin()"><span class="article-date">[06/01]</span>python 整数转为二进制bin()</a></li><li><a href="http://www.cnpythoner.com/post/304.html" title="函数应用习题"><span class="article-date">[05/30]</span>函数应用习题</a></li><li><a href="http://www.cnpythoner.com/post/303.html" title="python unittest单元测试方法和用例"><span class="article-date">[05/30]</span>python unittest单元测试方法和用例</a></li><li><a href="http://www.cnpythoner.com/post/302.html" title="软件测试方法"><span class="article-date">[05/30]</span>软件测试方法</a></li><li><a href="http://www.cnpythoner.com/post/301.html" title="python 字典(dict)get方法应用"><span class="article-date">[05/26]</span>python 字典(dict)get方法应用</a></li>
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+		<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+		 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html><!-- 90ms -->

@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="zh-CN" />
+<title>python&#25945;&#31243;-老王python-第1页</title>
+<meta name="Description" content="老王python-带给你大家喜欢看的python 教程，全方位的带你走入python世界。第1页" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+</head>
+<body class="multi catalog">
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+			<div class="banner"><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+			<ul>
+			<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+			</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+		<div class="post-nav">当前位置:<a href="http://www.cnpythoner.com">python</a>>>python&#25945;&#31243;</div>
+		<h2 class="post-title">python&#25945;&#31243;</h2>
+		       <div class="postlist">
+<span class="postdate">2013/12/25&nbsp;17:15</span>
+<h3><a href="http://www.cnpythoner.com/post/319.html">python 生成word中文字体</a></h3>
+<p><p>&nbsp;我们今天用python生成word文件，主要是用到了PyRTF包生成rtf文件，由于PyRTF的包中文教程比较少，所以特此记录几篇文章，也希望给大家有一些帮助。</p><p>开始碰到一个问题，就是不能给word文件添加中文的字体，找了很久的资料，发现解决方法是：</p><p>&nbsp;</p><p class="p1"><span class="s1">&nbsp;</span><span class="s2">from</span> PyRTF <span class="s3">import</span> *</p>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/11/13&nbsp;22:34</span>
+<h3><a href="http://www.cnpythoner.com/post/318.html">我用python经常做的事情</a></h3>
+<p><p>我用python日常的工作：</p><p>1 做网站。</p><p>2 页面抓取数据分析。</p><p>3 中文词库，聚合分类等。</p><p>4 一般日常的工作。&nbsp;</p><p><span style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;">觉的比较好的Python包</span></p><ul style="margin: 0px;">...</ul></p>
+</div> <div class="postlist">
+<span class="postdate">2013/8/1&nbsp;19:48</span>
+<h3><a href="http://www.cnpythoner.com/post/314.html">urllib2添加header头</a></h3>
+<p> 我们用python urllib2做采集时候，为了防止对方网站很容易发现，我们一般都会用程序模拟header头过去，就好像是一个用户来访问采集的网站，这样不容易被屏蔽。在python的官方文档上写了怎么添加，还是有同学有疑问，今天写出来希望能够帮助大家。<br/><br/>先导入模块,然后添加相关的属性。<br/><br/>import urllib2<br/>opener = urllib2.build_opener()<br/>opener.addheaders = [('User-agent', 'Mozilla/5.0')]<br/>opener.open('http://www.baidu.com/')...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/6/2&nbsp;10:57</span>
+<h3><a href="http://www.cnpythoner.com/post/310.html">python抓取中文网页乱码通用解决方法</a></h3>
+<p><p>我们经常通过python做采集网页数据的时候，会碰到一些乱码问题，今天给大家分享一个解决网页乱码，尤其是中文网页的通用方法。</p><p>首页我们需要安装chardet模块，这个可以通过easy_install 或者pip来安装。</p><p>安装完以后我们在控制台上导入模块，如果正常就可以。</p><p>比如我们遇到的一些ISO-8859-2也是可以通过下面的方法解决的。</p><p>直接上代码吧：</p><div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0);" class="source"><span style="color: rgb(0, 0, 0);">import</span> <span style="color: rgb(0, 0, 0);">urllib2</span><br />...</div></p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/26&nbsp;10:12</span>
+<h3><a href="http://www.cnpythoner.com/post/300.html">python 正则表达式re findall</a></h3>
+<p><p>python 正则表达式 re findall 方法能够以列表的形式返回能匹配的子串。  re.findall(pattern, string[, flags]): 搜索string，以列表形式返回全部能匹配的子串。先看个简单的代码：  import re &nbsp; p = re.compile(r'\d+') print p.findall('one1two2three3four4') &amp;n</p></p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/31&nbsp;09:58</span>
+<h3><a href="http://www.cnpythoner.com/post/276.html">python 获取cookie</a></h3>
+<p>  我们用python写网站的自动登录程序的时候需要创建一个cookies，我们可以利用python的cooklib模块。<br/>比如：<br/><br/>#coding:utf-8<br/>import urllib,urllib2,cookielib<br/><br/>cj = cookielib.LWPCookieJar()<br/>opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))<br/>login_path = 'http://xxxxxxxxxx.com/login'<br/><br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/31&nbsp;09:45</span>
+<h3><a href="http://www.cnpythoner.com/post/273.html">python中文视频教程</a></h3>
+<p> 最近老王[URL=http://]python的付费培训[/URL]主要是以视频教程为主，习题和项目为辅，通过视频的讲解，让学员对基础知识点有一个很好的认识。并且通过习题和项目的形式巩固所学的知识点。<br/><br/>我们的python中文视频教程大纲：<br/><br/><b>python基础篇</b><br/><br/>1.虚拟机安装ubuntu开发环境，第一个程序:hello python!<br/><br/>2.linux基本命令以及开发环境。<br/><br/>3.python基本数据类型讲解。<br/><br/>4.python基本数据结构讲解。<br/><br/>5.python语句讲解。<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/30&nbsp;21:27</span>
+<h3><a href="http://www.cnpythoner.com/post/272.html">Python邮件中文编码问题 </a></h3>
+<p>近日用Python写一个小程序，从数据库（MS SQL）中读取数据，对数据进行组织后发送到邮箱，在数据内容有中文的地方始终报错，汉字使用UTF-8进行编码倒是不报错了，但发送到邮箱的内容，从数据库中读取出来的汉字却成乱码了，经多方查找资料，把文件的编码设置为cp936（即#coding=cp936），然后在发送邮件时使用gb2312编码。<br/><br/>如果你是utf-8的编码，那在文件的开头设置为#encoding=utf-8<br/><br/></p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/19&nbsp;20:44</span>
+<h3><a href="http://www.cnpythoner.com/post/263.html">urlparse获取url后面的参数</a></h3>
+<p><p>如果给定你一个URL，比如： http://url/api?param=2&amp;param2=4 我们需要获取参数名和参数值的话，那可以用到python标准库urlparse import urlparsedef qs(url):&nbsp;&nbsp;&nbsp; query = urlparse.urlparse(url).query&nbsp;&nbsp;&nbsp; return di</p></p>
+</div> <div class="postlist">
+<span class="postdate">2012/8/18&nbsp;15:16</span>
+<h3><a href="http://www.cnpythoner.com/post/202.html">判断网页编码</a></h3>
+<p>  这段时间在用python处理网页抓取这块，互联网很多网页的编码格式都不一样，大体上是GBK,GB2312，UTF-8，等待。我们在获取<br/>网页的的数据后，先要对网页的编码进行判断，才能把抓取的内容的编码统一转换为我们能够处理的编码。比如</p>
+</div> <div class="postlist">
+<span class="postdate">2012/7/29&nbsp;07:34</span>
+<h3><a href="http://www.cnpythoner.com/post/199.html">jinja 模板教程</a></h3>
+<p>前段时间需要做一个模板处理的工作，因为需要在模板里面进行逻辑处理，简单的元组字符串替换和<a href="http://www.cnpythoner.com/post/65.html" target="_blank">关键字字符串替换</a>已经不能满足需求了。所以选择<a href="http://www.cnpythoner.com" target="_blank">python</a>的第3方模板引擎来实现这个功能。目前大家用的比较多的模板引擎主要是：mako和jinja。 我对比了下，发现jinja的模板引擎和<a href="http://www.cnpythoner.com/catalog.asp?cate=2" target="_blank">django</a>的语法还是比较相似的，于是我选择了jinja作为我的模板引擎。<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2012/6/10&nbsp;11:55</span>
+<h3><a href="http://www.cnpythoner.com/post/195.html">常用软件包下载</a></h3>
+<p>  python的标准库还有一些第3方库有的时候找起来还是比较麻烦的，特别是对新手的朋友。解决方法有两个：<br/><br/>1 你可以安装一下包管理，通过命令进行安装。或者可以<br/><br/></p>
+</div> <div class="postlist">
+<span class="postdate">2011/12/29&nbsp;18:49</span>
+<h3><a href="http://www.cnpythoner.com/post/182.html">python xmlrpclib 完成百度google ping功能</a></h3>
+<p><p>最近在做SEO的时候，为了让发的外链能够快速的收录，想到了利用ping的功能，google和百度都有相关的ping介绍，有兴趣的朋友可以去看看相关的知识。实现ping功能除了可以用一些开源的博客程序，比如WP，它是可以在后台设置ping地址的，只要设置好以后，你发帖子，就会自动的通知搜索引擎，我的博客已经更新了，而今天我用的方法是不通过WP等带有ping功能的博客。</p><p>&nbsp;</p></p>
+</div> <div class="postlist">
+<span class="postdate">2011/9/20&nbsp;20:25</span>
+<h3><a href="http://www.cnpythoner.com/post/166.html">linux crontab</a></h3>
+<p>  前段时间在忙一个项目，在linux下面用python执行同步更新网站的操作，比如规定每天多少点同步内容。还有就是在服务器起上需要一直跑几个采集脚本，来采集相关的数据，也遇到些问题，现在记录下，也算是总结吧，如果对大家有帮助，那更好。<br/><br/>首先是<b>linux crontab</b>，这个命令相当于<b>linux计划命令</b>，可以让你主机在设定的时间来做一些事情，比如你可以设定每天晚上2点备份数据库，或者生成日志等操作，在程序夜深人静里做事就是爽：）<br/><br/>它的格式是： * * * * * 命令  脚本 ，至于具体代表什么意思，大家可以去网上找下资料，这个挺多的，下面我分享下我遇到的问题和解决办法。<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2011/8/18&nbsp;21:55</span>
+<h3><a href="http://www.cnpythoner.com/post/163.html">python mysql 转义</a></h3>
+<p>  最近用python做项目的时候用到了mysql,把用<a href="http://www.cnpythoner.com" target="_blank">python</a>抓取的一些是数据放到mysql里去，但是有个问题，因为从外面抓取的数据有带'等其他的不规则的数据，如果你直接调用插入数据的方法会提示报错，这个时候就需要用到<br/><b>python mysql 转义</b>了。<br/><br/>我开始以为MySQLdb没有内置的方法，原本打算自己去一个过滤的算法，后来想了想mysql这个模块应该自身会带一些转义的方法，于是带着这个信念不断的找，通过help方法和dir的方法终于找到了，原来是：escape_string<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2011/8/8&nbsp;19:54</span>
+<h3><a href="http://www.cnpythoner.com/post/pythonurllib.html">python urllib下载网页</a></h3>
+<p>  上次写了一个关于python下载网页的教程，今天想和大家聊另外一个的库:<b>python urllib</b><br/>很多网页处理都可以用urllib这个标准库来处理，下面我分享下平时用到的关于urllib方面的内容：<br/><br/>1如果你要在url请求里面放入中文，对相应的中文进行编码的话，可以用:<br/>urllib.quote('要编码的字符串')<br/><br/>2如果你请求对方的网页，确不想被封IP的话，这个时候就要用到代理了，其实用<b>urllib</b>代理还是比较简单的：<br/><br/>proxies = {'http': '代理ip'}<br/>opener = urllib.FancyURLopener(proxies)<br/>f = opener.open("http://www.python.org")<br/>f.read()<br/><br/>3 如果在GET需要一些参数的话，那我们需要对传入的参数进行编码。<br/><br/>params = urllib.urlencode({'spam': 1, 'eggs': 2, 'bacon': 0})<br/>f = urllib.urlopen("http://www.xx.com/query?%s" % params)<br/>print f.read()<br/><br/>想了解更多关于urllib方面的知识，可以多用用help命令来查看。<br/></p>
+</div> <div class="postlist">
+<span class="postdate">2011/7/27&nbsp;19:43</span>
+<h3><a href="http://www.cnpythoner.com/post/pythonurldown.html">python 下载文件</a></h3>
+<p><p>之前给大家分享的<a href="http://www.cnpythoner.com/post/pythonduoxianchen.html" target="_blank">多线程抓取网页</a>，我觉的大家看了以后，应该<br/><br/>会对抓取网页有个很好的认识,不过这个只能用来抓取到网页的源代码，如果你想用做<b>python 下载文件</b>的话，上面的可能就不适合你<br/><br/>了，最近我在用python 做文件下载的时候就遇到这个问题了，不过最终得以解决，为了让大家以后碰过这个问题有更好的解决办法，我把代<br/><br/>码发出来：<div style="background: none repeat scroll 0% 0% rgb(253, 253, 253); color: black;"><u><br /></u></div><div class="source" style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);"><span style="color: rgb(0, 0, 0);">from</span> <span style="color: rgb(0, 0, 0);">os.path</span> <span style="color: rgb(0, 0, 0);">import</span> <span style="color: rgb(0, 0, 0);">basename</span><br /><span style="color: rgb(0, 0, 0);">from</span> <span style="color: rgb(0, 0, 0);">urlparse</span> <span style="color: rgb(0, 0, 0);">import</span> <span style="color: rgb(0, 0, 0);">urlsplit</span><br /><br /><span style="color: rgb(0, 0, 128); font-weight: bold;">def</span> <span style="color: rgb(0, 0, 0);">url2name</span>(<span style="color: rgb(0, 0, 0);">url</span><span style="color: rgb(0, 0, 0);">):</span><br />&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 128); font-weight: bold;">return</span> <span style="color: rgb(0, 0, 0);">basename</span>(<span style="color: rgb(0, 0, 0);">urlsplit</span>(<span style="color: rgb(0, 0, 0);">url</span><span style="color: rgb(0, 0, 0);">)[</span><span style="color: rgb(0, 0, 255);">2</span><span style="color: rgb(0, 0, 0);">])</span><br /><br /><span style="color: rgb(0, 0, 128); font-weight: bold;">def</span> <span style="color: rgb(0, 0, 0);">download</span>(<span style="color: rgb(0, 0, 0);">url</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 0);">localFileName</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">None</span><span style="color: rgb(0, 0, 0);">):</span><br />&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 0);">localName</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">url2name</span>(<span style="color: rgb(0, 0, 0);">url</span>)<br />&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 0);">req</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">urllib2</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Request</span>(<span style="color: rgb(0, 0, 0);">url</span>)<br />&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 0);">r</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">urllib2</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">urlopen</span>(<span style="color: rgb(0, 0, 0);">req</span>)<br />&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 128); font-weight: bold;">if</span> <span style="color: rgb(0, 0, 0);">r</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">info</span>()<span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">has_key</span>(<span style="color: rgb(0, 0, 255);">'Content-Disposition'</span><span style="color: rgb(0, 0, 0);">):</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 136, 0); font-style: italic;"># If the response has Content-Disposition, we take file name from it</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 0);">localName</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">r</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">info</span><span style="color: rgb(0, 0, 0);">()[</span><span style="color: rgb(0, 0, 255);">'Content-Disposition'</span><span style="color: rgb(0, 0, 0);">]</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">split</span>(<span style="color: rgb(0, 0, 255);">'filename='</span><span style="color: rgb(0, 0, 0);">)[</span><span style="color: rgb(0, 0, 255);">1</span><span style="color: rgb(0, 0, 0);">]</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 128); font-weight: bold;">if</span> <span style="color: rgb(0, 0, 0);">localName</span><span style="color: rgb(0, 0, 0);">[</span><span style="color: rgb(0, 0, 255);">0</span><span style="color: rgb(0, 0, 0);">]</span> <span style="color: rgb(0, 0, 0);">==</span> <span style="color: rgb(0, 0, 255);">'&quot;'</span> <span style="font-weight: bold;">or</span> <span style="color: rgb(0, 0, 0);">localName</span><span style="color: rgb(0, 0, 0);">[</span><span style="color: rgb(0, 0, 255);">0</span><span style="color: rgb(0, 0, 0);">]</span> <span style="color: rgb(0, 0, 0);">==</span> <span style="color: rgb(0, 0, 255);">&quot;'&quot;</span><span style="color: rgb(0, 0, 0);">:</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 0);">localName</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">localName</span><span style="color: rgb(0, 0, 0);">[</span><span style="color: rgb(0, 0, 255);">1</span><span style="color: rgb(0, 0, 0);">:</span><span style="color: rgb(0, 0, 0);">-</span><span style="color: rgb(0, 0, 255);">1</span><span style="color: rgb(0, 0, 0);">]</span><br />&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 128); font-weight: bold;">elif</span> <span style="color: rgb(0, 0, 0);">r</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">url</span> <span style="color: rgb(0, 0, 0);">!=</span> <span style="color: rgb(0, 0, 0);">url</span><span style="color: rgb(0, 0, 0);">:</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 136, 0); font-style: italic;"># if we were redirected, the real file name we take from the final URL</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 0);">localName</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">url2name</span>(<span style="color: rgb(0, 0, 0);">r</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">url</span>)<br />&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 128); font-weight: bold;">if</span> <span style="color: rgb(0, 0, 0);">localFileName</span><span style="color: rgb(0, 0, 0);">:</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 136, 0); font-style: italic;"># we can force to save the file as specified name</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 0);">localName</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">localFileName</span><br />&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 0);">f</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">open</span>(<span style="color: rgb(0, 0, 0);">localName</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 255);">'wb'</span>)<br />&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 0);">f</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">write</span>(<span style="color: rgb(0, 0, 0);">r</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">read</span>())<br />&nbsp;&nbsp;&nbsp; <span style="color: rgb(0, 0, 0);">f</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">close</span>()<br /><br /><br /><span style="color: rgb(0, 0, 0);">download</span>(<span style="color: rgb(0, 0, 255);">r'你要下载的python文件的url地址'</span>)</div><p>赶快去试试把，可以在本地运行python去下载一些自己想要的pdf文件吧。</p><p>&nbsp;</p>...</p>
+</div> <div class="postlist">
+<span class="postdate">2011/7/10&nbsp;16:04</span>
+<h3><a href="http://www.cnpythoner.com/post/pythonmysql.html">python mysql 安装包</a></h3>
+<p>   记得原来分享了<a href="http://www.cnpythoner.com/post/150.html" target="_blank">python 连接mysql</a>的方法，最近我在另外一台电脑上安装了python2.5 和 mysql5.0</p>
+</div> <div class="postlist">
+<span class="postdate">2011/6/24&nbsp;19:51</span>
+<h3><a href="http://www.cnpythoner.com/post/pythonduoxianchen.html">python beautifulsoup多线程分析抓取网页</a></h3>
+<p>&nbsp; 最近在用python做一些网页分析方面的事情，很久没更新博客了，今天补上。下面的代码用到了1 python 多线程2 网页分析库：beautifulsoup ,这个库比之前分享的python SGMLParser 网页分析库要强大很多，大家有兴趣可以去了解下。&nbsp;#encoding=utf-8#@description：蜘蛛抓取内容。import Queueimport th</p>
+</div> <div class="postlist">
+<span class="postdate">2011/5/18&nbsp;21:22</span>
+<h3><a href="http://www.cnpythoner.com/post/webkeyword.html">python查找网页关键词排名</a></h3>
+<p><p>&nbsp;前段时间为了查找自己博客的关键词排名怎么样，特意用写了一个查找网页关键词排名的程序，感觉效果还不错。特别是查找关键词排名靠后的网页来说非常的方便，不用自己手动的去一个个的翻页，废话不说了，赶快上代码。</p>
+</div>
+<div class="post pagebar">分页:<a href="http://www.cnpythoner.com/catalog.asp?cate=1&amp;page=1">[&laquo;]</a><span class="now-page">1</span><a href="http://www.cnpythoner.com/catalog.asp?cate=1&amp;page=2">[2]</a><a href="http://www.cnpythoner.com/catalog.asp?cate=1&amp;page=3">[3]</a><a href="http://www.cnpythoner.com/catalog.asp?cate=1&amp;page=4">[4]</a><a href="http://www.cnpythoner.com/catalog.asp?cate=1&amp;page=4">[&raquo;]</a></div>
+		</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+           <img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>热门资料</h3>
+<ul>
+<ul>
+<li><a href="http://www.cnpythoner.com/post/65.html" title="replace">字符串替换</a></li>
+<li><a href="http://www.cnpythoner.com/post/69.html" title="file">文件操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/35.html">多线程</a></li>
+<li><a href="http://www.cnpythoner.com/post/67.html">字符串连接</a></li>
+<li><a href="http://www.cnpythoner.com/post/62.html">字典</a></li>
+<li><a href="http://www.cnpythoner.com/post/46.html" title="队列">queue</a></li>
+<li><a href="http://www.cnpythoner.com/post/48.html">字符串截取</a></li>
+<li><a href="http://www.cnpythoner.com/post/87.html">popen</a></li>
+<li><a href="http://www.cnpythoner.com/post/43.html">编辑器</a></li>
+<li><a href="http://www.cnpythoner.com/post/42.html">2.6 版本下载</a></li>
+<li><a href="http://www.cnpythoner.com/post/50.html">列表</a></li>
+<li><a href="http://www.cnpythoner.com/post/89.html" title="time">当前时间</a></li>
+<li><a href="http://www.cnpythoner.com/post/74.html">数据类型</a></li>
+<li><a href="http://www.cnpythoner.com/post/80.html">switch</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/73.html" title="set">集合</a></li>
+<li><a href="http://www.cnpythoner.com/post/140.html" title="def">lambda</a></li>
+<li><a href="http://www.cnpythoner.com/post/92.html">os</a></li>
+<li><a href="http://www.cnpythoner.com/post/2.html">__init__.py</a></li>
+<li><a href="http://www.cnpythoner.com/post/12.html">sys.path</a></li>
+<li><a href="http://www.cnpythoner.com/post/45.html">wxpython</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5.4</a></li>
+<li><a href="http://www.cnpythoner.com/post/176.html">ulipad</a></li>
+<li><a href="http://www.cnpythoner.com/post/84.html">path</a></li>
+<li><a href="http://www.cnpythoner.com/post/102.html">os system</a></li>
+<li><a href="http://www.cnpythoner.com/post/111.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/145.html">模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/116.html">beautifulsoup</a></li>
+<li><a href="http://www.cnpythoner.com/post/83.html">迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/djangoreverse.html">django reverse</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</ul>
+</div>
+
+<div class="function" id="divPrevious">
+<h3>最新文章</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/320.html" title="django sql语句查询（不需要插件）"><span class="article-date">[01/11]</span>django sql语句查询（不需要插件）</a></li><li><a href="http://www.cnpythoner.com/post/319.html" title="python 生成word中文字体"><span class="article-date">[12/25]</span>python 生成word中文字体</a></li><li><a href="http://www.cnpythoner.com/post/318.html" title="我用python经常做的事情"><span class="article-date">[11/13]</span>我用python经常做的事情</a></li><li><a href="http://www.cnpythoner.com/post/317.html" title="Python 在 Linux 系统运维中都有哪些应用？ "><span class="article-date">[10/07]</span>Python 在 Linux 系统运维中都有哪些应用？ </a></li><li><a href="http://www.cnpythoner.com/post/316.html" title="python编写调用shell命令脚本"><span class="article-date">[10/04]</span>python编写调用shell命令脚本</a></li><li><a href="http://www.cnpythoner.com/post/315.html" title="python被越来越多的SEO人员重视"><span class="article-date">[10/04]</span>python被越来越多的SEO人员重视</a></li><li><a href="http://www.cnpythoner.com/post/314.html" title="urllib2添加header头"><span class="article-date">[08/01]</span>urllib2添加header头</a></li><li><a href="http://www.cnpythoner.com/post/313.html" title="python程序批量挖掘百度长尾关键词"><span class="article-date">[07/14]</span>python程序批量挖掘百度长尾关键词</a></li><li><a href="http://www.cnpythoner.com/post/312.html" title="python 算术运算符"><span class="article-date">[06/22]</span>python 算术运算符</a></li><li><a href="http://www.cnpythoner.com/post/311.html" title="python 保留字"><span class="article-date">[06/22]</span>python 保留字</a></li><li><a href="http://www.cnpythoner.com/post/310.html" title="python抓取中文网页乱码通用解决方法"><span class="article-date">[06/02]</span>python抓取中文网页乱码通用解决方法</a></li><li><a href="http://www.cnpythoner.com/post/309.html" title="python setattr,delattr() 操作对象的属性和方法"><span class="article-date">[06/01]</span>python setattr,delattr() 操作对象的属性和方法</a></li><li><a href="http://www.cnpythoner.com/post/308.html" title="python classmethod类方法"><span class="article-date">[06/01]</span>python classmethod类方法</a></li><li><a href="http://www.cnpythoner.com/post/307.html" title="python ASCII返回对应的值（chr）"><span class="article-date">[06/01]</span>python ASCII返回对应的值（chr）</a></li><li><a href="http://www.cnpythoner.com/post/306.html" title="python 判断对象是否可以调用（callable）"><span class="article-date">[06/01]</span>python 判断对象是否可以调用（callable）</a></li><li><a href="http://www.cnpythoner.com/post/305.html" title="python 整数转为二进制bin()"><span class="article-date">[06/01]</span>python 整数转为二进制bin()</a></li><li><a href="http://www.cnpythoner.com/post/304.html" title="函数应用习题"><span class="article-date">[05/30]</span>函数应用习题</a></li><li><a href="http://www.cnpythoner.com/post/303.html" title="python unittest单元测试方法和用例"><span class="article-date">[05/30]</span>python unittest单元测试方法和用例</a></li><li><a href="http://www.cnpythoner.com/post/302.html" title="软件测试方法"><span class="article-date">[05/30]</span>软件测试方法</a></li><li><a href="http://www.cnpythoner.com/post/301.html" title="python 字典(dict)get方法应用"><span class="article-date">[05/26]</span>python 字典(dict)get方法应用</a></li>
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+		<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+		 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html><!-- 129ms -->

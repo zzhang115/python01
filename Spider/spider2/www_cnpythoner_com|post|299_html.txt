@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>python中文分词_seo和python_老王python</title>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" href="http://www.cnpythoner.com/rss.xml" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<script language="JavaScript" src="http://www.cnpythoner.com/script/common.js" type="text/javascript"></script>
+<body class="single">
+<script language="JavaScript" type="text/javascript">
+	var str00="http://www.cnpythoner.com/";
+	var str01="名称或邮箱不能为空";
+	var str02="名称或邮箱格式不对";
+	var str03="留言不能为空或过长";
+	var str06="显示UBB表情>>";
+	var intMaxLen="1000";
+	var strFaceName="Haha|Hehe|Love|Misdoubt|Music|Nothing_to_say|Sad|Shame|Sleep|Smile|Stop|What|Adore|After_boom|Angry|Cool|Cry|Effort|Faint|Grimace";
+	var strFaceSize="48";
+	var strBatchView="";
+	var strBatchInculde="";
+	var strBatchCount="";
+</script>
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+		<div class="banner">
+<a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+<ul>
+<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+<div class="post cate15 auth1">
+	<div class="post-nav"><a href="http://www.cnpythoner.com">python</a>>><a href="http://www.cnpythoner.com/catalog.asp?cate=15 ">seo和python</a>>>python中文分词</div>
+	
+	<h2 class="post-title"><div id="title">python中文分词</div></h2>
+	<div class="post-content">
+		<div class="post-body"><p><a href="http://www.cnpythoner.com/catalog.asp?cate=15" target="_blank">python做SEO相关事情</a>，我在之前的文章已经讲到过，今天给大家分享python中文分词的一些知识。<br /><br />说到分词，如果是做GOOGLE的朋友，那用python分词很简单，可以直接根据空格来分词，或者有相关的nltk模块来处理。<br /><br />中文分词的话，就比较麻烦，因为不能通过空格来分词，并且分词还得考虑语义问题等。<br /><br />下面列出几个比较好的中文分词：我用的比较多的是结巴分词，下面详细介绍下：<br /><br />1 <a href="http://www.oschina.net/news/35199/jieba-0-22" target="_blank">结巴分词 0.22 发布，Python 中文分词组件 </a><br /><br />jieba 支持三种分词模式：<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 精确模式，试图将句子最精确地切开，适合文本分析；<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 全模式，把句子中所有的可以成词的词语都扫描出来, 速度非常快，但是不能解决歧义；<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 搜索引擎模式，在精确模式的基础上，对长词再次切分，提高召回率，适合用于搜索引擎分词。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 并且有5个功能：1分词 2添加自定义词典 3 关键词提取 4 词性标注 5 并行分词 <br /><br />Python 2.x 下的安装<br /><br />&nbsp;&nbsp;&nbsp; 全自动安装：easy_install jieba 或者 pip install jieba<br />&nbsp;&nbsp;&nbsp; 半自动安装：先下载http://pypi.python.org/pypi/jieba/ ，解压后运行python setup.py install<br />&nbsp;&nbsp;&nbsp; 手动安装：将jieba目录放置于当前目录或者site-packages目录<br />&nbsp;&nbsp;&nbsp; 通过import jieba 来引用 （第一次import时需要构建Trie树，需要几秒时间）<br /><br />Python 3.x 下的安装<br /><br />&nbsp;&nbsp;&nbsp; 目前master分支是只支持Python2.x 的<br /><br />&nbsp;&nbsp;&nbsp; Python3.x 版本的分支也已经基本可用： https://github.com/fxsjy/jieba/tree/jieba3k<br /><br />&nbsp;&nbsp;&nbsp; git clone https://github.com/fxsjy/jieba.git<br />&nbsp;&nbsp;&nbsp; git checkout jieba3k<br />&nbsp;&nbsp;&nbsp; python setup.py install<br /><br />2<a href="http://code.google.com/p/pymmseg-cpp/" target="_blank"> pymmseg-cpp</a>: <span lang="zh-CN" id="result_box"><span>是一个Python</span><span>端口</span><span>pymmseg</span><span class="atn">-</span><span>CPP</span><span>，</span><span>的</span><span>rmmseg</span> <span class="hps">CPP项目</span><span>的</span><span>。</span> <span class="hps">rmmseg</span><span>-CPP</span><span>是一个</span><span>MMSEG</span><span>中文</span><span>分词</span><span>算法的实现</span><span>在</span><span>一个Ruby</span><span>的C + +</span><span>接口</span><span>。</span></span><br /><br />3 Loso：<span lang="zh-CN" id="result_box"><a href="http://opensource.plurk.com/Loso_Chinese_Segmentation_System/  " target="_blank"><span>Loso</span></a><span>是一个</span><span>用Python编写</span><span>的</span><span>中文</span><span>分词系统</span><span>。</span><br /><span>它最初被</span><span>开发</span><span>为</span><span>改善</span><span>Plurk</span><span>搜索</span><span>，</span><span>但</span><span>适用</span><span>简体</span><span>中文</span><span>。</span></span>&nbsp; <br /><br />4 smallseg :</p><p><a href="http://code.google.com/p/smallseg/" target="_blank">smallseg </a>-- 开源的的轻量级的中文分词工具包</p><p>特点：可自定义词典、速度快、可在Google App Engine上运行。</p><p><br />5 句读：<a href="http://judou.org/" target="_blank">http://judou.org/</a></p><p>1 开放的中文分词项目</p><p>2 高性能、高可用性分词系统</p><p>&nbsp;</p><link rel="stylesheet" href="http://www.cnpythoner.com/PLUGIN/Rating/rating.css" type="text/css" /><div id="RatingPre"></div><Script language="javascript" type="text/javascript">var PostID=299;</script><Script language="javascript" type="text/javascript" src="http://www.cnpythoner.com/PLUGIN/Rating/Rating.js"></script> </div>
+		<br/>
+		<div><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		<br/>
+		<div style="margin-left:10px;"><h3>相关文章：</h3>
+<ul class="rearticle"></ul></div>
+	<div>
+		<h6 class="post-footer">
+			发布:2013-5-25 21:13:2<!--laowang--> | 分类:<a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo和python</a> | 评论:0 | 引用:0 | 浏览:<span id="spn299"></span>
+			<script language="JavaScript" type="text/javascript">strBatchCount+="spn299=299,"</script>
+		</h6>
+	</div>
+	<div id="lastnextpage"><span>上一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/298.html">python yield和generators(生成器)</a>&nbsp;&nbsp;<span>下一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/300.html">python 正则表达式re findall</a></span></div>
+	<div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+<span class="bds_more">分享到：</span>
+<a class="bds_qzone">QQ空间</a>
+<a class="bds_tsina">新浪微博</a>
+<a class="bds_tqq">腾讯微博</a>
+<a class="bds_renren">人人网</a>
+<a class="bds_t163">网易微博</a>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6550125" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END --></div>
+	<div class="clear"></div>
+</div>
+<!--
+<ul class="msg trackback">
+	<li class="tbname"><a href="http://www.cnpythoner.com/cmd.asp?act=gettburl&amp;id=299" target="_blank">点击这里获取该日志的TrackBack引用地址</a></li>
+</ul>
+-->
+
+
+
+<h4>评论列表</h4>
+<div style="display:none;" id="divAjaxComment"></div>
+<div class="post" id="divCommentPost">
+	<p class="posttop"><a name="comment">发表评论:</a></p>
+	<form id="frmSumbit" target="_self" method="post" action="http://www.cnpythoner.com/cmd.asp?act=cmt&amp;key=2fa87b74" >
+	
+	<input type="hidden" name="inpId" id="inpId" value="299" />
+	<input type="hidden" name="inpArticle" id="inpArticle" value="" />
+	<input type="hidden" name="inpLocation" id="inpLocation" value="" />
+	
+<table><tr>
+<td>
+<p><label for="inpName">名称(*)</label><input type="text" name="inpName" id="inpName" class="text" value="" size="28" tabindex="1" /> </p>
+	<p><label for="inpEmail">邮箱</label><input type="text" name="inpEmail" id="inpEmail" class="text" value="" size="28" tabindex="2" /> </p>
+	<p><label for="inpHomePage">网站链接</label><input type="text" name="inpHomePage" id="inpHomePage" class="text" value="" size="28" tabindex="3" /> </p>
+	<p><label for="inpVerify">验证(*)</label>
+<input type="text" name="inpVerify"  id="inpVerify" class="text" value="" tabindex="4" />  
+<img style="border:1px solid black"  src="http://www.cnpythoner.com/function/c_validcode.asp?name=commentvalid" alt="" title=""/>
+</p>	
+</td>
+<td width="20px">
+</td>
+<td>
+</td>
+</tr>
+</table>
+	
+	<p><label for="txaArticle">正文(*)(留言最长字数:1000)</label><textarea name="txaArticle" id="txaArticle" onchange="GetActiveText(this.id);" onclick="GetActiveText(this.id);" onfocus="GetActiveText(this.id);" class="text"  rows="4" tabindex="5" ></textarea></p>
+
+	<div><input name="btnSumbit" type="submit" tabindex="6" value="提交" onclick="JavaScript:return VerifyMessage()" class="button" /> <input type="checkbox" name="chkRemember" value="1" id="chkRemember" /> <label for="chkRemember">记住我,下次回复时不用重新输入个人信息</label></div>
+	<script language="JavaScript" type="text/javascript">objActive="txaArticle";ExportUbbFrame();</script>
+	</form>
+	<p class="postbottom">◎欢迎参与讨论，请在这里发表您的看法、交流您的观点。</p>
+	<script language="JavaScript" type="text/javascript">LoadRememberInfo();</script>
+</div>
+
+
+
+
+		</div>
+	</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+          	<img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>最近发表</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/pythonguanjian.html">函数关键字参数</a></li>
+<li><a href="http://www.cnpythoner.com/post/139.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/30.html">cooklib</a></li>
+<li><a href="http://www.cnpythoner.com/post/9.html">如何学好python</a></li>
+<li><a href="http://www.cnpythoner.com/post/150.html">mysql连接代码教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/104.html">exception 异常</a></li>
+<li><a href="http://www.cnpythoner.com/post/76.html">缩进格式</a></li>
+<li><a href="http://www.cnpythoner.com/post/90.html">apply函数</a></li>
+<li><a href="http://www.cnpythoner.com/post/134.html">gui</a></li>
+<li><a href="http://www.cnpythoner.com/post/137.html">django select_related()外键查询</a></li>
+<li><a href="http://www.cnpythoner.com/post/101.html">python is</a></li>
+<li><a href="http://www.cnpythoner.com/post/64.html">dict 操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/94.html">django 操作数据库</a></li>
+<li><a href="http://www.cnpythoner.com/post/239.html">获取第一个字符和最后一个字符</a></li>
+<li><a href="http://www.cnpythoner.com/post/235.html">提取文章的高频词</a></li>
+<li><a href="http://www.cnpythoner.com/post/236.html">字符串格式化输出</a></li>
+<li><a href="http://www.cnpythoner.com/post/237.html">列表迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/17.html">startswith endswith</a></li>
+<li><a href="http://www.cnpythoner.com/post/180.html">python 模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/22.html">django template 语法</a></li>
+<li><a href="http://www.cnpythoner.com/post/10.html">动态创建类</a></li>
+<li><a href="http://www.cnpythoner.com/post/20.html">引用和拷贝</a></li>
+<li><a href="http://www.cnpythoner.com/post/19.html">re正则表达式</a></li>
+<li><a href="http://www.cnpythoner.com/post/203.html">mechanize自动登录程序</a></li>
+<li><a href="http://www.cnpythoner.com/post/78.html">str转int</a></li>
+<li><a href="http://www.cnpythoner.com/post/16.html">django template html</a></li>
+<li><a href="http://www.cnpythoner.com/post/106.html">编码设置</a></li>
+<li><a href="http://www.cnpythoner.com/post/132.html">重载运算符</a></li>
+<li><a href="http://www.cnpythoner.com/post/81.html">三引号</a></li>
+<li><a href="http://www.cnpythoner.com/post/59.html">base64</a></li>
+<li><a href="http://www.cnpythoner.com/post/91.html">web开发必备</a></li>
+<li><a href="http://www.cnpythoner.com/post/142.html">python 2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/26.html">序列化数据</a></li>
+<li><a href="http://www.cnpythoner.com/post/171.html">python运行</a></li>
+<li><a href="http://www.cnpythoner.com/post/182.html">ping</a></li>
+<li><a href="http://www.cnpythoner.com/post/147.html">基础知识</a></li>
+<li><a href="http://www.cnpythoner.com/post/126.html">list判断</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+			<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+			 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

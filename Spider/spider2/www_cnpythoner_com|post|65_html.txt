@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>python 字符串替换_python 入门教程_老王python</title>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" href="http://www.cnpythoner.com/rss.xml" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<script language="JavaScript" src="http://www.cnpythoner.com/script/common.js" type="text/javascript"></script>
+<body class="single">
+<script language="JavaScript" type="text/javascript">
+	var str00="http://www.cnpythoner.com/";
+	var str01="名称或邮箱不能为空";
+	var str02="名称或邮箱格式不对";
+	var str03="留言不能为空或过长";
+	var str06="显示UBB表情>>";
+	var intMaxLen="1000";
+	var strFaceName="Haha|Hehe|Love|Misdoubt|Music|Nothing_to_say|Sad|Shame|Sleep|Smile|Stop|What|Adore|After_boom|Angry|Cool|Cry|Effort|Faint|Grimace";
+	var strFaceSize="48";
+	var strBatchView="";
+	var strBatchInculde="";
+	var strBatchCount="";
+</script>
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+		<div class="banner">
+<a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+<ul>
+<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+<div class="post cate11 auth1">
+	<div class="post-nav"><a href="http://www.cnpythoner.com">python</a>>><a href="http://www.cnpythoner.com/catalog.asp?cate=11 ">python 入门教程</a>>>python 字符串替换</div>
+	
+	<h2 class="post-title"><div id="title">python 字符串替换</div></h2>
+	<div class="post-content">
+		<div class="post-body"><b>python 字符串替换</b>是<a href="http://www.cnpythoner.com" target="_blank">python</a>操作字符串的时候经常会碰到的问题，这里简单介绍下字符串替换方法。<br/><br/>python 字符串替换可以用2种方法实现:<br/>1是用字符串对象本身的方法。<br/>2用正则来替换字符串<br/><br/>下面用个例子来实验下：<br/>a = 'hello word'<br/>我把a字符串里的word替换为python<br/><br/><b>1用字符串本身的replace方法</b><br/>a.replace('word','python')<br/>输出的结果是hello python<br/><br/><b>2用正则表达式来完成替换:</b><br/>import re<br/>strinfo = re.compile('word')<br/>b = strinfo.sub('python',a)<br/>print b<br/>输出的结果也是hello python<br/><br/>至于用哪个方法的话，看你自己的选择了。目前我们的<a href="http://www.cnpythoner.com/peixun/info.html" target="_blank">python小班培训</a>就有详细的<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">字符串讲解和应用</a>，让你通过实战掌握编程知识。<br/><br/>有兴趣的话，可以看看<br/>1  <a href="http://www.cnpythoner.com/post/48.html" target="_blank">python 字符串截取</a><br/>2  <a href="http://www.cnpythoner.com/post/67.html" target="_blank">python字符串连接</a> <br/>3  <a href="http://www.cnpythoner.com/post/239.html" target="_blank">获取字符串的第一个字符和最后一个字符</a><br/>4  <a href="http://www.cnpythoner.com/post/240.html" target="_blank">python的字符串对象转换为整数对象</a> 希望对你有帮助！<br/><br/><link rel="stylesheet" href="http://www.cnpythoner.com/PLUGIN/Rating/rating.css" type="text/css" /><div id="RatingPre"></div><Script language="javascript" type="text/javascript">var PostID=65;</script><Script language="javascript" type="text/javascript" src="http://www.cnpythoner.com/PLUGIN/Rating/Rating.js"></script> </div>
+		<br/>
+		<div><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		<br/>
+		<div style="margin-left:10px;"><h3>相关文章：</h3>
+<ul class="rearticle"><li><a href="http://www.cnpythoner.com/post/48.html">python 字符串截取</a></li><li><a href="http://www.cnpythoner.com/post/17.html">python startswith endswith</a></li><li><a href="http://www.cnpythoner.com/post/8.html">python替换</a></li></ul></div>
+	<div>
+		<h6 class="post-footer">
+			发布:2010-5-27 15:33:49<!--laowang--> | 分类:<a href="http://www.cnpythoner.com/catalog.asp?cate=11">python 入门教程</a> | 评论:2 | 引用:0 | 浏览:<span id="spn65"></span>
+			<script language="JavaScript" type="text/javascript">strBatchCount+="spn65=65,"</script>
+		</h6>
+	</div>
+	<div id="lastnextpage"><span>上一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/64.html">python 字典 添加</a>&nbsp;&nbsp;<span>下一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/66.html">为了让大家更好的交流和学习python</a></span></div>
+	<div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+<span class="bds_more">分享到：</span>
+<a class="bds_qzone">QQ空间</a>
+<a class="bds_tsina">新浪微博</a>
+<a class="bds_tqq">腾讯微博</a>
+<a class="bds_renren">人人网</a>
+<a class="bds_t163">网易微博</a>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6550125" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END --></div>
+	<div class="clear"></div>
+</div>
+<!--
+<ul class="msg trackback">
+	<li class="tbname"><a href="http://www.cnpythoner.com/cmd.asp?act=gettburl&amp;id=65" target="_blank">点击这里获取该日志的TrackBack引用地址</a></li>
+</ul>
+-->
+
+
+
+<h4>评论列表</h4>
+<ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt749" rel="nofollow">2</a>.<a href="" rel="nofollow">lhm1016</a> post at 2011/11/25 22:35:49&nbsp;<a href="#comment" onclick="RevertComment('749')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">第二种方法，<br/>可以用b=re.sub(&quot;word&quot;,&quot;python&quot;,a)  这个</li>
+	<!--<li class="msgtime">2011/11/25 22:35:49&nbsp;<a href="#comment" onclick="RevertComment('749')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt88" rel="nofollow">1</a>.<a href="" rel="nofollow">丹尼爾先生</a> post at 2010/5/28 10:47:06&nbsp;<a href="#comment" onclick="RevertComment('88')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">對於新手來說第一種似乎比較好懂<br/>但是對於老手來說第二種才是好用<br/>感謝老王大哥的指導<blockquote><div class="quote quote3"><div class="quote-title">wanglong 于 2010-5-28 11:53:09 回复</div>呵呵，看你喜欢什么方法了。</div></blockquote></li>
+	<!--<li class="msgtime">2010/5/28 10:47:06&nbsp;<a href="#comment" onclick="RevertComment('88')">回复该留言</a></li>-->
+</ul><div style="display:none;" id="divAjaxComment"></div>
+<div class="post" id="divCommentPost">
+	<p class="posttop"><a name="comment">发表评论:</a></p>
+	<form id="frmSumbit" target="_self" method="post" action="http://www.cnpythoner.com/cmd.asp?act=cmt&amp;key=cede4e22" >
+	
+	<input type="hidden" name="inpId" id="inpId" value="65" />
+	<input type="hidden" name="inpArticle" id="inpArticle" value="" />
+	<input type="hidden" name="inpLocation" id="inpLocation" value="" />
+	
+<table><tr>
+<td>
+<p><label for="inpName">名称(*)</label><input type="text" name="inpName" id="inpName" class="text" value="" size="28" tabindex="1" /> </p>
+	<p><label for="inpEmail">邮箱</label><input type="text" name="inpEmail" id="inpEmail" class="text" value="" size="28" tabindex="2" /> </p>
+	<p><label for="inpHomePage">网站链接</label><input type="text" name="inpHomePage" id="inpHomePage" class="text" value="" size="28" tabindex="3" /> </p>
+	<p><label for="inpVerify">验证(*)</label>
+<input type="text" name="inpVerify"  id="inpVerify" class="text" value="" tabindex="4" />  
+<img style="border:1px solid black"  src="http://www.cnpythoner.com/function/c_validcode.asp?name=commentvalid" alt="" title=""/>
+</p>	
+</td>
+<td width="20px">
+</td>
+<td>
+</td>
+</tr>
+</table>
+	
+	<p><label for="txaArticle">正文(*)(留言最长字数:1000)</label><textarea name="txaArticle" id="txaArticle" onchange="GetActiveText(this.id);" onclick="GetActiveText(this.id);" onfocus="GetActiveText(this.id);" class="text"  rows="4" tabindex="5" ></textarea></p>
+
+	<div><input name="btnSumbit" type="submit" tabindex="6" value="提交" onclick="JavaScript:return VerifyMessage()" class="button" /> <input type="checkbox" name="chkRemember" value="1" id="chkRemember" /> <label for="chkRemember">记住我,下次回复时不用重新输入个人信息</label></div>
+	<script language="JavaScript" type="text/javascript">objActive="txaArticle";ExportUbbFrame();</script>
+	</form>
+	<p class="postbottom">◎欢迎参与讨论，请在这里发表您的看法、交流您的观点。</p>
+	<script language="JavaScript" type="text/javascript">LoadRememberInfo();</script>
+</div>
+
+
+
+
+		</div>
+	</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+          	<img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>最近发表</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/pythonguanjian.html">函数关键字参数</a></li>
+<li><a href="http://www.cnpythoner.com/post/139.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/30.html">cooklib</a></li>
+<li><a href="http://www.cnpythoner.com/post/9.html">如何学好python</a></li>
+<li><a href="http://www.cnpythoner.com/post/150.html">mysql连接代码教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/104.html">exception 异常</a></li>
+<li><a href="http://www.cnpythoner.com/post/76.html">缩进格式</a></li>
+<li><a href="http://www.cnpythoner.com/post/90.html">apply函数</a></li>
+<li><a href="http://www.cnpythoner.com/post/134.html">gui</a></li>
+<li><a href="http://www.cnpythoner.com/post/137.html">django select_related()外键查询</a></li>
+<li><a href="http://www.cnpythoner.com/post/101.html">python is</a></li>
+<li><a href="http://www.cnpythoner.com/post/64.html">dict 操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/94.html">django 操作数据库</a></li>
+<li><a href="http://www.cnpythoner.com/post/239.html">获取第一个字符和最后一个字符</a></li>
+<li><a href="http://www.cnpythoner.com/post/235.html">提取文章的高频词</a></li>
+<li><a href="http://www.cnpythoner.com/post/236.html">字符串格式化输出</a></li>
+<li><a href="http://www.cnpythoner.com/post/237.html">列表迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/17.html">startswith endswith</a></li>
+<li><a href="http://www.cnpythoner.com/post/180.html">python 模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/22.html">django template 语法</a></li>
+<li><a href="http://www.cnpythoner.com/post/10.html">动态创建类</a></li>
+<li><a href="http://www.cnpythoner.com/post/20.html">引用和拷贝</a></li>
+<li><a href="http://www.cnpythoner.com/post/19.html">re正则表达式</a></li>
+<li><a href="http://www.cnpythoner.com/post/203.html">mechanize自动登录程序</a></li>
+<li><a href="http://www.cnpythoner.com/post/78.html">str转int</a></li>
+<li><a href="http://www.cnpythoner.com/post/16.html">django template html</a></li>
+<li><a href="http://www.cnpythoner.com/post/106.html">编码设置</a></li>
+<li><a href="http://www.cnpythoner.com/post/132.html">重载运算符</a></li>
+<li><a href="http://www.cnpythoner.com/post/81.html">三引号</a></li>
+<li><a href="http://www.cnpythoner.com/post/59.html">base64</a></li>
+<li><a href="http://www.cnpythoner.com/post/91.html">web开发必备</a></li>
+<li><a href="http://www.cnpythoner.com/post/142.html">python 2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/26.html">序列化数据</a></li>
+<li><a href="http://www.cnpythoner.com/post/171.html">python运行</a></li>
+<li><a href="http://www.cnpythoner.com/post/182.html">ping</a></li>
+<li><a href="http://www.cnpythoner.com/post/147.html">基础知识</a></li>
+<li><a href="http://www.cnpythoner.com/post/126.html">list判断</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+			<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+			 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

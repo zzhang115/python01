@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>python SGMLParser_python教程_老王python</title>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" href="http://www.cnpythoner.com/rss.xml" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<script language="JavaScript" src="http://www.cnpythoner.com/script/common.js" type="text/javascript"></script>
+<body class="single">
+<script language="JavaScript" type="text/javascript">
+	var str00="http://www.cnpythoner.com/";
+	var str01="名称或邮箱不能为空";
+	var str02="名称或邮箱格式不对";
+	var str03="留言不能为空或过长";
+	var str06="显示UBB表情>>";
+	var intMaxLen="1000";
+	var strFaceName="Haha|Hehe|Love|Misdoubt|Music|Nothing_to_say|Sad|Shame|Sleep|Smile|Stop|What|Adore|After_boom|Angry|Cool|Cry|Effort|Faint|Grimace";
+	var strFaceSize="48";
+	var strBatchView="";
+	var strBatchInculde="";
+	var strBatchCount="";
+</script>
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+		<div class="banner">
+<a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+<ul>
+<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+<div class="post cate1 auth1">
+	<div class="post-nav"><a href="http://www.cnpythoner.com">python</a>>><a href="http://www.cnpythoner.com/catalog.asp?cate=1 ">python教程</a>>>python SGMLParser</div>
+	
+	<h2 class="post-title"><div id="title">python SGMLParser</div></h2>
+	<div class="post-content">
+		<div class="post-body">python的<b>SGMLParser</b>模块处理html解析非常的方便，它是处理网页解析的好帮手，能够将HTML 处理分成三步：将 HTML 分解成它的组成片段，对片段进行加工，接着将片段再重新合成 HTML。第一步是通过 sgmllib.py 来完成的，它是标准 Python 库的一部分。<br/><br/>理解本章的关键是要知道 HTML 不只是文本，更是结构化文本。这种结构来源于开始与结束标记的或多或少分级序列。通常您并不以这种方式处理 HTML ，而是以文本方式 在一个文本编辑中对其进行处理，或以可视的方式 在一个浏览器中进行浏览或页面编辑工具中进行编辑。sgmllib.py 表现出了 HTML 的结构。<br/><br/>sgmllib.py 包含一个重要的类：SGMLParser。SGMLParser 将 HTML 分解成有用的片段，比如开始标记和结束标记。在它成功地分解出某个数据为一个有用的片段后，它会根据所发现的数据，调用一个自身内部的方法。为了使用这个分析器，您需要子类化 SGMLParser 类，并且覆盖这些方法。这就是当我说它表示了 HTML 结构 的意思：HTML 的结构决定了方法调用的次序和传给每个方法的参数。<br/><br/>SGMLParser 将 HTML 分析成 8 类数据，然后对每一类调用单独的方法：<br/><br/>开始标记 (Start tag)<br/>    是开始一个块的 HTML 标记，像 、<head>、 或 <pre> 等，或是一个独一的标记，<br/>像 <br> 或 <img> 等。当它找到一个开始标记 tagname，<br/>SGMLParser 将查找名为 start_tagname 或 do_tagname 的方法。<br/>例如，当它找到一个 <pre> 标记，它将查找一个 start_pre 或 do_pre 的方法。<br/>如果找到了，SGMLParser 会使用这个标记的属性列表来调用这个方法；<br/>否则，它用这个标记的名字和属性列表来调用 unknown_starttag 方法。 <br/>结束标记 (End tag)<br/>    是结束一个块的 HTML 标记，像 、</head>、 或 </pre> 等。<br/>当找到一个结束标记时，SGMLParser 将查找名为 end_tagname 的方法。<br/>如果找到，SGMLParser 调用这个方法，否则它使用标记的名字来调用 unknown_endtag 。 <br/>字符引用 (Character reference)<br/>    用字符的十进制或等同的十六进制来表示的转义字符，<br/>像 &#160;。当找到，SGMLParser 使用十进制或等同的十六进制字符文本来调用 handle_charref 。 <br/>实体引用 (Entity reference)<br/>    HTML 实体，像 &copy;。当找到，SGMLParser 使用 HTML 实体的名字来调用 handle_entityref 。 <br/>注释 (Comment)<br/>    HTML 注释，包括在 <!-- ... -->之间。当找到，SGMLParser 用注释内容来调用 handle_comment。 <br/>处理指令 (Processing instruction)<br/>    HTML 处理指令，包括在 <? ... > 之间。当找到，SGMLParser 用处理指令内容来调用 handle_pi。 <br/>声明 (Declaration)<br/>    HTML 声明，如 DOCTYPE，包括在 <! ... >之间。当找到，SGMLParser 用声明内容来调用 handle_decl。 <br/>文本数据 (Text data)<br/>    文本块。不满足其它 7 种类别的任何东西。当找到，SGMLParser 用文本来调用 handle_data。 <br/><br/>重要<br/>Python 2.0 存在一个 bug，即 SGMLParser 完全不能识别声明 (handle_decl 永远不会调用)，<br/>这就意味着 DOCTYPE 被静静地忽略掉了。这个错误在 Python 2.1 中改正了。<br/>sgmllib.py 所附带的一个测试套件举例说明了这一点。您可以运行 sgmllib.py，<br/>在命令行下传入一个 HTML 文件的名字，然后它会在分析标记和其它元素的同时将它们打印出来。<br/>它的实现是通过子类化 SGMLParser 类，然后定义 unknown_starttag，unknown_endtag，handle_data <br/>和其它方法来实现的。这些方法简单地打印出它们的参数。<br/><br/>如果要详细的了解python SGMLParser的用法的话，可以看看<a href="http://www.tsnc.edu.cn/default/tsnc_wgrj/doc/pythonhtml/html/html_processing/introducing_sgmllib.html" target="_blank">python SGMLParser</a>的文档，<br/>下面放上个我用python SGMLParsr写的例子，希望对大家有帮助：<br/><br/>#encoding=utf-8<br/>#@description:baidutiba content<br/><br/>import sys<br/>import re<br/><br/>import httplib<br/>import urllib<br/>from sgmllib import SGMLParser<br/><br/>class BaidutiebaParser(SGMLParser):<br/>    '''在百度贴吧里采集相应的关键字的标题'''<br/>    <br/>    def reset(self):<br/>        SGMLParser.reset(self)<br/>        self.info = []#<br/>        self.q_check = 0<br/>        self.num = 0<br/>        self.strcontent = ''<br/><br/><br/>    def start_td(self, tag):<br/>        '''匹配 <td class="s">标签'''<br/>        if len(tag)!=0 and tag[0][1] == 's':<br/>            self.num = self.num + 1<br/>            self.q_check = 1<br/><br/>    def handle_data(self, text):<br/>        '''处理文本'''<br/>        txt = text.strip()<br/>        if txt and self.q_check:<br/>            for i in checklist:<br/>                pipei = r'%s' % str(i)#在要匹配的信息里找到和关键字匹配<br/>                check_pan = re.compile(pipei)<br/>                if check_pan.search(txt) is not None:<br/>                    self.info.append(txt)<br/>                else:<br/>                    continue<br/>        self.strcontent = '$|$'.join(self.info)<br/>        <br/>    def end_td(self):<br/>        '''匹配</td>'''<br/>        self.q_check = 0<br/><br/><br/>############################################配置信息############################# <br/>keylist = ['旅游']#贴吧名称<br/>checklist = ['张家界','韩国']#要查询的关键字<br/>content = {}#采集内容<br/><br/>for m in keylist:<br/>    page = 0<br/>    keyword = urllib.quote(m.decode('utf-8').encode('gbk'))<br/>    for i in xrange(10):<br/>        url = '''http://tieba.baidu.com/f?z=0&ct=318767104&lm=11&sc=0&rn=50&tn=baiduKeywordSearch&rs3=0&rs4=0&word=%s&pn=%s''' % (str(keyword),str(page))<br/>        data = urllib.urlopen(url).read()<br/>        data = unicode(data, 'gbk').encode('utf-8')<br/>        parser = BaidutiebaParser()<br/>        parser.feed(data)<br/>        content[i+1] = parser.strcontent<br/>        page = page + 50<br/><br/>for k in content.keys():<br/>    print k<br/>    print content[k] <br/><br/><br/>如果你对<a href="http://www.cnpythoner.com/post/46.html" target="_blank">python queue模块</a>也感兴趣的话，可以看看！<br/>上面的例子也用到了<a href="http://www.cnpythoner.com/post/65.html" target="_blank">python 字符串替换</a>的一些方法,还有一些和python网页采集有关的： <a target="_blank"  href="http://www.cnpythoner.com/post/116.html">使用python BeautifulSoup 解析网页</a> ， <a target="_blank"  href="http://www.cnpythoner.com/post/pythonduoxianchen.html">python beautifulsoup多线程分析抓取网页</a><br/><br/>作者:老王@<a href="http://www.cnpythoner.com" target="_blank">python</a>  <a href="http://www.cnpythoner.com/" target="_blank">python教程</a><br/>老王python,提供pythn相关的python教程和<a href="http://www.cnpythoner.com/" target="_blank">python下载</a>，希望大家能够喜欢<br/><br/><link rel="stylesheet" href="http://www.cnpythoner.com/PLUGIN/Rating/rating.css" type="text/css" /><div id="RatingPre"></div><Script language="javascript" type="text/javascript">var PostID=71;</script><Script language="javascript" type="text/javascript" src="http://www.cnpythoner.com/PLUGIN/Rating/Rating.js"></script> </div>
+		<br/>
+		<div><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		<br/>
+		<div style="margin-left:10px;"><h3>相关文章：</h3>
+<ul class="rearticle"></ul></div>
+	<div>
+		<h6 class="post-footer">
+			发布:2010-6-9 21:15:25<!--laowang--> | 分类:<a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a> | 评论:0 | 引用:0 | 浏览:<span id="spn71"></span>
+			<script language="JavaScript" type="text/javascript">strBatchCount+="spn71=71,"</script>
+		</h6>
+	</div>
+	<div id="lastnextpage"><span>上一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/70.html">开心笑话</a>&nbsp;&nbsp;<span>下一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/72.html">世界杯又一次激起了我的热情</a></span></div>
+	<div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+<span class="bds_more">分享到：</span>
+<a class="bds_qzone">QQ空间</a>
+<a class="bds_tsina">新浪微博</a>
+<a class="bds_tqq">腾讯微博</a>
+<a class="bds_renren">人人网</a>
+<a class="bds_t163">网易微博</a>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6550125" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END --></div>
+	<div class="clear"></div>
+</div>
+<!--
+<ul class="msg trackback">
+	<li class="tbname"><a href="http://www.cnpythoner.com/cmd.asp?act=gettburl&amp;id=71" target="_blank">点击这里获取该日志的TrackBack引用地址</a></li>
+</ul>
+-->
+
+
+
+<h4>评论列表</h4>
+<div style="display:none;" id="divAjaxComment"></div>
+<div class="post" id="divCommentPost">
+	<p class="posttop"><a name="comment">发表评论:</a></p>
+	<form id="frmSumbit" target="_self" method="post" action="http://www.cnpythoner.com/cmd.asp?act=cmt&amp;key=5f001b32" >
+	
+	<input type="hidden" name="inpId" id="inpId" value="71" />
+	<input type="hidden" name="inpArticle" id="inpArticle" value="" />
+	<input type="hidden" name="inpLocation" id="inpLocation" value="" />
+	
+<table><tr>
+<td>
+<p><label for="inpName">名称(*)</label><input type="text" name="inpName" id="inpName" class="text" value="" size="28" tabindex="1" /> </p>
+	<p><label for="inpEmail">邮箱</label><input type="text" name="inpEmail" id="inpEmail" class="text" value="" size="28" tabindex="2" /> </p>
+	<p><label for="inpHomePage">网站链接</label><input type="text" name="inpHomePage" id="inpHomePage" class="text" value="" size="28" tabindex="3" /> </p>
+	<p><label for="inpVerify">验证(*)</label>
+<input type="text" name="inpVerify"  id="inpVerify" class="text" value="" tabindex="4" />  
+<img style="border:1px solid black"  src="http://www.cnpythoner.com/function/c_validcode.asp?name=commentvalid" alt="" title=""/>
+</p>	
+</td>
+<td width="20px">
+</td>
+<td>
+</td>
+</tr>
+</table>
+	
+	<p><label for="txaArticle">正文(*)(留言最长字数:1000)</label><textarea name="txaArticle" id="txaArticle" onchange="GetActiveText(this.id);" onclick="GetActiveText(this.id);" onfocus="GetActiveText(this.id);" class="text"  rows="4" tabindex="5" ></textarea></p>
+
+	<div><input name="btnSumbit" type="submit" tabindex="6" value="提交" onclick="JavaScript:return VerifyMessage()" class="button" /> <input type="checkbox" name="chkRemember" value="1" id="chkRemember" /> <label for="chkRemember">记住我,下次回复时不用重新输入个人信息</label></div>
+	<script language="JavaScript" type="text/javascript">objActive="txaArticle";ExportUbbFrame();</script>
+	</form>
+	<p class="postbottom">◎欢迎参与讨论，请在这里发表您的看法、交流您的观点。</p>
+	<script language="JavaScript" type="text/javascript">LoadRememberInfo();</script>
+</div>
+
+
+
+
+		</div>
+	</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+          	<img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>最近发表</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/pythonguanjian.html">函数关键字参数</a></li>
+<li><a href="http://www.cnpythoner.com/post/139.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/30.html">cooklib</a></li>
+<li><a href="http://www.cnpythoner.com/post/9.html">如何学好python</a></li>
+<li><a href="http://www.cnpythoner.com/post/150.html">mysql连接代码教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/104.html">exception 异常</a></li>
+<li><a href="http://www.cnpythoner.com/post/76.html">缩进格式</a></li>
+<li><a href="http://www.cnpythoner.com/post/90.html">apply函数</a></li>
+<li><a href="http://www.cnpythoner.com/post/134.html">gui</a></li>
+<li><a href="http://www.cnpythoner.com/post/137.html">django select_related()外键查询</a></li>
+<li><a href="http://www.cnpythoner.com/post/101.html">python is</a></li>
+<li><a href="http://www.cnpythoner.com/post/64.html">dict 操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/94.html">django 操作数据库</a></li>
+<li><a href="http://www.cnpythoner.com/post/239.html">获取第一个字符和最后一个字符</a></li>
+<li><a href="http://www.cnpythoner.com/post/235.html">提取文章的高频词</a></li>
+<li><a href="http://www.cnpythoner.com/post/236.html">字符串格式化输出</a></li>
+<li><a href="http://www.cnpythoner.com/post/237.html">列表迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/17.html">startswith endswith</a></li>
+<li><a href="http://www.cnpythoner.com/post/180.html">python 模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/22.html">django template 语法</a></li>
+<li><a href="http://www.cnpythoner.com/post/10.html">动态创建类</a></li>
+<li><a href="http://www.cnpythoner.com/post/20.html">引用和拷贝</a></li>
+<li><a href="http://www.cnpythoner.com/post/19.html">re正则表达式</a></li>
+<li><a href="http://www.cnpythoner.com/post/203.html">mechanize自动登录程序</a></li>
+<li><a href="http://www.cnpythoner.com/post/78.html">str转int</a></li>
+<li><a href="http://www.cnpythoner.com/post/16.html">django template html</a></li>
+<li><a href="http://www.cnpythoner.com/post/106.html">编码设置</a></li>
+<li><a href="http://www.cnpythoner.com/post/132.html">重载运算符</a></li>
+<li><a href="http://www.cnpythoner.com/post/81.html">三引号</a></li>
+<li><a href="http://www.cnpythoner.com/post/59.html">base64</a></li>
+<li><a href="http://www.cnpythoner.com/post/91.html">web开发必备</a></li>
+<li><a href="http://www.cnpythoner.com/post/142.html">python 2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/26.html">序列化数据</a></li>
+<li><a href="http://www.cnpythoner.com/post/171.html">python运行</a></li>
+<li><a href="http://www.cnpythoner.com/post/182.html">ping</a></li>
+<li><a href="http://www.cnpythoner.com/post/147.html">基础知识</a></li>
+<li><a href="http://www.cnpythoner.com/post/126.html">list判断</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+			<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+			 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

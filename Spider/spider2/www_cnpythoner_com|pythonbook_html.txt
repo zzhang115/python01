@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+<title>python 入门书籍推荐-老王python</title>
+<meta name="description" content="老王python提供最实用和最热门的python 书籍相关信息,让大家找到自己合适的python 入门书籍" />
+<link rel="stylesheet" type="text/css" href="book.css" media="all" />
+</head>
+<body>
+<div id="main">
+<div style="clear:both">&nbsp;</div>
+<div id="tabsC">
+<h1>python 入门书籍推荐</h1>
+<div>
+&nbsp;&nbsp;&nbsp;&nbsp;学习python在程序员中已经越来越流行了，很多想学的人都试图通过学习python让自己的工作更加的轻松。但是，如果错误地选择了python 书籍，不但不利于掌握重要的原理，也不利于在工作中正确地运用相关的知识，而且还会挫伤继续学习的积极性。学习关键是要选对一些经典的好书；而如果没有选好正确的入门考书的话，你的入门之路就将变得异常艰难。老王今天就将为有兴趣学习的大家推荐几本非常经典的书籍，通过阅读和学习这些书籍，大家将能够对python有一个概要性的了解。不仅如此，在学习了这些书籍后，大家将发现自己的编程水平将越来越高。
+</div>
+
+<div style="padding:10px;"><a href="http://www.cnpythoner.com/peixun/info.html" rel="nofollow" target="_blank"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python 教程" usemap="#AV-eggs" border="0" height="90" width="728"></a></div>
+
+<div id="paihang">
+<a name="book"></a>
+
+<h2>python 书籍</h2>
+<table cellspacing="0" cellpadding="0">
+ <tr>
+ <td><p><font color="Purple">现在大家都喜欢在网上购买书籍，因为每本书籍我们可以看见别人的评价，今天我就收集了网上好评最多的python 书籍供大家参考，您可以从中选择一款合适您的书籍。</font> </p>                           
+           <p> <table cellspacing="0" cellpadding="0">
+          <tr>
+            <td valign="top" width="600"><table cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><table cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td bgcolor="#ffffff">&nbsp;</td>
+                      </tr>
+
+                      <tr>
+                        <td class="124" valign="top"><table cellspacing="0">
+                            <tr>
+                              <td class="STYLE11" 
+       colspan="3"><hr>                                <span class="style1"><h3>python 学习手册第3版本</h3></span></td>
+                            </tr> <tr>
+                              <td rowspan="4"><img src="images/di3python.jpg" border="0"></td>
+                              <td colspan="2"></td>
+
+                            </tr>
+                           
+                        <tr>
+                              <td><p>作为python的镐头书来说这个书还算是不错的，浅显易懂，基本上各个知识点都有讲到，代码的排版也还不错，对初学者的帮助很大，我个人觉得通过这本书能够让你对python有整体的了解</p></td>
+                         
+                            </tr>
+                        <tr>
+                              <td colspan="2">
+                              <br/><div > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.amazon.cn/mn/detailApp?asin=B002NKMS7I&tag=wanglong-23&camp=404&creative=2024&linkCode=as1&creativeASIN=B002NKMS7I&adid=0KRV0SC8B0Y2YATK50WX&" target="_blank"><font color="blue"><b>到卓越网去购买</b></font></a>&nbsp;&nbsp;<a href="http://union.dangdang.com/transfer/transfer.aspx?from=P-279077&backurl=http://product.dangdang.com/product.aspx?product_id=20667966&ref=search-0-A" target="_blank"><font color="blue"><b>到当当网去购买</b></font></a></div>
+                              </td>
+                            </tr>
+ <p> <table cellspacing="0" cellpadding="0">
+          <tr>
+            <td valign="top" width="600"><table cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><table cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td bgcolor="#ffffff">&nbsp;</td>
+
+                      </tr>
+                      <tr>
+                        <td class="124" valign="top"><table cellspacing="0">
+                            <tr>
+                              <td class="STYLE11" 
+       colspan="3"><hr>                                <span class="style1"><h3>python 核心编程<h3></span></td>
+                            </tr> <tr>
+                              <td rowspan="4"><img src="images/hxpython.jpg"  border="0"></td>
+
+                            </tr>
+                            <tr>
+                              <td><p>python核心编程是本偏向应用的书籍，里面有很多相关的例子，对一些标准库都有讲解，如果你有点基础的话，或者通过上面的python学习手册对python有大概的了解的话，想具体的使用python来完成一些应用的话，这本书不能错过了。</p></td>
+                         
+                            </tr>
+                        <tr>
+                              <td colspan="2">
+                              <br/><div > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.amazon.cn/mn/detailApp?asin=B001BKVXOA&tag=wanglong-23&camp=404&creative=2024&linkCode=as1&creativeASIN=B001BKVXOA&adid=0HAGEBE7QM65ASX2MBN7&" target="_blank"><font color="blue"><b>到卓越网去购买</b></font></a>&nbsp;&nbsp;<a href="http://union.dangdang.com/transfer/transfer.aspx?from=P-279077&backurl=http://product.dangdang.com/product.aspx?product_id=20255354&ref=search-0-A" target="_blank"><font color="blue"><b>到当当网去购买</b></font></a></div>
+                              </td>
+                            </tr>
+<p> <table cellspacing="0" cellpadding="0">
+          <tr>
+            <td valign="top" width="600"><table cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><table cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td bgcolor="#ffffff">&nbsp;</td>
+
+                      </tr>
+                      <tr>
+                        <td class="124" valign="top"><table cellspacing="0">
+                            <tr>
+                              <td class="STYLE11" 
+       colspan="3"><hr>                                <span class="style1"><h3>可爱的python</h3>　
+ </span></td>
+                            </tr> <tr>
+                              <td rowspan="4"><img src="images/keaipython.jpg" border="0"></td>
+
+
+                            </tr>
+                             <tr>
+                              <td><p>看编程的书第一次看到如此清新，别具一格。读了前十几页，不断地与自己的学习经历产生共振。 这本书是很多python社区的一些朋友的分享心得</p></td>
+                         
+                            </tr>
+                        <tr>
+                              <td colspan="2">
+                              <br/><div > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.amazon.cn/mn/detailApp?asin=B002MUB3QQ&tag=wanglong-23&camp=404&creative=2024&linkCode=as1&creativeASIN=B002MUB3QQ&adid=1SEJRH480FWCQZERQAQ0&" target="_blank"><font color="blue"><b>到卓越网去购买</b></font></a>&nbsp;&nbsp;<a href="http://union.dangdang.com/transfer/transfer.aspx?from=P-279077&backurl=http://product.dangdang.com/product.aspx?product_id=20670643&ref=search-0-A" target="_blank"><font color="blue"><b>到当当网去购买</b></font></a></div>
+                              </td>
+                            </tr>
+ <p> <table cellspacing="0" cellpadding="0">
+ <tr>
+
+<td valign="top" width="600"><table cellspacing="0" cellpadding="0">
+<tr>
+<td><table cellspacing="0" cellpadding="0">
+<tr>
+<td bgcolor="#ffffff">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="124" valign="top"><table cellspacing="0">
+                            <tr>
+                              <td class="STYLE11" 
+       colspan="3"><hr>                                <span class="style1"><h3>python unix和linux系统指南</h3></span></td>
+
+                            </tr>
+                            <tr>
+                              <td rowspan="4"><img src="images/xtpython.jpg"  border="0"></td>
+
+                            </tr>
+                            <tr>
+                              <td><p>这本书卖的很火，之前一直缺货，好不容易看到不缺货就买了，买完了写评论时又发现缺货了。 刚到货，初看下还不错，准备好好研究下。发现这本书籍对于linux,unix系统管理员特别合适，里面讲解了很多用python来完成系统的工作</p></td>
+                         
+                            </tr>
+                        <tr>
+                              <td colspan="2">
+                              <br/><div > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.amazon.cn/mn/detailApp?asin=B002PAQEEO&tag=wanglong-23&camp=404&creative=2024&linkCode=as1&creativeASIN=B002PAQEEO&adid=0XK1BE12TQEREYCEE2XA&" target="_blank"><font color="blue"><b>到卓越网去购买</b></font></a>&nbsp;&nbsp;<a href="http://union.dangdang.com/transfer/transfer.aspx?from=P-279077&backurl=http://product.dangdang.com/product.aspx?product_id=20678461&ref=search-0-A" target="_blank"><font color="blue"><b>到当当网去购买</b></font></a></div>
+                              </td>
+                            </tr>
+<p> <table cellspacing="0" cellpadding="0">
+
+          <tr>
+            <td valign="top" width="600"><table cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><table cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td bgcolor="#ffffff">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="124" valign="top"><table cellspacing="0">
+
+                            <tr>
+                              <td class="STYLE11" 
+       colspan="3"><hr>                                <span class="style1"><h3>python源码剖析</h3> 
+
+ </span></td>
+                            </tr> <tr>
+                              <td rowspan="4"><img src="images/ympython.jpg" border="0"></td>
+                              
+                            </tr>
+                             <tr>
+                              <td><p>拿到书以后因为工作需要就看了讲解线程机制那一张，讲得很详细。作者不是简单的阐释源码的意思，而是更深层次的去探讨为什么那么做，这点难能可贵。在国人出的书里能有这种深度的探讨的作品真的很少。 如果你对C和PYTHON都比较了解又想深入学习的话，那这本书是一个不错的选择。</p></td>
+                         
+                            </tr>
+                        <tr>
+                              <td colspan="2">
+                              <br/><div > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.amazon.cn/mn/detailApp?asin=B001D2C91M&tag=wanglong-23&camp=404&creative=2024&linkCode=am1&creativeASIN=B001D2C91M&adid=193P2T5MDXQ3SDFD887R&" target="_blank"><font color="blue"><b>到卓越网去购买</b></font></a>&nbsp;&nbsp;<a href="http://union.dangdang.com/transfer/transfer.aspx?from=P-279077&backurl=http://product.dangdang.com/product.aspx?product_id=20294895&ref=search-0-A" target="_blank"><font color="blue"><b>到当当网去购买</b></font></a></div>
+                              </td>
+                            </tr>
+                  </table></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>
+        <p></p></td>
+  </tr>
+<p> <table cellspacing="0" cellpadding="0">
+
+          <tr>
+            <td valign="top" width="600"><table cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><table cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td bgcolor="#ffffff">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="124" valign="top"><table cellspacing="0">
+
+                            <tr>
+                              <td class="STYLE11" 
+       colspan="3"><hr>                                <span class="style1"><h3>python网络编程基础</h3> 
+
+ </span></td>
+                            </tr> <tr>
+                              <td rowspan="4"><img src="images/wlpython.jpg" border="0"></td>
+                              
+                            </tr>
+                             <tr>
+                              <td><p>有些内容涉及到网络协议，是python网络编程入门的好教材，如果你想用python来处理一些网络应用方面的话，这本书对你帮助很大</p></td>
+                         
+                            </tr>
+                        <tr>
+                              <td colspan="2">
+                             <br/><div > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.amazon.cn/mn/detailApp?asin=B0011F90MC&tag=wanglong-23&camp=404&creative=2024&linkCode=as1&creativeASIN=B0011F90MC&adid=1EDXPJ6HCE71HSJZR5CA&" target="_blank"><font color="blue"><b>到卓越网去购买</b></font></a>&nbsp;&nbsp;<a href="http://union.dangdang.com/transfer/transfer.aspx?from=P-279077&backurl=http://product.dangdang.com/product.aspx?product_id=9344105&ref=search-0-A" target="_blank"><font color="blue"><b>到当当网去购买</b></font></a></div>
+                              </td>
+                            </tr>
+                  </table></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>
+        <p></p></td>
+  </tr>
+</table>
+</div>
+  <p>&nbsp;</p>
+</div>
+    <p>&nbsp;</p>
+<font color="blue"><h3>搜索更多python 推荐书籍</font></h3>
+
+<a href="http://union.dangdang.com/transfer/transfer.aspx?from=P-279077&backurl=http://search.dangdang.com/search.php?key=python" target="_blank">到当当网去寻找更多的python 入门书籍</a><br/><br/>
+到卓越网去寻找自己想要的书籍：
+<iframe src="http://www.amazon.cn/mn/assocLinkApp?action=asso_search&k=2&source=wanglong-23" scrolling="no" width="180" height="109" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+　　</p>
+
+<hr>
+  <div id="foot">
+<p>有了好的工具，学习就很轻松了，希望朋友在学习的路上一帆风顺!</p>
+<p>老王我提供最热门的<strong>python 书籍推荐</strong>信息,让大家找到自己合适的<b>python 入门书籍</b></p>
+<div>如果有什么好的书籍可以介绍给我,给<a href="http://www.cnpythoner.com/guestbook.asp" target="_blank">老王留言吧</a></div>
+</div>
+</body>
+<script language="javascript" type="text/javascript" src="http://js.users.51.la/4052895.js"></script>
+<noscript><a href="http://www.51.la/?4052895" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" width="10"src="http://img.users.51.la/4052895.asp" style="border:none" /></a></noscript>
+</html>
+
+<!-- 141ms -->
+<!-- 47ms -->
+<!-- 47ms -->

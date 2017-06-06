@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="zh-CN" />
+<title>seo&#21644;python-老王python-第1页</title>
+<meta name="Description" content="老王python-带给你大家喜欢看的python 教程，全方位的带你走入python世界。第1页" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+</head>
+<body class="multi catalog">
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+			<div class="banner"><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+			<ul>
+			<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+			</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+		<div class="post-nav">当前位置:<a href="http://www.cnpythoner.com">python</a>>>seo&#21644;python</div>
+		<h2 class="post-title">seo&#21644;python</h2>
+		       <div class="postlist">
+<span class="postdate">2013/10/4&nbsp;14:40</span>
+<h3><a href="http://www.cnpythoner.com/post/315.html">python被越来越多的SEO人员重视</a></h3>
+<p> 很久没写文章了，先祝大家国庆快乐！从今年开始发现越来越多的seo人开始慢慢的研究技术，也越来越重视技术，这是一个非常好的现象，毕竟流量是通过网站获取的。网站的搭建的过程从头无不充斥着相关的技术，比如HTTP请求，HTML,CSS,网页后端的逻辑处理等。<br/>对SEO人员来说，把技术学好有2个好处：<br/>1 对技术了解的越好，就越能够控制一个网站，能够按照你的想法来走。<br/><br/>2 如果是在大型网站做SEO的话，基本上每天都会和技术和数据打交道。可能每天都是在写代码地方式来做SEO，或者你需要和公司的技术部门来配合做网站的相关的优化工作，对技术越了解，就能和技术人员更好的沟通需求。<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/7/14&nbsp;13:15</span>
+<h3><a href="http://www.cnpythoner.com/post/313.html">python程序批量挖掘百度长尾关键词</a></h3>
+<p><p>&nbsp; &nbsp;挖掘长尾关键词的工具有很多，比如爱站，chinaz的。目前感觉chinaz的百度权重的关键词可以挖掘到一些。比如我需要挖掘</p><p>这个域名：www.yoger.com.cn 的百度关键词。</p><p>http://mytool.chinaz.com/baidusort.aspx?host=www.yoger.com.cn</p><p>算了下，大概可以挖掘到600个关键词，一页有20个，有30页的数据。</p><p>目前有python做了这个应用，能够批量挖掘百度长尾关键词。我们只需要收集行业里面的网站，放入去查询就行。</p>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/25&nbsp;21:13</span>
+<h3><a href="http://www.cnpythoner.com/post/299.html">python中文分词</a></h3>
+<p><p><a href="http://www.cnpythoner.com/catalog.asp?cate=15" target="_blank">python做SEO相关事情</a>，我在之前的文章已经讲到过，今天给大家分享python中文分词的一些知识。<br /><br />说到分词，如果是做GOOGLE的朋友，那用python分词很简单，可以直接根据空格来分词，或者有相关的nltk模块来处理。<br /><br />中文分词的话，就比较麻烦，因为不能通过空格来分词，并且分词还得考虑语义问题等。<br />...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2013/5/6&nbsp;16:45</span>
+<h3><a href="http://www.cnpythoner.com/post/293.html">老王pythonSEO蜘蛛日志分析系统,参考(国平的光年日志分析系统)</a></h3>
+<p><p>之前分析日志的时候用过光年日志分析系统，这几天有时间，用python写了一个小型的日志程序。<br /><br />程序的文件：<br /><br />data目录：用于存放需要分析的日志文件。<br />result目录：生成日志结果的目录<br />template目录：日志模板目录<br />conf.py:配置文件<br />apachelog.py ：python apache日志分析模块。<br />check.py: 日志处理主程序<br />另外用到了python的jinja模板引擎<br />...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2013/1/24&nbsp;22:19</span>
+<h3><a href="http://www.cnpythoner.com/post/235.html">伪原创程序提取文章高频词</a></h3>
+<p> 很久没写应用了，其实python操作SEO相关的脚本我一直在写，今天给的大家分享一个SEO伪原创的时候，需要提取提取文章的高频词的概念。这个做外贸SEO的时候需要用到。<br/>上代码：<br/>import nltk<br/>from nltk.probability import FreqDist<br/><br/>binfo = '''<br/>shibang Mibile Crusher offers optimum set-up flexibility, from coarse to fine bashing, and is cost efficient. The application improves working safety, reduces the need for quarry highway maintenance, and gives coal minng significantly better access to material information. A further benefit is this : waste material can be separated on-site. shibang Mibile Crusher can be arranged to provide a two-stage crushing and evaluating system, as a three-stage abrasive, secondary and tertiary mashing and screening method, or as three independent units. Getting crushing and evaluating process on small wheels really boosts approach efficiency. shibang Mibile Crusher can be used for all mobile mashing applications, opening up clients opportunities. shibang Collection Cell Crusher is wholly adaptable to all cellular crushing needs.The item sets up a new variety of business opprtunities for trades-people,quarry operators, recycling along with mining applications. <br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2012/6/13&nbsp;16:46</span>
+<h3><a href="http://www.cnpythoner.com/post/196.html">wordpress 数据远程同步方法</a></h3>
+<p><p>&nbsp; 今天给大家分享下python在本地远程同步文章数据到wordpress，如果你的网站数据库是支持远程连接的话，那可以用下面的方法。<br />我当初写这个代码是为了解决wordpress底层站群的文章同步问题，可以让本地的mysql数据通过python脚本远程插入到网站数据库里，从而可以完成定时的更新。当然这个脚本如果部署到服务器上会更好，可以通过windows的计划任务和linux的cron服务来定期的启动这个脚本，从而达到每天更新文章的目的。<br /><br />写这个脚本主要是要熟悉wordpress的表结构，不然你没法插入数据到wordpress数据表。<br />...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2012/3/27&nbsp;17:03</span>
+<h3><a href="http://www.cnpythoner.com/post/190.html">批量查询网站的pr</a></h3>
+<p><p>&nbsp;&nbsp;&nbsp; 这段时间工作比较忙，博客更新的时间又慢了，前几天刚旅游回来，和部门的同事去了富春江-三清山和姚林仙境，感觉挺不错的，坐了船也爬了山。感受了大自然的秀丽景色。废话不多话，今天给大家分享个<strong>python 批量查询网站的pr</strong>的应用，前段时间因为要批量的筛选外链的资源，而外链网站的PR则是一个重要的指标，特别是对做GG的SEO的朋友来说，我们肯定是希望筛选出很多有效的而且PR高的外链资源，由于要筛选的网站比较多，只有用程序来做了。代码贴出来，如果大家感兴趣可以运行下看看，要查询的网站我这里是放到文件里，你也可以放到数据库里，然后读出来。结果也是写到文件里，同样你也可以改代码，然后把查询的结果放到数据库里。下面代码：</p><p>...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2011/9/2&nbsp;19:27</span>
+<h3><a href="http://www.cnpythoner.com/post/python-google.html">抓取google搜索结果</a></h3>
+<p><p>这段时间由于要做一个系统，时间比较忙，博客更新的就不及时，有点抱歉，还是说今天的话题把：因为要抓取一些google上面的搜索结果数据，开始用的是python传统的获取数据的方法比如：[python beautifulsoup多线程分析抓取网页] ， [python SGMLParser] 来获取数据，后来采集了没多久，google就自动封掉了，期间尝试过换IP，模拟浏览器的方法用了一段时间还是不行，看来google防止抓取的功能太强了，正愁没思路的时候，偶然间在网上看到一个方法就是用google提供的api来或者结果，这样省时又省力，于是乎就研究起来了，最后10几行代码就搞定了，之前我写了上百行代码，看来有了python google api来做python 抓取google搜索结果还是挺爽的。</p></p>
+</div> <div class="postlist">
+<span class="postdate">2010/10/25&nbsp;22:30</span>
+<h3><a href="http://www.cnpythoner.com/post/122.html">python获取网站外链</a></h3>
+<p><p>&nbsp; 最近为了更好的查询<a href="http://www.cnpythoner.com" title="老王python">老王python</a>的外链，所以准备写一个<strong>python 脚本</strong>来查询，一般查询外链比较准确的工具还是yahoo的外链工具，但是有点不方便的就是，yahoo查出的外链要一页一页的翻，好累而且不好方便统计，我是想把网站的外链全部读取到文件里，这样比较好在本地来进行统计。<br />废话不说，上脚本吧。</p><div class="source" style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;,&quot;monospace&quot;; color: rgb(0, 0, 0);"><span style="color: rgb(0, 136, 0); font-style: italic;">#encoding=utf-8</span><br />...</div></p>
+</div>
+<div class="post pagebar">分页:<a href="http://www.cnpythoner.com/catalog.asp?cate=15&amp;page=1">[&laquo;]</a><span class="now-page">1</span><a href="http://www.cnpythoner.com/catalog.asp?cate=15&amp;page=1">[&raquo;]</a></div>
+		</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+           <img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>热门资料</h3>
+<ul>
+<ul>
+<li><a href="http://www.cnpythoner.com/post/65.html" title="replace">字符串替换</a></li>
+<li><a href="http://www.cnpythoner.com/post/69.html" title="file">文件操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/35.html">多线程</a></li>
+<li><a href="http://www.cnpythoner.com/post/67.html">字符串连接</a></li>
+<li><a href="http://www.cnpythoner.com/post/62.html">字典</a></li>
+<li><a href="http://www.cnpythoner.com/post/46.html" title="队列">queue</a></li>
+<li><a href="http://www.cnpythoner.com/post/48.html">字符串截取</a></li>
+<li><a href="http://www.cnpythoner.com/post/87.html">popen</a></li>
+<li><a href="http://www.cnpythoner.com/post/43.html">编辑器</a></li>
+<li><a href="http://www.cnpythoner.com/post/42.html">2.6 版本下载</a></li>
+<li><a href="http://www.cnpythoner.com/post/50.html">列表</a></li>
+<li><a href="http://www.cnpythoner.com/post/89.html" title="time">当前时间</a></li>
+<li><a href="http://www.cnpythoner.com/post/74.html">数据类型</a></li>
+<li><a href="http://www.cnpythoner.com/post/80.html">switch</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/73.html" title="set">集合</a></li>
+<li><a href="http://www.cnpythoner.com/post/140.html" title="def">lambda</a></li>
+<li><a href="http://www.cnpythoner.com/post/92.html">os</a></li>
+<li><a href="http://www.cnpythoner.com/post/2.html">__init__.py</a></li>
+<li><a href="http://www.cnpythoner.com/post/12.html">sys.path</a></li>
+<li><a href="http://www.cnpythoner.com/post/45.html">wxpython</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5.4</a></li>
+<li><a href="http://www.cnpythoner.com/post/176.html">ulipad</a></li>
+<li><a href="http://www.cnpythoner.com/post/84.html">path</a></li>
+<li><a href="http://www.cnpythoner.com/post/102.html">os system</a></li>
+<li><a href="http://www.cnpythoner.com/post/111.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/145.html">模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/116.html">beautifulsoup</a></li>
+<li><a href="http://www.cnpythoner.com/post/83.html">迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/djangoreverse.html">django reverse</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</ul>
+</div>
+
+<div class="function" id="divPrevious">
+<h3>最新文章</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/320.html" title="django sql语句查询（不需要插件）"><span class="article-date">[01/11]</span>django sql语句查询（不需要插件）</a></li><li><a href="http://www.cnpythoner.com/post/319.html" title="python 生成word中文字体"><span class="article-date">[12/25]</span>python 生成word中文字体</a></li><li><a href="http://www.cnpythoner.com/post/318.html" title="我用python经常做的事情"><span class="article-date">[11/13]</span>我用python经常做的事情</a></li><li><a href="http://www.cnpythoner.com/post/317.html" title="Python 在 Linux 系统运维中都有哪些应用？ "><span class="article-date">[10/07]</span>Python 在 Linux 系统运维中都有哪些应用？ </a></li><li><a href="http://www.cnpythoner.com/post/316.html" title="python编写调用shell命令脚本"><span class="article-date">[10/04]</span>python编写调用shell命令脚本</a></li><li><a href="http://www.cnpythoner.com/post/315.html" title="python被越来越多的SEO人员重视"><span class="article-date">[10/04]</span>python被越来越多的SEO人员重视</a></li><li><a href="http://www.cnpythoner.com/post/314.html" title="urllib2添加header头"><span class="article-date">[08/01]</span>urllib2添加header头</a></li><li><a href="http://www.cnpythoner.com/post/313.html" title="python程序批量挖掘百度长尾关键词"><span class="article-date">[07/14]</span>python程序批量挖掘百度长尾关键词</a></li><li><a href="http://www.cnpythoner.com/post/312.html" title="python 算术运算符"><span class="article-date">[06/22]</span>python 算术运算符</a></li><li><a href="http://www.cnpythoner.com/post/311.html" title="python 保留字"><span class="article-date">[06/22]</span>python 保留字</a></li><li><a href="http://www.cnpythoner.com/post/310.html" title="python抓取中文网页乱码通用解决方法"><span class="article-date">[06/02]</span>python抓取中文网页乱码通用解决方法</a></li><li><a href="http://www.cnpythoner.com/post/309.html" title="python setattr,delattr() 操作对象的属性和方法"><span class="article-date">[06/01]</span>python setattr,delattr() 操作对象的属性和方法</a></li><li><a href="http://www.cnpythoner.com/post/308.html" title="python classmethod类方法"><span class="article-date">[06/01]</span>python classmethod类方法</a></li><li><a href="http://www.cnpythoner.com/post/307.html" title="python ASCII返回对应的值（chr）"><span class="article-date">[06/01]</span>python ASCII返回对应的值（chr）</a></li><li><a href="http://www.cnpythoner.com/post/306.html" title="python 判断对象是否可以调用（callable）"><span class="article-date">[06/01]</span>python 判断对象是否可以调用（callable）</a></li><li><a href="http://www.cnpythoner.com/post/305.html" title="python 整数转为二进制bin()"><span class="article-date">[06/01]</span>python 整数转为二进制bin()</a></li><li><a href="http://www.cnpythoner.com/post/304.html" title="函数应用习题"><span class="article-date">[05/30]</span>函数应用习题</a></li><li><a href="http://www.cnpythoner.com/post/303.html" title="python unittest单元测试方法和用例"><span class="article-date">[05/30]</span>python unittest单元测试方法和用例</a></li><li><a href="http://www.cnpythoner.com/post/302.html" title="软件测试方法"><span class="article-date">[05/30]</span>软件测试方法</a></li><li><a href="http://www.cnpythoner.com/post/301.html" title="python 字典(dict)get方法应用"><span class="article-date">[05/26]</span>python 字典(dict)get方法应用</a></li>
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+		<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+		 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html><!-- 74ms -->

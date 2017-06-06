@@ -1,0 +1,410 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>我给大家免费送上价值300元的教程_python教程_老王python</title>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" href="http://www.cnpythoner.com/rss.xml" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<script language="JavaScript" src="http://www.cnpythoner.com/script/common.js" type="text/javascript"></script>
+<body class="single">
+<script language="JavaScript" type="text/javascript">
+	var str00="http://www.cnpythoner.com/";
+	var str01="名称或邮箱不能为空";
+	var str02="名称或邮箱格式不对";
+	var str03="留言不能为空或过长";
+	var str06="显示UBB表情>>";
+	var intMaxLen="1000";
+	var strFaceName="Haha|Hehe|Love|Misdoubt|Music|Nothing_to_say|Sad|Shame|Sleep|Smile|Stop|What|Adore|After_boom|Angry|Cool|Cry|Effort|Faint|Grimace";
+	var strFaceSize="48";
+	var strBatchView="";
+	var strBatchInculde="";
+	var strBatchCount="";
+</script>
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+		<div class="banner">
+<a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+<ul>
+<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+<div class="post cate1 auth1">
+	<div class="post-nav"><a href="http://www.cnpythoner.com">python</a>>><a href="http://www.cnpythoner.com/catalog.asp?cate=1 ">python教程</a>>>我给大家免费送上价值300元的教程</div>
+	
+	<h2 class="post-title"><div id="title">我给大家免费送上价值300元的教程</div></h2>
+	<div class="post-content">
+		<div class="post-body">老王python为了让大家能够更好更快的学习python,整理了一些python教程价值300元。免费给大家送上，希望对大家有用！<br/><br/>地址是：<a href="http://www.cnpythoner.com/blog/post/2.html" target="_blank">http://www.cnpythoner.com/blog/post/2.html</a><br/><link rel="stylesheet" href="http://www.cnpythoner.com/PLUGIN/Rating/rating.css" type="text/css" /><div id="RatingPre"></div><Script language="javascript" type="text/javascript">var PostID=131;</script><Script language="javascript" type="text/javascript" src="http://www.cnpythoner.com/PLUGIN/Rating/Rating.js"></script> </div>
+		<br/>
+		<div><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		<br/>
+		<div style="margin-left:10px;"><h3>相关文章：</h3>
+<ul class="rearticle"></ul></div>
+	<div>
+		<h6 class="post-footer">
+			发布:2010-12-7 20:58:12<!--laowang--> | 分类:<a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a> | 评论:35 | 引用:0 | 浏览:<span id="spn131"></span>
+			<script language="JavaScript" type="text/javascript">strBatchCount+="spn131=131,"</script>
+		</h6>
+	</div>
+	<div id="lastnextpage"><span>上一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/130.html">python oop之私有机制</a>&nbsp;&nbsp;<span>下一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/132.html">浅谈python重载</a></span></div>
+	<div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+<span class="bds_more">分享到：</span>
+<a class="bds_qzone">QQ空间</a>
+<a class="bds_tsina">新浪微博</a>
+<a class="bds_tqq">腾讯微博</a>
+<a class="bds_renren">人人网</a>
+<a class="bds_t163">网易微博</a>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6550125" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END --></div>
+	<div class="clear"></div>
+</div>
+<!--
+<ul class="msg trackback">
+	<li class="tbname"><a href="http://www.cnpythoner.com/cmd.asp?act=gettburl&amp;id=131" target="_blank">点击这里获取该日志的TrackBack引用地址</a></li>
+</ul>
+-->
+
+
+
+<h4>评论列表</h4>
+<ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt1014" rel="nofollow">35</a>.<a href="" rel="nofollow">陟雍</a> post at 2012/11/25 20:34:40&nbsp;<a href="#comment" onclick="RevertComment('1014')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">邮件还没收到，麻烦王老师发送一下。<br/>本人Python初学者，希望得到帮助！！谢谢</li>
+	<!--<li class="msgtime">2012/11/25 20:34:40&nbsp;<a href="#comment" onclick="RevertComment('1014')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt850" rel="nofollow">34</a>.<a href="" rel="nofollow">gins</a> post at 2012/3/26 18:43:31&nbsp;<a href="#comment" onclick="RevertComment('850')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">邮件还没有收到，烦请发一下好吗 860501656@qq.com</li>
+	<!--<li class="msgtime">2012/3/26 18:43:31&nbsp;<a href="#comment" onclick="RevertComment('850')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt849" rel="nofollow">33</a>.<a href="" rel="nofollow">gins</a> post at 2012/3/25 17:03:24&nbsp;<a href="#comment" onclick="RevertComment('849')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">从老王python博客里学到不少知识。分享到微博，python群和QQ空间了。截图已发。。我的邮箱860501656@qq.com<br/></li>
+	<!--<li class="msgtime">2012/3/25 17:03:24&nbsp;<a href="#comment" onclick="RevertComment('849')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt841" rel="nofollow">32</a>.<a href="" rel="nofollow">shine</a> post at 2012/3/15 21:17:42&nbsp;<a href="#comment" onclick="RevertComment('841')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">麻烦老王了发送到627944478@qq.com<br/>谢谢</li>
+	<!--<li class="msgtime">2012/3/15 21:17:42&nbsp;<a href="#comment" onclick="RevertComment('841')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt816" rel="nofollow">31</a>.<a href="http://www.daiyun.asia" rel="nofollow">代孕</a> post at 2012/2/4 20:51:57&nbsp;<a href="#comment" onclick="RevertComment('816')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h2t3t9p6%3A8%2F2%2F1w7w4w2%2E2d8a3i4y5u3n3%2E9a6s8i2a9" rel="nofollow" target="_blank">http://www.daiyun.asia</a></li>-->
+	<li class="msgarticle">呵呵</li>
+	<!--<li class="msgtime">2012/2/4 20:51:57&nbsp;<a href="#comment" onclick="RevertComment('816')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt756" rel="nofollow">30</a>.<a href="" rel="nofollow">872830654</a> post at 2011/12/2 11:53:24&nbsp;<a href="#comment" onclick="RevertComment('756')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">网络问题不能直接输邮箱，可不可以麻烦老王发送到这个邮箱<br/>872830654@qq.com</li>
+	<!--<li class="msgtime">2011/12/2 11:53:24&nbsp;<a href="#comment" onclick="RevertComment('756')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt755" rel="nofollow">29</a>.<a href="" rel="nofollow">872830654</a> post at 2011/12/2 11:19:41&nbsp;<a href="#comment" onclick="RevertComment('755')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">福利呀，哈哈，谢谢！</li>
+	<!--<li class="msgtime">2011/12/2 11:19:41&nbsp;<a href="#comment" onclick="RevertComment('755')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt752" rel="nofollow">28</a>.<a href="" rel="nofollow">xieph</a> post at 2011/11/29 16:08:36&nbsp;<a href="#comment" onclick="RevertComment('752')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">文件存放的空间已经到期了..请管理员处理下.谢谢..</li>
+	<!--<li class="msgtime">2011/11/29 16:08:36&nbsp;<a href="#comment" onclick="RevertComment('752')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt725" rel="nofollow">27</a>.<a href="" rel="nofollow">hunfan</a> post at 2011/10/29 22:49:23&nbsp;<a href="#comment" onclick="RevertComment('725')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">谢谢老王</li>
+	<!--<li class="msgtime">2011/10/29 22:49:23&nbsp;<a href="#comment" onclick="RevertComment('725')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt711" rel="nofollow">26</a>.<a href="" rel="nofollow">laowang</a> post at 2011/10/7 9:02:42&nbsp;<a href="#comment" onclick="RevertComment('711')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">你可以到上面的邮箱接收框里输入你的邮箱，教程会发到你的邮箱里的</li>
+	<!--<li class="msgtime">2011/10/7 9:02:42&nbsp;<a href="#comment" onclick="RevertComment('711')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt708" rel="nofollow">25</a>.<a href="http://www.icuicu.com" rel="nofollow">freshways</a> post at 2011/10/3 11:47:26&nbsp;<a href="#comment" onclick="RevertComment('708')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h1t9t3p9%3A9%2F8%2F0w2w4w9%2E7i6c3u4i3c4u6%2E8c4o0m2" rel="nofollow" target="_blank">http://www.icuicu.com</a></li>-->
+	<li class="msgarticle">需要一份，Thanks</li>
+	<!--<li class="msgtime">2011/10/3 11:47:26&nbsp;<a href="#comment" onclick="RevertComment('708')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt644" rel="nofollow">24</a>.<a href="http://www.qutao88.com" rel="nofollow">丰胸产品哪个好</a> post at 2011/7/19 0:16:45&nbsp;<a href="#comment" onclick="RevertComment('644')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h0t6t3p0%3A7%2F4%2F1w8w8w8%2E4q5u2t6a5o58482%2E2c5o8m3" rel="nofollow" target="_blank">http://www.qutao88.com</a></li>-->
+	<li class="msgarticle"><br/>按摩丰胸，能够改善胸部，但是单纯的按摩丰胸效果不是很明显，所以你要想达到比较好的丰胸效果，首先要选择一款具有丰胸精油和按摩想结合，这样按摩促进胸部血液循环的同时，还能吸收精油中的营养物质，有效补充胸部发育的营养。促进激素分泌。达到丰胸的效果。而且丰胸精油还具有较好的保养效果。<br/>     就目前效果的最好丰胸精油就是丰胸精油排行榜了，你可以百度&quot;http://www.qutao88.com“去参考一下。很多网友都比较喜欢这里！<br/></li>
+	<!--<li class="msgtime">2011/7/19 0:16:45&nbsp;<a href="#comment" onclick="RevertComment('644')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt640" rel="nofollow">23</a>.<a href="" rel="nofollow">Blues</a> post at 2011/7/13 10:42:35&nbsp;<a href="#comment" onclick="RevertComment('640')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">现在这个链接貌似没了。。。。。</li>
+	<!--<li class="msgtime">2011/7/13 10:42:35&nbsp;<a href="#comment" onclick="RevertComment('640')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt635" rel="nofollow">22</a>.<a href="http://www.bjdy88.com" rel="nofollow">www.bjdy88.com</a> post at 2011/7/1 16:33:34&nbsp;<a href="#comment" onclick="RevertComment('635')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h2t3t7p9%3A6%2F9%2F0w6w7w2%2E5b3j4d9y98685%2E1c3o9m1" rel="nofollow" target="_blank">http://www.bjdy88.com</a></li>-->
+	<li class="msgarticle">文章不错，顶起<br/></li>
+	<!--<li class="msgtime">2011/7/1 16:33:34&nbsp;<a href="#comment" onclick="RevertComment('635')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt626" rel="nofollow">21</a>.<a href="" rel="nofollow">jt</a> post at 2011/6/2 0:31:50&nbsp;<a href="#comment" onclick="RevertComment('626')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">谢谢，哈</li>
+	<!--<li class="msgtime">2011/6/2 0:31:50&nbsp;<a href="#comment" onclick="RevertComment('626')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt621" rel="nofollow">20</a>.<a href="" rel="nofollow">lll</a> post at 2011/5/23 15:58:17&nbsp;<a href="#comment" onclick="RevertComment('621')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">点击获取后报错啊</li>
+	<!--<li class="msgtime">2011/5/23 15:58:17&nbsp;<a href="#comment" onclick="RevertComment('621')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt604" rel="nofollow">19</a>.<a href="" rel="nofollow">小君</a> post at 2011/5/3 22:05:58&nbsp;<a href="#comment" onclick="RevertComment('604')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">能发个给我吗？谢谢了.<br/>zczx107cjj07@163.com</li>
+	<!--<li class="msgtime">2011/5/3 22:05:58&nbsp;<a href="#comment" onclick="RevertComment('604')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt603" rel="nofollow">18</a>.<a href="" rel="nofollow">小君</a> post at 2011/5/3 22:05:04&nbsp;<a href="#comment" onclick="RevertComment('603')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">能发个给我吗？</li>
+	<!--<li class="msgtime">2011/5/3 22:05:04&nbsp;<a href="#comment" onclick="RevertComment('603')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt600" rel="nofollow">17</a>.<a href="" rel="nofollow">guoj</a> post at 2011/4/17 15:46:27&nbsp;<a href="#comment" onclick="RevertComment('600')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">打不开，出现一个叉号，然后就是下面的文字:<br/>The feed does not have subscriptions by email enabled<br/><br/>劳驾给发送到信箱一份教程吧，357400898@QQ.COM<br/></li>
+	<!--<li class="msgtime">2011/4/17 15:46:27&nbsp;<a href="#comment" onclick="RevertComment('600')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt596" rel="nofollow">16</a>.<a href="http://www.bjmycsjs.com" rel="nofollow">软水机</a> post at 2011/4/14 21:13:53&nbsp;<a href="#comment" onclick="RevertComment('596')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h2t4t1p7%3A0%2F3%2F7w1w3w6%2E7b4j3m1y3c8s4j0s9%2E4c7o2m2" rel="nofollow" target="_blank">http://www.bjmycsjs.com</a></li>-->
+	<li class="msgarticle">文章写的不错，支持下。</li>
+	<!--<li class="msgtime">2011/4/14 21:13:53&nbsp;<a href="#comment" onclick="RevertComment('596')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt583" rel="nofollow">15</a>.<a href="" rel="nofollow">mifan</a> post at 2011/3/30 15:52:04&nbsp;<a href="#comment" onclick="RevertComment('583')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">为什么打不开呢？</li>
+	<!--<li class="msgtime">2011/3/30 15:52:04&nbsp;<a href="#comment" onclick="RevertComment('583')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt564" rel="nofollow">14</a>.<a href="" rel="nofollow">garfieldtom</a> post at 2011/3/10 13:37:30&nbsp;<a href="#comment" onclick="RevertComment('564')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">谢谢，很好的资料</li>
+	<!--<li class="msgtime">2011/3/10 13:37:30&nbsp;<a href="#comment" onclick="RevertComment('564')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt558" rel="nofollow">13</a>.<a href="" rel="nofollow">浩天</a> post at 2011/3/3 21:58:46&nbsp;<a href="#comment" onclick="RevertComment('558')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">多谢 了  好站点啊</li>
+	<!--<li class="msgtime">2011/3/3 21:58:46&nbsp;<a href="#comment" onclick="RevertComment('558')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt556" rel="nofollow">12</a>.<a href="" rel="nofollow">sdfsdf</a> post at 2011/3/2 21:07:13&nbsp;<a href="#comment" onclick="RevertComment('556')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">收到。谢谢。</li>
+	<!--<li class="msgtime">2011/3/2 21:07:13&nbsp;<a href="#comment" onclick="RevertComment('556')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt555" rel="nofollow">11</a>.<a href="http://sdfd" rel="nofollow">sdfsdf</a> post at 2011/3/2 21:06:58&nbsp;<a href="#comment" onclick="RevertComment('555')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h8t0t5p9%3A1%2F8%2F2s9d3f3d5" rel="nofollow" target="_blank">http://sdfd</a></li>-->
+	<li class="msgarticle">收到。谢谢。</li>
+	<!--<li class="msgtime">2011/3/2 21:06:58&nbsp;<a href="#comment" onclick="RevertComment('555')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt554" rel="nofollow">10</a>.<a href="http://fiiox.tk" rel="nofollow">美女激情视频</a> post at 2011/3/2 17:56:31&nbsp;<a href="#comment" onclick="RevertComment('554')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h8t6t0p3%3A5%2F6%2F7f2i2i4o3x6%2E6t3k4" rel="nofollow" target="_blank">http://fiiox.tk</a></li>-->
+	<li class="msgarticle">不错啊谢谢了</li>
+	<!--<li class="msgtime">2011/3/2 17:56:31&nbsp;<a href="#comment" onclick="RevertComment('554')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt534" rel="nofollow">9</a>.<a href="" rel="nofollow">judy36136</a> post at 2011/2/15 22:34:36&nbsp;<a href="#comment" onclick="RevertComment('534')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">谢谢，收到 了</li>
+	<!--<li class="msgtime">2011/2/15 22:34:36&nbsp;<a href="#comment" onclick="RevertComment('534')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt513" rel="nofollow">8</a>.<a href="" rel="nofollow">老牛</a> post at 2011/1/25 15:17:17&nbsp;<a href="#comment" onclick="RevertComment('513')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">谢谢 哈 </li>
+	<!--<li class="msgtime">2011/1/25 15:17:17&nbsp;<a href="#comment" onclick="RevertComment('513')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt490" rel="nofollow">7</a>.<a href="http://pinpaisir.com" rel="nofollow">星光</a> post at 2011/1/8 1:07:10&nbsp;<a href="#comment" onclick="RevertComment('490')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h0t8t7p3%3A6%2F1%2F9p3i0n9p8a6i6s9i2r0%2E9c8o1m7" rel="nofollow" target="_blank">http://pinpaisir.com</a></li>-->
+	<li class="msgarticle">很是谢谢你~<blockquote><div class="quote quote3"><div class="quote-title">老王python 于 2011-1-8 9:35:10 回复</div>不客气。。</div></blockquote></li>
+	<!--<li class="msgtime">2011/1/8 1:07:10&nbsp;<a href="#comment" onclick="RevertComment('490')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt486" rel="nofollow">6</a>.<a href="" rel="nofollow">ihon</a> post at 2011/1/3 16:34:03&nbsp;<a href="#comment" onclick="RevertComment('486')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">感谢老王~</li>
+	<!--<li class="msgtime">2011/1/3 16:34:03&nbsp;<a href="#comment" onclick="RevertComment('486')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt470" rel="nofollow">5</a>.<a href="http://www.hitutu.com" rel="nofollow">淘淘</a> post at 2010/12/23 8:22:22&nbsp;<a href="#comment" onclick="RevertComment('470')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h9t3t5p4%3A2%2F3%2F7w2w0w6%2E1h2i5t0u7t4u2%2E3c0o0m0" rel="nofollow" target="_blank">http://www.hitutu.com</a></li>-->
+	<li class="msgarticle">不错，分享伟大</li>
+	<!--<li class="msgtime">2010/12/23 8:22:22&nbsp;<a href="#comment" onclick="RevertComment('470')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt466" rel="nofollow">4</a>.<a href="" rel="nofollow">mini</a> post at 2010/12/17 10:07:31&nbsp;<a href="#comment" onclick="RevertComment('466')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">下载不了呢。。</li>
+	<!--<li class="msgtime">2010/12/17 10:07:31&nbsp;<a href="#comment" onclick="RevertComment('466')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt460" rel="nofollow">3</a>.<a href="" rel="nofollow">inMind</a> post at 2010/12/12 11:50:01&nbsp;<a href="#comment" onclick="RevertComment('460')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">哈哈,看看</li>
+	<!--<li class="msgtime">2010/12/12 11:50:01&nbsp;<a href="#comment" onclick="RevertComment('460')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt458" rel="nofollow">2</a>.<a href="" rel="nofollow">myth</a> post at 2010/12/8 23:45:56&nbsp;<a href="#comment" onclick="RevertComment('458')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">非常感谢。 本人python初学。以前也没有接触过任何编程语言。。不知道。可不可以很快上手。希望能在贵地学到东西。</li>
+	<!--<li class="msgtime">2010/12/8 23:45:56&nbsp;<a href="#comment" onclick="RevertComment('458')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt455" rel="nofollow">1</a>.<a href="http://www.manbu.org.ru" rel="nofollow">漫步人生</a> post at 2010/12/7 22:23:42&nbsp;<a href="#comment" onclick="RevertComment('455')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h6t1t0p4%3A7%2F8%2F6w3w2w2%2E8m8a4n4b6u5%2E7o2r3g4%2E5r3u4" rel="nofollow" target="_blank">http://www.manbu.org.ru</a></li>-->
+	<li class="msgarticle">已经提交，谢谢</li>
+	<!--<li class="msgtime">2010/12/7 22:23:42&nbsp;<a href="#comment" onclick="RevertComment('455')">回复该留言</a></li>-->
+</ul><div style="display:none;" id="divAjaxComment"></div>
+<div class="post" id="divCommentPost">
+	<p class="posttop"><a name="comment">发表评论:</a></p>
+	<form id="frmSumbit" target="_self" method="post" action="http://www.cnpythoner.com/cmd.asp?act=cmt&amp;key=c4d00a40" >
+	
+	<input type="hidden" name="inpId" id="inpId" value="131" />
+	<input type="hidden" name="inpArticle" id="inpArticle" value="" />
+	<input type="hidden" name="inpLocation" id="inpLocation" value="" />
+	
+<table><tr>
+<td>
+<p><label for="inpName">名称(*)</label><input type="text" name="inpName" id="inpName" class="text" value="" size="28" tabindex="1" /> </p>
+	<p><label for="inpEmail">邮箱</label><input type="text" name="inpEmail" id="inpEmail" class="text" value="" size="28" tabindex="2" /> </p>
+	<p><label for="inpHomePage">网站链接</label><input type="text" name="inpHomePage" id="inpHomePage" class="text" value="" size="28" tabindex="3" /> </p>
+	<p><label for="inpVerify">验证(*)</label>
+<input type="text" name="inpVerify"  id="inpVerify" class="text" value="" tabindex="4" />  
+<img style="border:1px solid black"  src="http://www.cnpythoner.com/function/c_validcode.asp?name=commentvalid" alt="" title=""/>
+</p>	
+</td>
+<td width="20px">
+</td>
+<td>
+</td>
+</tr>
+</table>
+	
+	<p><label for="txaArticle">正文(*)(留言最长字数:1000)</label><textarea name="txaArticle" id="txaArticle" onchange="GetActiveText(this.id);" onclick="GetActiveText(this.id);" onfocus="GetActiveText(this.id);" class="text"  rows="4" tabindex="5" ></textarea></p>
+
+	<div><input name="btnSumbit" type="submit" tabindex="6" value="提交" onclick="JavaScript:return VerifyMessage()" class="button" /> <input type="checkbox" name="chkRemember" value="1" id="chkRemember" /> <label for="chkRemember">记住我,下次回复时不用重新输入个人信息</label></div>
+	<script language="JavaScript" type="text/javascript">objActive="txaArticle";ExportUbbFrame();</script>
+	</form>
+	<p class="postbottom">◎欢迎参与讨论，请在这里发表您的看法、交流您的观点。</p>
+	<script language="JavaScript" type="text/javascript">LoadRememberInfo();</script>
+</div>
+
+
+
+
+		</div>
+	</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+          	<img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>最近发表</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/pythonguanjian.html">函数关键字参数</a></li>
+<li><a href="http://www.cnpythoner.com/post/139.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/30.html">cooklib</a></li>
+<li><a href="http://www.cnpythoner.com/post/9.html">如何学好python</a></li>
+<li><a href="http://www.cnpythoner.com/post/150.html">mysql连接代码教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/104.html">exception 异常</a></li>
+<li><a href="http://www.cnpythoner.com/post/76.html">缩进格式</a></li>
+<li><a href="http://www.cnpythoner.com/post/90.html">apply函数</a></li>
+<li><a href="http://www.cnpythoner.com/post/134.html">gui</a></li>
+<li><a href="http://www.cnpythoner.com/post/137.html">django select_related()外键查询</a></li>
+<li><a href="http://www.cnpythoner.com/post/101.html">python is</a></li>
+<li><a href="http://www.cnpythoner.com/post/64.html">dict 操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/94.html">django 操作数据库</a></li>
+<li><a href="http://www.cnpythoner.com/post/239.html">获取第一个字符和最后一个字符</a></li>
+<li><a href="http://www.cnpythoner.com/post/235.html">提取文章的高频词</a></li>
+<li><a href="http://www.cnpythoner.com/post/236.html">字符串格式化输出</a></li>
+<li><a href="http://www.cnpythoner.com/post/237.html">列表迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/17.html">startswith endswith</a></li>
+<li><a href="http://www.cnpythoner.com/post/180.html">python 模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/22.html">django template 语法</a></li>
+<li><a href="http://www.cnpythoner.com/post/10.html">动态创建类</a></li>
+<li><a href="http://www.cnpythoner.com/post/20.html">引用和拷贝</a></li>
+<li><a href="http://www.cnpythoner.com/post/19.html">re正则表达式</a></li>
+<li><a href="http://www.cnpythoner.com/post/203.html">mechanize自动登录程序</a></li>
+<li><a href="http://www.cnpythoner.com/post/78.html">str转int</a></li>
+<li><a href="http://www.cnpythoner.com/post/16.html">django template html</a></li>
+<li><a href="http://www.cnpythoner.com/post/106.html">编码设置</a></li>
+<li><a href="http://www.cnpythoner.com/post/132.html">重载运算符</a></li>
+<li><a href="http://www.cnpythoner.com/post/81.html">三引号</a></li>
+<li><a href="http://www.cnpythoner.com/post/59.html">base64</a></li>
+<li><a href="http://www.cnpythoner.com/post/91.html">web开发必备</a></li>
+<li><a href="http://www.cnpythoner.com/post/142.html">python 2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/26.html">序列化数据</a></li>
+<li><a href="http://www.cnpythoner.com/post/171.html">python运行</a></li>
+<li><a href="http://www.cnpythoner.com/post/182.html">ping</a></li>
+<li><a href="http://www.cnpythoner.com/post/147.html">基础知识</a></li>
+<li><a href="http://www.cnpythoner.com/post/126.html">list判断</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+			<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+			 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

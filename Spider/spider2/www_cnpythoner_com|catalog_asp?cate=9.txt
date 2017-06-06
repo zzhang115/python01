@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="zh-CN" />
+<title>python&#38382;&#31572;-老王python-第1页</title>
+<meta name="Description" content="老王python-带给你大家喜欢看的python 教程，全方位的带你走入python世界。第1页" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+</head>
+<body class="multi catalog">
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+			<div class="banner"><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+			<ul>
+			<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+			</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+		<div class="post-nav">当前位置:<a href="http://www.cnpythoner.com">python</a>>>python&#38382;&#31572;</div>
+		<h2 class="post-title">python&#38382;&#31572;</h2>
+		       <div class="postlist">
+<span class="postdate">2013/4/2&nbsp;23:54</span>
+<h3><a href="http://www.cnpythoner.com/post/278.html">BeautifulSoup已经安装，但仍提示No module named</a></h3>
+<p>BeautifulSoup已经安装，但是在运行脚本的时候仍然提示No module named BeautifulSoup，请教下是什么原因？另外在先运行下python，然后单独运行from BeautifulSoup import BeautifulSoup，缺不会提示任何错误。这里是没有没有进入python的命令行而直接导入BeautifulSoup.所以会提示这个错误。<br/><br/>解决方法有2个：<br/>1 进入python命令行，然后导入BeautifulSoup模块。<br/>2 把.py文件的第一行的：<br/><br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/25&nbsp;19:31</span>
+<h3><a href="http://www.cnpythoner.com/post/270.html">Python做下载器需要掌握哪些</a></h3>
+<p> 如果你想用python做下载器的话，需要掌握一些网络以及数据处理的相关模块。<br/><br/>1 网络这块的话：urllib,urllib2,httplib.<br/>2 如果需要长时间停留抓取的话，还需要掌握格式化、<a href="http://www.cnpythoner.com/post/35.html" target="_blank">多线程</a>、多进程、数据库相关处理等。<br/>3 内容过滤这块主要有：正则表达式，<a href="http://www.cnpythoner.com/post/pythonduoxianchen.html" target="_blank">beautifulsoup</a>，sgml等。<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/16&nbsp;21:50</span>
+<h3><a href="http://www.cnpythoner.com/post/259.html">python 文件的中文在 windows 下运行乱码</a></h3>
+<p>有朋友用python在windows下运行乱码。我上面测试了下：<br/><br/>我新建了一个py文件，并且文件编码设置为utf-8,而且文件编码声明为:#encoding=utf-8<br/><br/>info = '中国'<br/>print info<br/>输出结果：\xe4\xb8\xad\xe5\x9b\xbd<br/><br/>如果需要输出中文的话，那我们需要安装gbk的编码进行输出。<br/><br/>info = u'中国' ##先转换为unicode编码<br/>print info.encode('gbk')##转换为gbk编码<br/><br/></p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/16&nbsp;21:39</span>
+<h3><a href="http://www.cnpythoner.com/post/258.html">python 将字符串转换成字典dict类型</a></h3>
+<p><br/>info = "{'name' : 'jay', 'sex' : 'male', 'age': 22}" 如何将字符串转化成字典dict类型？这个可以用python的标准库simplejson 转换为JSON格式。<br/><br/>JSON到字典转化：<br/>dictinfo = simplejson.loads(json_str) 输出dict类型<br/><br/>字典到JSON转化：<br/>jsoninfo = simplejson.dumps(dict)输出str类型<br/><br/>比如：<br/>info = {'name' : 'jay', 'sex' : 'male', 'age': 22}<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/14&nbsp;23:03</span>
+<h3><a href="http://www.cnpythoner.com/post/257.html">python list 中文问题</a></h3>
+<p><p>最近有个朋友定义一个列表，里面有3个元素，都是中文，比如：<br /><br />a = ['你好','哈哈','呵呵']<br /><br />print a<br /><br />输出结果：['\xe4\xbd\xa0\xe5\xa5\xbd', '\xe5\x93\x88\xe5\x93\x88', '\xe5\x91\xb5\xe5\x91\xb5'] 输出的编码是utf-8<br /><br /><br />如果你需要输出中文在gbk环境下，可以用迭代来输出：<br />...</p></p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/14&nbsp;22:40</span>
+<h3><a href="http://www.cnpythoner.com/post/256.html">关于python的[:]的疑问</a></h3>
+<p>有新手朋友刚接触<a href="http://www.cnpythoner.com/post/50.html" target="_blank">python列表</a>的话，会发现有[:]这种现象，可能有疑问，下面和大家解释下：<br/><br/>这个[start:end]类似  start=<范围<end<br/><br/>比如我们定义一个列表：<br/><br/>a = [1,2,3,4,5]<br/><br/>print a[1:4] 假设x是索引下标   x>=1 and x<4 也就是[a1-a3]<br/>输出结果：[2, 3, 4]<br/><br/>print a[::-1] 这里类似列表翻转的概念，python列表对象自身也有reverse()内置方法。<br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2013/3/14&nbsp;22:36</span>
+<h3><a href="http://www.cnpythoner.com/post/255.html">python3 和 python2有哪些不同？</a></h3>
+<p>由于现在大部分教材还有很多第3方模块包基于2.X的，所以还是建议新手朋友先从2.X学起吧。<br/><br/>Python从3.0版本开始有了质的变化，好多函数接口都改变了。<br/>个人感觉3.X和2.X区别还是不小的。<br/><br/>在实际使用中更常用的是Python2，因为很多相关的库仍然未支持Python3。但是建议打开python的-3选项，这样对你自己代码中不兼容部分可以提前知晓然后提前做兼容性修改。<br/></p>
+</div> <div class="postlist">
+<span class="postdate">2012/10/9&nbsp;16:31</span>
+<h3><a href="http://www.cnpythoner.com/post/203.html">mechanize自动登录程序</a></h3>
+<p>  放假回来了，很久没更新博客了，以后得常更新，今天给大家分享下python第3方的模块包：mechanize。<br/>mechanize是非常合适的模拟浏览器的模块，它的特点主要有：<br/><br/>   1 http,https协议等。<br/>   2 简单的HTML表单填写。<br/>   3 浏览器历史记录和重载。<br/>   4 Referer的HTTP头的正确添加（可选）。<br/>   5 自动遵守robots.txt的。<br/>   </p>
+</div> <div class="postlist">
+<span class="postdate">2012/3/3&nbsp;20:00</span>
+<h3><a href="http://www.cnpythoner.com/post/189.html">列表浅拷贝和深拷贝的问题</a></h3>
+<p>今天在我的邮件里看到一个访问老王python博客的朋友给我发的一个问题，我把下面的代码运行了下，果然不一样。大家有兴趣的话，可以运行下下面的2个例子，然后想下是为什么，最好在下面的留言里面给出自己的看法，多多交流总是好的。<br/><br/>>>> a=[1,2,3]<br/>>>> for x in a:<br/>>>>   if x < 2:a.insert(0,5)   //这样程序会一直跑，不会中断了<br/><br/><br/>>>> a=[1,2,3]<br/>>>> for x in a[:]:   //如果换成这种写法，程序就会判断一次。<br/>>>>   if x < 2:a.insert(0,5)    <br/>...</p>
+</div> <div class="postlist">
+<span class="postdate">2011/5/17&nbsp;22:54</span>
+<h3><a href="http://www.cnpythoner.com/post/pythongeshi.html">代码格式问题 </a></h3>
+<p><p>&nbsp;</p><p>上次推出了解答问题的活动，得到了很多朋友的支持，大家把自己在python中遇到的问题发给我，希望我能够很好的解决，谢谢你们对我的信任，我也希望能够尽全力的帮助你们。今天开始陆续的发出一些问题和解决方案，希望对你学习python有帮助。</p><p>1 先看看问题：</p><div style="color: rgb(0, 0, 0);" class="source"><span style="font-weight: bold; color: rgb(0, 0, 128);">while</span> <span style="color: rgb(0, 0, 0);">True</span><span style="color: rgb(0, 0, 0);">:</span><br />&nbsp;&nbsp;&nbsp; &nbsp; <span style="color: rgb(0, 0, 0);">reply</span><span style="color: rgb(0, 0, 0);">=</span><span style="color: rgb(0, 0, 0);">raw_input</span>(<span style="color: rgb(0, 0, 255);">'enter text:'</span>)<br />&nbsp;&nbsp;&nbsp; &nbsp; <span style="font-weight: bold; color: rgb(0, 0, 128);">if</span> <span style="color: rgb(0, 0, 0);">reply</span><span style="color: rgb(0, 0, 0);">==</span><span style="color: rgb(0, 0, 255);">'stop'</span><span style="color: rgb(0, 0, 0);">:</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <span style="font-weight: bold; color: rgb(0, 0, 128);">break</span><br />&nbsp;&nbsp;&nbsp; &nbsp; <span style="font-weight: bold; color: rgb(0, 0, 128);">print</span> <span style="color: rgb(0, 0, 0);">int</span>(<span style="color: rgb(0, 0, 0);">reply</span>)<span style="color: rgb(0, 0, 0);">**</span><span style="color: rgb(0, 0, 255);">3</span><br /><span style="font-weight: bold; color: rgb(0, 0, 128);">print</span> <span style="color: rgb(0, 0, 255);">'bye'</span></div><p>&nbsp;在shell里输入上面代码（貌似已经注意缩进），但是还是提示：IndentationError: unindent does not match any  outer indentation level<br />&nbsp;<br />但是相同的代码 保存为py模块 运行的时候，在shell里显示是正确的。</p><p>&nbsp;</p><p>2 分析原因：</p><p><br />根据IndentationError: unindent does not match any outer indentation level  提示可以看的出来，是因为缩进问题导致的，因为在shell里直接输入代码的话，很容易</p><p>出现缩进的问题。</p><p>&nbsp;</p><p>3 解决办法:</p><p>建议就是用python的编辑器来进行python代码的编写，这样可以避免由于代码缩进问题给你带来的困扰，一般编辑器都会在保存代码的时候自动的检查出代码的缩进问题，很多</p><p>编辑器都会有自动的代码缩进功能，如果想了解更多编辑器的功能可以看看</p>
+</div> <div class="postlist">
+<span class="postdate">2010/4/30&nbsp;22:18</span>
+<h3><a href="http://www.cnpythoner.com/post/47.html">应用于Web 2.0网站</a></h3>
+<p><p>这个ppt主要是介绍<a href="http://www.cnpythoner.com" target="_blank">python</a>的快速开发能力，python的<a href="http://www.cnpythoner.com/post/4.html" target="_blank">django</a>框架开发web2.0网站非常的爽，有兴趣的话，可以看看这个幻灯片：<a href="http://www.slideshare.net/hongqn/qcon2010-3881323" target="_blank">http://www.slideshare.net/hongqn/qcon2010-3881323</a> ...</p></p>
+</div>
+<div class="post pagebar">分页:<a href="http://www.cnpythoner.com/catalog.asp?cate=9&amp;page=1">[&laquo;]</a><span class="now-page">1</span><a href="http://www.cnpythoner.com/catalog.asp?cate=9&amp;page=1">[&raquo;]</a></div>
+		</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+           <img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>热门资料</h3>
+<ul>
+<ul>
+<li><a href="http://www.cnpythoner.com/post/65.html" title="replace">字符串替换</a></li>
+<li><a href="http://www.cnpythoner.com/post/69.html" title="file">文件操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/35.html">多线程</a></li>
+<li><a href="http://www.cnpythoner.com/post/67.html">字符串连接</a></li>
+<li><a href="http://www.cnpythoner.com/post/62.html">字典</a></li>
+<li><a href="http://www.cnpythoner.com/post/46.html" title="队列">queue</a></li>
+<li><a href="http://www.cnpythoner.com/post/48.html">字符串截取</a></li>
+<li><a href="http://www.cnpythoner.com/post/87.html">popen</a></li>
+<li><a href="http://www.cnpythoner.com/post/43.html">编辑器</a></li>
+<li><a href="http://www.cnpythoner.com/post/42.html">2.6 版本下载</a></li>
+<li><a href="http://www.cnpythoner.com/post/50.html">列表</a></li>
+<li><a href="http://www.cnpythoner.com/post/89.html" title="time">当前时间</a></li>
+<li><a href="http://www.cnpythoner.com/post/74.html">数据类型</a></li>
+<li><a href="http://www.cnpythoner.com/post/80.html">switch</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/73.html" title="set">集合</a></li>
+<li><a href="http://www.cnpythoner.com/post/140.html" title="def">lambda</a></li>
+<li><a href="http://www.cnpythoner.com/post/92.html">os</a></li>
+<li><a href="http://www.cnpythoner.com/post/2.html">__init__.py</a></li>
+<li><a href="http://www.cnpythoner.com/post/12.html">sys.path</a></li>
+<li><a href="http://www.cnpythoner.com/post/45.html">wxpython</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5.4</a></li>
+<li><a href="http://www.cnpythoner.com/post/176.html">ulipad</a></li>
+<li><a href="http://www.cnpythoner.com/post/84.html">path</a></li>
+<li><a href="http://www.cnpythoner.com/post/102.html">os system</a></li>
+<li><a href="http://www.cnpythoner.com/post/111.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/145.html">模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/116.html">beautifulsoup</a></li>
+<li><a href="http://www.cnpythoner.com/post/83.html">迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/djangoreverse.html">django reverse</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</ul>
+</div>
+
+<div class="function" id="divPrevious">
+<h3>最新文章</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/320.html" title="django sql语句查询（不需要插件）"><span class="article-date">[01/11]</span>django sql语句查询（不需要插件）</a></li><li><a href="http://www.cnpythoner.com/post/319.html" title="python 生成word中文字体"><span class="article-date">[12/25]</span>python 生成word中文字体</a></li><li><a href="http://www.cnpythoner.com/post/318.html" title="我用python经常做的事情"><span class="article-date">[11/13]</span>我用python经常做的事情</a></li><li><a href="http://www.cnpythoner.com/post/317.html" title="Python 在 Linux 系统运维中都有哪些应用？ "><span class="article-date">[10/07]</span>Python 在 Linux 系统运维中都有哪些应用？ </a></li><li><a href="http://www.cnpythoner.com/post/316.html" title="python编写调用shell命令脚本"><span class="article-date">[10/04]</span>python编写调用shell命令脚本</a></li><li><a href="http://www.cnpythoner.com/post/315.html" title="python被越来越多的SEO人员重视"><span class="article-date">[10/04]</span>python被越来越多的SEO人员重视</a></li><li><a href="http://www.cnpythoner.com/post/314.html" title="urllib2添加header头"><span class="article-date">[08/01]</span>urllib2添加header头</a></li><li><a href="http://www.cnpythoner.com/post/313.html" title="python程序批量挖掘百度长尾关键词"><span class="article-date">[07/14]</span>python程序批量挖掘百度长尾关键词</a></li><li><a href="http://www.cnpythoner.com/post/312.html" title="python 算术运算符"><span class="article-date">[06/22]</span>python 算术运算符</a></li><li><a href="http://www.cnpythoner.com/post/311.html" title="python 保留字"><span class="article-date">[06/22]</span>python 保留字</a></li><li><a href="http://www.cnpythoner.com/post/310.html" title="python抓取中文网页乱码通用解决方法"><span class="article-date">[06/02]</span>python抓取中文网页乱码通用解决方法</a></li><li><a href="http://www.cnpythoner.com/post/309.html" title="python setattr,delattr() 操作对象的属性和方法"><span class="article-date">[06/01]</span>python setattr,delattr() 操作对象的属性和方法</a></li><li><a href="http://www.cnpythoner.com/post/308.html" title="python classmethod类方法"><span class="article-date">[06/01]</span>python classmethod类方法</a></li><li><a href="http://www.cnpythoner.com/post/307.html" title="python ASCII返回对应的值（chr）"><span class="article-date">[06/01]</span>python ASCII返回对应的值（chr）</a></li><li><a href="http://www.cnpythoner.com/post/306.html" title="python 判断对象是否可以调用（callable）"><span class="article-date">[06/01]</span>python 判断对象是否可以调用（callable）</a></li><li><a href="http://www.cnpythoner.com/post/305.html" title="python 整数转为二进制bin()"><span class="article-date">[06/01]</span>python 整数转为二进制bin()</a></li><li><a href="http://www.cnpythoner.com/post/304.html" title="函数应用习题"><span class="article-date">[05/30]</span>函数应用习题</a></li><li><a href="http://www.cnpythoner.com/post/303.html" title="python unittest单元测试方法和用例"><span class="article-date">[05/30]</span>python unittest单元测试方法和用例</a></li><li><a href="http://www.cnpythoner.com/post/302.html" title="软件测试方法"><span class="article-date">[05/30]</span>软件测试方法</a></li><li><a href="http://www.cnpythoner.com/post/301.html" title="python 字典(dict)get方法应用"><span class="article-date">[05/26]</span>python 字典(dict)get方法应用</a></li>
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+		<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+		 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html><!-- 102ms -->

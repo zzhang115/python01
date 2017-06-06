@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>django 中间件_django教程_老王python</title>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" href="http://www.cnpythoner.com/rss.xml" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<script language="JavaScript" src="http://www.cnpythoner.com/script/common.js" type="text/javascript"></script>
+<body class="single">
+<script language="JavaScript" type="text/javascript">
+	var str00="http://www.cnpythoner.com/";
+	var str01="名称或邮箱不能为空";
+	var str02="名称或邮箱格式不对";
+	var str03="留言不能为空或过长";
+	var str06="显示UBB表情>>";
+	var intMaxLen="1000";
+	var strFaceName="Haha|Hehe|Love|Misdoubt|Music|Nothing_to_say|Sad|Shame|Sleep|Smile|Stop|What|Adore|After_boom|Angry|Cool|Cry|Effort|Faint|Grimace";
+	var strFaceSize="48";
+	var strBatchView="";
+	var strBatchInculde="";
+	var strBatchCount="";
+</script>
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+		<div class="banner">
+<a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+<ul>
+<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+<div class="post cate2 auth1">
+	<div class="post-nav"><a href="http://www.cnpythoner.com">python</a>>><a href="http://www.cnpythoner.com/catalog.asp?cate=2 ">django教程</a>>>django 中间件</div>
+	
+	<h2 class="post-title"><div id="title">django 中间件</div></h2>
+	<div class="post-content">
+		<div class="post-body"><p>&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.cnpythoner.com" target="_blank">django</a>处理一个Request的过程是首先通过<strong>django 中间件</strong>，然后再通过默认的URL方式进 行的。所以说我们要做的就是在django 中间件这个地方把所有Request拦截住，用我们自己的方式完成处理以后直接返回Response,那么我们可以简化原来的设计思路，把中间件不能处理的 Request统统不管，丢给<span class="hilite1">Django</span>去处理。</p><p>如果你要在用户登录或者其它的处理过程中完成自己的一些处理，那django 中间件非常的合适，感觉和<a target="_blank" href="http://www.cnpythoner.com/post/4.html">django form</a>一样，提倡这种dry的哲学风格设计非常的有意思,下面具体跟着</p><p>老王学习下把:</p><p>先说下django 中间件的安装方法:</p><p>为了激活中间件组件，把它添加到你的settings模块的MIDDLEWARE_CLASSES列表中，在MIDDLEWARE_CLASSES里，每个中间件 <br />组件通过一个字符串来表示:完整的到中间件的类名的Python路径，例如，这里是通过django-admin.py startproject创建的 <br />默认的MIDDLEWARE_CLASSES:</p><div class="dp-highlighter"><ol class="dp-j">    <li><span><span>MIDDLEWARE_CLASSES&nbsp;=&nbsp;( &nbsp;&nbsp;</span></span></li>    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string"><font color="#0000ff">'django.middleware.common.CommonMiddleware'</font></span><span>, &nbsp;&nbsp;</span></li>    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string"><font color="#0000ff">'django.contrib.sessions.middleware.SessionMiddleware'</font></span><span>, &nbsp;&nbsp;</span></li>    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string"><font color="#0000ff">'django.contrib.auth.middleware.AuthenticationMiddleware'</font></span><span>, &nbsp;&nbsp;</span></li>    <li><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="string"><font color="#0000ff">'django.middleware.doc.XViewMiddleware'</font></span><span>, &nbsp;&nbsp;</span></li>    <li><span>)&nbsp;&nbsp;</span></li></ol></div><pre class="java" style="display: none;">MIDDLEWARE_CLASSES = (    'django.middleware.common.CommonMiddleware',    'django.contrib.sessions.middleware.SessionMiddleware',    'django.contrib.auth.middleware.AuthenticationMiddleware',    'django.middleware.doc.XViewMiddleware',)</pre><p><br />Django安装部需要任何中间件--例如MIDDLEWARE_CLASSES可以为空，如果你想这样的话--但是强烈建议你使用CommonMiddle <br />ware <br />顺序是有意义的，在请求和视图阶段，Django使用MIDDLEWARE_CLASSES给定的顺序申请中间件，而在应答和异常阶段，Djang <br />o使用相反的顺序申请中间件，即Django把MIDDLEWARE_CLASSES当作一种视图方法的&quot;包装器&quot;:在请求时，它自顶向下申请这 <br />个列表的中间件到视图，而在应答时它反序进行.</p><p>再说下django 中间件的定义方法:</p><p>请求预处理:process_request(self, request) <br />该方法在请求被接收和URL被解析来决定运行哪个视图之前立即调用，它传递你可能想修改的HttpRequest对象 <br />process_request()应该返回None或者HttpResponse对象，如果它返回None，Django将继续处理该请求，执行任何其它的中间 <br />件然后是合适的视图 <br />如果请求中间件返回HttpResponse对象，Django将不会再调用其它任何中间件(任何类型)或者合适的视图，它将返回该应答 <br /><br />视图预处理:process_view(self, request, view, args, kwargs) <br />该方法在请求中间件运行后和URL被解析到一个视图后和视图实际上被调用之前被调用 <br />传递给该视图的参数为: <br />Argument Explanation <br />request HttpRequest对象 <br />view Django将会调用来树立该请求的Python方法，它是实际上的方法对象本身，而不是方法名字符串 <br />args 将被传递给视图的位置参数列表，不包括request参数(它一直是视图的第一个参数) <br />kwargs 将被传递给视图的关键字参数字典 <br />像process_request()一样，process_view()应该返回None或者HttpResponse对象，如果它返回None，Django将继续处理请求 <br />执行任何其它的视图中间件然后是合适的视图 <br />如果视图中间件返回HttpResponse对象，Django将不会再调用其它任何中间件或者合适的视图，它将返回该应答 <br /><br />应答后处理:process_response(self, request, response) <br />该方法再视图方法已经调用和应答生成后调用，这是中间件修改应答输出的地方，输出压缩(见下)是应答中间件的一个显然 <br />的应用 <br />参数应该非常自明了--request是请求对象，response是从视图返回的应答对象 <br />不像请求和视图中间件，它们可以返回None，process_response()必须返回一个HttpResponse对象，该应答可以是传递给该 <br />方法的原始应答(可能被修改了)或者新的应答 <br /><br />异常后处理:process_exception(self, request, exception) <br />该方法只在出错并且视图触发不可捕获的异常时调用，不包括Http404异常，你可以使用这个钩子来发送错误通知，在一个日 <br />志文件记录信息，或者甚至尝试自动恢复该错误 <br />该方法的参数是我们一直处理的同样的request对象和视图方法触发的真正的Exception对象exception <br />process_exception()可能返回一个作为应答显示给浏览器的HttpResponse或者返回None来继续Django内建的异常处理</p><p>比如我们写了个例子</p><p>MIDDLEWARE_CLASSES = (<br />&nbsp;&nbsp;&nbsp; 'apps.auth.middleware.MyAuthenticationMiddleware',&nbsp;&nbsp;&nbsp; <br />)</p><p>然后MyAuthenticationMiddleware定义的方法是:</p><p>class LazyMember(object):<br />&nbsp;&nbsp;&nbsp; def __get__(self, request, obj_type=None):<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if not hasattr(request, '_cached_admin'):<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; from apps.auth import get_member<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; request._cached_admin = get_member(request)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return request._cached_admin<br /><br />class MyAuthenticationMiddleware(object):<br />&nbsp;&nbsp;&nbsp; def process_request(self, request):<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert hasattr(request, 'session')<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; request.__class__.admin = LazyMember()<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return None</p><p>最后总结一下django 中间件不是很难，用一下就应该比较清楚了。老王其实也只是用了一点点django 中间件的知识。如果你对<a href="http://www.cnpythoner.com/catalog.asp?cate=2" target="_blank">django</a>感兴趣的话：可以推荐几篇相关的文章： <a target="_blank"  href="http://www.cnpythoner.com/post/105.html">django get_object_or_404</a>,<a target="_blank"  href="http://www.cnpythoner.com/post/djangoreverse.html">django reverse()</a>  </p><link rel="stylesheet" href="http://www.cnpythoner.com/PLUGIN/Rating/rating.css" type="text/css" /><div id="RatingPre"></div><Script language="javascript" type="text/javascript">var PostID=32;</script><Script language="javascript" type="text/javascript" src="http://www.cnpythoner.com/PLUGIN/Rating/Rating.js"></script> </div>
+		<br/>
+		<div><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		<br/>
+		<div style="margin-left:10px;"><h3>相关文章：</h3>
+<ul class="rearticle"></ul></div>
+	<div>
+		<h6 class="post-footer">
+			发布:2010-4-17 0:33:49<!--laowang--> | 分类:<a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a> | 评论:2 | 引用:0 | 浏览:<span id="spn32"></span>
+			<script language="JavaScript" type="text/javascript">strBatchCount+="spn32=32,"</script>
+		</h6>
+	</div>
+	<div id="lastnextpage"><span>上一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/31.html">庐山西海一日游</a>&nbsp;&nbsp;<span>下一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/33.html">学python，“非诚勿扰”</a></span></div>
+	<div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+<span class="bds_more">分享到：</span>
+<a class="bds_qzone">QQ空间</a>
+<a class="bds_tsina">新浪微博</a>
+<a class="bds_tqq">腾讯微博</a>
+<a class="bds_renren">人人网</a>
+<a class="bds_t163">网易微博</a>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6550125" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END --></div>
+	<div class="clear"></div>
+</div>
+<!--
+<ul class="msg trackback">
+	<li class="tbname"><a href="http://www.cnpythoner.com/cmd.asp?act=gettburl&amp;id=32" target="_blank">点击这里获取该日志的TrackBack引用地址</a></li>
+</ul>
+-->
+
+
+
+<h4>评论列表</h4>
+<ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt819" rel="nofollow">2</a>.<a href="http://virusswb.blog.51cto.com" rel="nofollow">andy</a> post at 2012/2/14 13:35:11&nbsp;<a href="#comment" onclick="RevertComment('819')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h8t5t7p2%3A0%2F6%2F5v6i3r6u1s9s3w8b1%2E4b0l7o8g2%2E45510c6t9o0%2E7c0o9m9" rel="nofollow" target="_blank">http://virusswb.blog.51cto.com</a></li>-->
+	<li class="msgarticle">又学一招，谢谢！</li>
+	<!--<li class="msgtime">2012/2/14 13:35:11&nbsp;<a href="#comment" onclick="RevertComment('819')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt367" rel="nofollow">1</a>.<a href="" rel="nofollow">Chang.Jian</a> post at 2010/10/9 15:07:42&nbsp;<a href="#comment" onclick="RevertComment('367')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">哈哈，无意中搜到这篇文章。不错，值得学习！<br/>龙哥加油！<blockquote><div class="quote quote3"><div class="quote-title">老王python 于 2010-10-11 9:04:42 回复</div>谢谢朋友的鼓励！</div></blockquote></li>
+	<!--<li class="msgtime">2010/10/9 15:07:42&nbsp;<a href="#comment" onclick="RevertComment('367')">回复该留言</a></li>-->
+</ul><div style="display:none;" id="divAjaxComment"></div>
+<div class="post" id="divCommentPost">
+	<p class="posttop"><a name="comment">发表评论:</a></p>
+	<form id="frmSumbit" target="_self" method="post" action="http://www.cnpythoner.com/cmd.asp?act=cmt&amp;key=a1d140d5" >
+	
+	<input type="hidden" name="inpId" id="inpId" value="32" />
+	<input type="hidden" name="inpArticle" id="inpArticle" value="" />
+	<input type="hidden" name="inpLocation" id="inpLocation" value="" />
+	
+<table><tr>
+<td>
+<p><label for="inpName">名称(*)</label><input type="text" name="inpName" id="inpName" class="text" value="" size="28" tabindex="1" /> </p>
+	<p><label for="inpEmail">邮箱</label><input type="text" name="inpEmail" id="inpEmail" class="text" value="" size="28" tabindex="2" /> </p>
+	<p><label for="inpHomePage">网站链接</label><input type="text" name="inpHomePage" id="inpHomePage" class="text" value="" size="28" tabindex="3" /> </p>
+	<p><label for="inpVerify">验证(*)</label>
+<input type="text" name="inpVerify"  id="inpVerify" class="text" value="" tabindex="4" />  
+<img style="border:1px solid black"  src="http://www.cnpythoner.com/function/c_validcode.asp?name=commentvalid" alt="" title=""/>
+</p>	
+</td>
+<td width="20px">
+</td>
+<td>
+</td>
+</tr>
+</table>
+	
+	<p><label for="txaArticle">正文(*)(留言最长字数:1000)</label><textarea name="txaArticle" id="txaArticle" onchange="GetActiveText(this.id);" onclick="GetActiveText(this.id);" onfocus="GetActiveText(this.id);" class="text"  rows="4" tabindex="5" ></textarea></p>
+
+	<div><input name="btnSumbit" type="submit" tabindex="6" value="提交" onclick="JavaScript:return VerifyMessage()" class="button" /> <input type="checkbox" name="chkRemember" value="1" id="chkRemember" /> <label for="chkRemember">记住我,下次回复时不用重新输入个人信息</label></div>
+	<script language="JavaScript" type="text/javascript">objActive="txaArticle";ExportUbbFrame();</script>
+	</form>
+	<p class="postbottom">◎欢迎参与讨论，请在这里发表您的看法、交流您的观点。</p>
+	<script language="JavaScript" type="text/javascript">LoadRememberInfo();</script>
+</div>
+
+
+
+
+		</div>
+	</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+          	<img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>最近发表</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/pythonguanjian.html">函数关键字参数</a></li>
+<li><a href="http://www.cnpythoner.com/post/139.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/30.html">cooklib</a></li>
+<li><a href="http://www.cnpythoner.com/post/9.html">如何学好python</a></li>
+<li><a href="http://www.cnpythoner.com/post/150.html">mysql连接代码教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/104.html">exception 异常</a></li>
+<li><a href="http://www.cnpythoner.com/post/76.html">缩进格式</a></li>
+<li><a href="http://www.cnpythoner.com/post/90.html">apply函数</a></li>
+<li><a href="http://www.cnpythoner.com/post/134.html">gui</a></li>
+<li><a href="http://www.cnpythoner.com/post/137.html">django select_related()外键查询</a></li>
+<li><a href="http://www.cnpythoner.com/post/101.html">python is</a></li>
+<li><a href="http://www.cnpythoner.com/post/64.html">dict 操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/94.html">django 操作数据库</a></li>
+<li><a href="http://www.cnpythoner.com/post/239.html">获取第一个字符和最后一个字符</a></li>
+<li><a href="http://www.cnpythoner.com/post/235.html">提取文章的高频词</a></li>
+<li><a href="http://www.cnpythoner.com/post/236.html">字符串格式化输出</a></li>
+<li><a href="http://www.cnpythoner.com/post/237.html">列表迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/17.html">startswith endswith</a></li>
+<li><a href="http://www.cnpythoner.com/post/180.html">python 模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/22.html">django template 语法</a></li>
+<li><a href="http://www.cnpythoner.com/post/10.html">动态创建类</a></li>
+<li><a href="http://www.cnpythoner.com/post/20.html">引用和拷贝</a></li>
+<li><a href="http://www.cnpythoner.com/post/19.html">re正则表达式</a></li>
+<li><a href="http://www.cnpythoner.com/post/203.html">mechanize自动登录程序</a></li>
+<li><a href="http://www.cnpythoner.com/post/78.html">str转int</a></li>
+<li><a href="http://www.cnpythoner.com/post/16.html">django template html</a></li>
+<li><a href="http://www.cnpythoner.com/post/106.html">编码设置</a></li>
+<li><a href="http://www.cnpythoner.com/post/132.html">重载运算符</a></li>
+<li><a href="http://www.cnpythoner.com/post/81.html">三引号</a></li>
+<li><a href="http://www.cnpythoner.com/post/59.html">base64</a></li>
+<li><a href="http://www.cnpythoner.com/post/91.html">web开发必备</a></li>
+<li><a href="http://www.cnpythoner.com/post/142.html">python 2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/26.html">序列化数据</a></li>
+<li><a href="http://www.cnpythoner.com/post/171.html">python运行</a></li>
+<li><a href="http://www.cnpythoner.com/post/182.html">ping</a></li>
+<li><a href="http://www.cnpythoner.com/post/147.html">基础知识</a></li>
+<li><a href="http://www.cnpythoner.com/post/126.html">list判断</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+			<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+			 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

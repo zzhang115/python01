@@ -9,15 +9,22 @@ import re
 import threading
 import Queue
 
-
 q = Queue.Queue()
-mylock = threading.RLock()  
-
-
+mylock = threading.RLock()
 r = re.compile(r'href="(http://www\.cnpythoner\.com.+?)"')
-
-
 urls = []
+
+def save_contents():
+    while True:
+        url = q.get()
+        try:
+            opener = urllib.urlopen(url)
+            contents = opener.read()
+            opener.close()
+            set_urls_from_contents(contents)
+            save_contents_from_url(url,contents)
+        except:
+            continue
 
 def save_contents_from_url(url,contents):
 
@@ -32,7 +39,7 @@ def save_contents_from_url(url,contents):
 
 def set_urls_from_contents(contents):
     g = r.finditer(contents)
-    mylock.acquire()  
+    mylock.acquire()  ###
     for url in g :
         url = url.groups()[0]
         print url
@@ -40,23 +47,8 @@ def set_urls_from_contents(contents):
             continue
         else:
             urls.append(url)
-            q.put(url)
-    mylock.release()  
-
-
-
-
-def save_contents():
-    while True:
-        url = q.get()
-        try:
-            opener = urllib.urlopen(url)
-            contents = opener.read()
-            opener.close()
-            set_urls_from_contents(contents)
-            save_contents_from_url(url,contents)
-        except:
-            continue
+            q.put(url)  ###
+    mylock.release()  ###
 
 
 
@@ -66,8 +58,6 @@ def save_contents():
 #a做a的事，b做b的事
 #各做各的
 #偶尔牵扯到数据共享，就很容易傻了
-
-
 
 q.put("http://www.cnpythoner.com")
 

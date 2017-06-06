@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>提高django model效率的几个小方法_django教程_老王python</title>
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" href="http://www.cnpythoner.com/rss.xml" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<script language="JavaScript" src="http://www.cnpythoner.com/script/common.js" type="text/javascript"></script>
+<body class="single">
+<script language="JavaScript" type="text/javascript">
+	var str00="http://www.cnpythoner.com/";
+	var str01="名称或邮箱不能为空";
+	var str02="名称或邮箱格式不对";
+	var str03="留言不能为空或过长";
+	var str06="显示UBB表情>>";
+	var intMaxLen="1000";
+	var strFaceName="Haha|Hehe|Love|Misdoubt|Music|Nothing_to_say|Sad|Shame|Sleep|Smile|Stop|What|Adore|After_boom|Angry|Cool|Cry|Effort|Faint|Grimace";
+	var strFaceSize="48";
+	var strBatchView="";
+	var strBatchInculde="";
+	var strBatchCount="";
+</script>
+<div id="divAll">
+	<div id="divPage">
+	<div id="divMiddle">
+		<div id="divTop">
+			<div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+		<div class="banner">
+<a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		</div>
+		<div id="divNavBar">
+			<div class="headLeft"></div>
+		<div class="headRight"></div>
+<ul>
+<li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+</ul>
+		</div>
+        <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+        		</td>
+        		<td valign="center"  class="search_hottage">	
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+		<div id="navline"></div>
+		<div id="divMain">
+<div class="post cate2 auth1">
+	<div class="post-nav"><a href="http://www.cnpythoner.com">python</a>>><a href="http://www.cnpythoner.com/catalog.asp?cate=2 ">django教程</a>>>提高django model效率的几个小方法</div>
+	
+	<h2 class="post-title"><div id="title">提高django model效率的几个小方法</div></h2>
+	<div class="post-content">
+		<div class="post-body"> <a href="http://www.cnpythoner.com/catalog.asp?cate=2" target="_blank">django</a>的model效率不是很高，特别是在做大量的数据库操作的时候，如果你只用django来开企业站或者外包项目的话，那可以小跳过下，而你恰巧是效率狂或者说是对程序的效率要求比较高的话，那就要注意下面的几个方法。<br/> <br/> 1. count()方法：<br/> 我们想用count方法来获取记录的条数可以采用下面的方法：<br/> <br/> num = info.objects.filter('...').count()<br/> <br/> <br/> 我们来看下django model模块里面count方法是怎么写的？<br/> <br/>    def count(self):<br/>        """<br/>        Performs a SELECT COUNT() and returns the number of records as an<br/>        integer.<br/><br/>        If the QuerySet is already fully cached this simply returns the length<br/>        of the cached results set to avoid multiple SELECT COUNT(*) calls.<br/>        """<br/>        if self._result_cache is not None and not self._iter:<br/>            return len(self._result_cache)<br/><br/>        return self.query.get_count(using=self.db)<br/>        <br/>        <br/> 从上面的看来，djang model的count()要执行SELECT COUNT()语句，其实是查询了下数据库，这样如果记录比较多的情况下，<br/> 查询数据库的效率还是比较高的.<br/><br/>比如我们可以用len()方法来求长度的话，使用的迭代，效果更低。<br/> <br/> info = info.objects.filter('...')<br/> num = len(info)<br/> <br/><br/> <br/> 2多用切片<br/> <br/> 比如我们要查询数据的话，如果你的数据量比较大的情况下，你没有限定要查询的范围，对系统的开销会非常的大，比如你要分页的显示<br/> 新闻数据，那你就要按照一页要显示多少数据，就读取多少数据，而不是一次起把数据全部给读出来，然后再根据限定的条件来显示的数据。<br/> 比如你要显示前10条的新闻的话按照下面的方法来做：<br/> news = News.objects.all()[1:10]<br/> 而不是:<br/> news = News.objects.all()<br/> news = news[1:10]<br/> <br/> 因为<br/> news = News.objects.all()<br/> news = news[1:10]<br/> <br/> 你是把数据库里的数据全部给读出来，这样效率不是很高。<br/> <br/>上面说的这几点是提高django model效率的几个小方法，希望大家平时在用django开发项目的时候要注意一些效率方面的东西。<br/>下面关于django model的一篇文章：<br/><a href="http://www.cnpythoner.com/post/77.html" target="_blank">django model的get和filter方法的区别</a><br/><link rel="stylesheet" href="http://www.cnpythoner.com/PLUGIN/Rating/rating.css" type="text/css" /><div id="RatingPre"></div><Script language="javascript" type="text/javascript">var PostID=113;</script><Script language="javascript" type="text/javascript" src="http://www.cnpythoner.com/PLUGIN/Rating/Rating.js"></script> </div>
+		<br/>
+		<div><a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" alt="python视频教程" usemap="#AV-eggs" border="0" height="70" width="600"></a></div>
+		<br/>
+		<div style="margin-left:10px;"><h3>相关文章：</h3>
+<ul class="rearticle"><li><a href="http://www.cnpythoner.com/post/105.html">django get_object_or_404</a></li></ul></div>
+	<div>
+		<h6 class="post-footer">
+			发布:2010-9-10 22:47:32<!--laowang--> | 分类:<a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a> | 评论:5 | 引用:0 | 浏览:<span id="spn113"></span>
+			<script language="JavaScript" type="text/javascript">strBatchCount+="spn113=113,"</script>
+		</h6>
+	</div>
+	<div id="lastnextpage"><span>上一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/112.html">django regroup</a>&nbsp;&nbsp;<span>下一篇:&nbsp;&nbsp;<a href="http://www.cnpythoner.com/post/114.html">百度开放平台之我见</a></span></div>
+	<div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+<span class="bds_more">分享到：</span>
+<a class="bds_qzone">QQ空间</a>
+<a class="bds_tsina">新浪微博</a>
+<a class="bds_tqq">腾讯微博</a>
+<a class="bds_renren">人人网</a>
+<a class="bds_t163">网易微博</a>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6550125" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END --></div>
+	<div class="clear"></div>
+</div>
+<!--
+<ul class="msg trackback">
+	<li class="tbname"><a href="http://www.cnpythoner.com/cmd.asp?act=gettburl&amp;id=113" target="_blank">点击这里获取该日志的TrackBack引用地址</a></li>
+</ul>
+-->
+
+
+
+<h4>评论列表</h4>
+<ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt1091" rel="nofollow">5</a>.<a href="http://gezla.org/" rel="nofollow">ashen</a> post at 2013/2/4 10:32:27&nbsp;<a href="#comment" onclick="RevertComment('1091')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h5t1t1p7%3A2%2F0%2F2g3e3z9l9a4%2E2o1r1g6%2F4" rel="nofollow" target="_blank">http://gezla.org/</a></li>-->
+	<li class="msgarticle">如果切片之间没有对queryset进行evaluate的操作是可以分开写的，这个是django的lazy query, 请参考http://gezla.org/blog/post/22/80</li>
+	<!--<li class="msgtime">2013/2/4 10:32:27&nbsp;<a href="#comment" onclick="RevertComment('1091')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt988" rel="nofollow">4</a>.<a href="" rel="nofollow">chapsticks</a> post at 2012/10/25 10:21:02&nbsp;<a href="#comment" onclick="RevertComment('988')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">我测试的时候怎么觉得len()比count()慢呀<blockquote><div class="quote quote3"><div class="quote-title">mz 于 2012-12-2 21:23:13 回复</div>废话……文章都写得明明白白了，len是从数据库取数据再计算，而count只是在数据库层面得到数据</div></blockquote></li>
+	<!--<li class="msgtime">2012/10/25 10:21:02&nbsp;<a href="#comment" onclick="RevertComment('988')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt674" rel="nofollow">3</a>.<a href="http://www.softinn.org" rel="nofollow">www.softinn.org</a> post at 2011/8/15 21:49:52&nbsp;<a href="#comment" onclick="RevertComment('674')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=h7t5t5p2%3A3%2F7%2F0w7w8w7%2E0s4o8f7t3i9n8n0%2E9o3r5g7" rel="nofollow" target="_blank">http://www.softinn.org</a></li>-->
+	<li class="msgarticle">确实挺能提高效率的</li>
+	<!--<li class="msgtime">2011/8/15 21:49:52&nbsp;<a href="#comment" onclick="RevertComment('674')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt553" rel="nofollow">2</a>.<a href="" rel="nofollow">luca</a> post at 2011/3/2 14:15:51&nbsp;<a href="#comment" onclick="RevertComment('553')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">news = News.objects.all()[1:10]<br/><br/>这个真的会有用吗？？objects.all()不是先把所有记录取出来然后做切片么<br/><br/>难道django会拼出分页查询的sql语句？？</li>
+	<!--<li class="msgtime">2011/3/2 14:15:51&nbsp;<a href="#comment" onclick="RevertComment('553')">回复该留言</a></li>-->
+</ul><ul class="msg">
+	<li class="msgname"><span class="comment-quote-icon"><a onclick="InsertQuote(this.parentNode.parentNode.parentNode.getElementsByTagName('a')[2].innerHTML,this.parentNode.parentNode.parentNode.getElementsByTagName('li')[2].innerHTML);return false;" href=""><img src="http://www.cnpythoner.com/image/common/quote.gif" height="9" width="9" alt="quote" title="quote" /></a></span>&nbsp;<a name="cmt339" rel="nofollow">1</a>.<a href="" rel="nofollow">root9885</a> post at 2010/9/18 20:19:16&nbsp;<a href="#comment" onclick="RevertComment('339')" rel="nofollow">回复该留言</a></li>
+	<!--<li class="msgurl"><a href="http://www.cnpythoner.com/function/c_urlredirect.asp?url=" rel="nofollow" target="_blank"></a></li>-->
+	<li class="msgarticle">模板里 也有 length 这个过滤<blockquote><div class="quote quote3"><div class="quote-title">老王python 于 2010-9-20 22:11:41 回复</div>是的，在django的template里有个length可以控制显示字符串的长度</div></blockquote></li>
+	<!--<li class="msgtime">2010/9/18 20:19:16&nbsp;<a href="#comment" onclick="RevertComment('339')">回复该留言</a></li>-->
+</ul><div style="display:none;" id="divAjaxComment"></div>
+<div class="post" id="divCommentPost">
+	<p class="posttop"><a name="comment">发表评论:</a></p>
+	<form id="frmSumbit" target="_self" method="post" action="http://www.cnpythoner.com/cmd.asp?act=cmt&amp;key=113ddaeb" >
+	
+	<input type="hidden" name="inpId" id="inpId" value="113" />
+	<input type="hidden" name="inpArticle" id="inpArticle" value="" />
+	<input type="hidden" name="inpLocation" id="inpLocation" value="" />
+	
+<table><tr>
+<td>
+<p><label for="inpName">名称(*)</label><input type="text" name="inpName" id="inpName" class="text" value="" size="28" tabindex="1" /> </p>
+	<p><label for="inpEmail">邮箱</label><input type="text" name="inpEmail" id="inpEmail" class="text" value="" size="28" tabindex="2" /> </p>
+	<p><label for="inpHomePage">网站链接</label><input type="text" name="inpHomePage" id="inpHomePage" class="text" value="" size="28" tabindex="3" /> </p>
+	<p><label for="inpVerify">验证(*)</label>
+<input type="text" name="inpVerify"  id="inpVerify" class="text" value="" tabindex="4" />  
+<img style="border:1px solid black"  src="http://www.cnpythoner.com/function/c_validcode.asp?name=commentvalid" alt="" title=""/>
+</p>	
+</td>
+<td width="20px">
+</td>
+<td>
+</td>
+</tr>
+</table>
+	
+	<p><label for="txaArticle">正文(*)(留言最长字数:1000)</label><textarea name="txaArticle" id="txaArticle" onchange="GetActiveText(this.id);" onclick="GetActiveText(this.id);" onfocus="GetActiveText(this.id);" class="text"  rows="4" tabindex="5" ></textarea></p>
+
+	<div><input name="btnSumbit" type="submit" tabindex="6" value="提交" onclick="JavaScript:return VerifyMessage()" class="button" /> <input type="checkbox" name="chkRemember" value="1" id="chkRemember" /> <label for="chkRemember">记住我,下次回复时不用重新输入个人信息</label></div>
+	<script language="JavaScript" type="text/javascript">objActive="txaArticle";ExportUbbFrame();</script>
+	</form>
+	<p class="postbottom">◎欢迎参与讨论，请在这里发表您的看法、交流您的观点。</p>
+	<script language="JavaScript" type="text/javascript">LoadRememberInfo();</script>
+</div>
+
+
+
+
+		</div>
+	</div>
+		<div id="divSidebar">
+		 <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+          	<img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+<div class="function" id="divPrevious">
+<h3>最近发表</h3>
+<ul id="ulPrevious">
+<li><a href="http://www.cnpythoner.com/post/pythonguanjian.html">函数关键字参数</a></li>
+<li><a href="http://www.cnpythoner.com/post/139.html">函数返回值</a></li>
+<li><a href="http://www.cnpythoner.com/post/30.html">cooklib</a></li>
+<li><a href="http://www.cnpythoner.com/post/9.html">如何学好python</a></li>
+<li><a href="http://www.cnpythoner.com/post/150.html">mysql连接代码教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/104.html">exception 异常</a></li>
+<li><a href="http://www.cnpythoner.com/post/76.html">缩进格式</a></li>
+<li><a href="http://www.cnpythoner.com/post/90.html">apply函数</a></li>
+<li><a href="http://www.cnpythoner.com/post/134.html">gui</a></li>
+<li><a href="http://www.cnpythoner.com/post/137.html">django select_related()外键查询</a></li>
+<li><a href="http://www.cnpythoner.com/post/101.html">python is</a></li>
+<li><a href="http://www.cnpythoner.com/post/64.html">dict 操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/94.html">django 操作数据库</a></li>
+<li><a href="http://www.cnpythoner.com/post/239.html">获取第一个字符和最后一个字符</a></li>
+<li><a href="http://www.cnpythoner.com/post/235.html">提取文章的高频词</a></li>
+<li><a href="http://www.cnpythoner.com/post/236.html">字符串格式化输出</a></li>
+<li><a href="http://www.cnpythoner.com/post/237.html">列表迭代</a></li>
+<li><a href="http://www.cnpythoner.com/post/17.html">startswith endswith</a></li>
+<li><a href="http://www.cnpythoner.com/post/180.html">python 模块</a></li>
+<li><a href="http://www.cnpythoner.com/post/22.html">django template 语法</a></li>
+<li><a href="http://www.cnpythoner.com/post/10.html">动态创建类</a></li>
+<li><a href="http://www.cnpythoner.com/post/20.html">引用和拷贝</a></li>
+<li><a href="http://www.cnpythoner.com/post/19.html">re正则表达式</a></li>
+<li><a href="http://www.cnpythoner.com/post/203.html">mechanize自动登录程序</a></li>
+<li><a href="http://www.cnpythoner.com/post/78.html">str转int</a></li>
+<li><a href="http://www.cnpythoner.com/post/16.html">django template html</a></li>
+<li><a href="http://www.cnpythoner.com/post/106.html">编码设置</a></li>
+<li><a href="http://www.cnpythoner.com/post/132.html">重载运算符</a></li>
+<li><a href="http://www.cnpythoner.com/post/81.html">三引号</a></li>
+<li><a href="http://www.cnpythoner.com/post/59.html">base64</a></li>
+<li><a href="http://www.cnpythoner.com/post/91.html">web开发必备</a></li>
+<li><a href="http://www.cnpythoner.com/post/142.html">python 2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/26.html">序列化数据</a></li>
+<li><a href="http://www.cnpythoner.com/post/171.html">python运行</a></li>
+<li><a href="http://www.cnpythoner.com/post/182.html">ping</a></li>
+<li><a href="http://www.cnpythoner.com/post/147.html">基础知识</a></li>
+<li><a href="http://www.cnpythoner.com/post/126.html">list判断</a></li>
+<li><a href="http://www.cnpythoner.com/post/268.html">python 网络</a></li> 
+<li><a href="http://www.cnpythoner.com/pythonshop.html">python 基础教程</a></li>
+<li><a href="http://www.cnpythoner.com/post/250.html">python 安装</a></li>
+<li><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></li>
+<li><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></li>   
+</ul>
+</div>
+		</div>
+		<div id="divBottom">
+			<div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+			 <div style="text-align:center"><script language="javascript" type="text/javascript" src="http://js.users.51.la/19111081.js"></script>
+<noscript><a href="http://www.51.la/?19111081" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/19111081.asp" style="border:none" /></a></noscript></div>
+		</div>
+	</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

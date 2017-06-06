@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>python 字符串(string)知识点介绍和应用 - 老王python</title>
+<meta content="介绍python字符串相关的：连接,截取,替换,长度,,反转,编码,格式化,查找,复制,大小写,分割等操作" name="description" />
+<link rel="canonical" href="http://www.cnpythoner.com/wiki/string.html" />
+<link href="img/css.css" rel="stylesheet" type="text/css" />
+<link href="img/juheye.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="head" class="two-border">
+  <div id="logo">
+    <div id="logoright">
+<a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" usemap="#AV-eggs" border="0" height="70" width="600" alt="python视频教程" border="0"></a></div>																							
+    <div id="sbmlogo"><a href="http://www.cnpythoner.com" rel="nofollow"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60" border="0"></a></div>
+  </div>
+  <div id="nav">
+    <div id="search">
+     <form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+      <!--<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>-->
+    </div>
+    <div id="topnav">
+      <ul>
+     <li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+<li><a href="http://www.cnpythoner.com/pythondown/pythondown.html" target="_blank">环境下载</a></li>
+      </ul>
+    </div>
+    <div class="clearing"></div>
+  </div>
+</div><div id="main" class="two-border">
+  <div id="bread" class="pro-border">首页>><span class="smallpic">python 字符串</span> </div>
+  <div id="content">
+  <a name="1"></a>
+      <h1 class="jhh1">python 字符串</h1>
+      <h3 style="color:#8e8d8d;">介绍字符串相关的：比较,截取,替换,长度,连接,反转,编码,格式化,查找,复制,大小写,分割等操作</h3>
+      <div id="middle" style="width:755px;">
+        <h2 class="pro-border">什么是字符串</h2>
+		<div class="jhleftimg"><img alt="python 字符串" src="img/string.jpg" width="160" height="110" border='0' style="float:left" ><p class="imgp">字符串</p></div>
+      	<p>字符串或串(String)是由数字、字母、下划线组成的一串字符。一般记为 s=“a1a2···an”(n>=0)。它是编程语言中表示文本的数据类型。
+通常以串的整体作为操作对象，如：在串中查找某个子串、求取一个子串、在串的某个位置上插入一个子串以及删除一个子串等。两个字符串相等的充要条件是：长度相等，并且各个对应位置上的字符都相等。</p>
+		<h3 class="jhh3">python 字符串相关特性</h3>
+        <p>1 属于python基本数据类型和结构的一种。2 本身是不可变的数据类型。 3 有很多内置的方法</p>
+        <div class="clearing2"></div>
+        <h2 class="pro-border">字符串连接</h2>
+        <p>方法1： 用字符串的join方法</p>
+		<p>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">a</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">[</span><span style="color: rgb(0, 0, 255);">&#39;a&#39;</span><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 255);">&#39;b&#39;</span><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 255);">&#39;c&#39;</span><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 255);">&#39;d&#39;</span><span style="color: rgb(0, 0, 0);">]</span><br><span style="color: rgb(0, 0, 0);">content</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;&#39;</span><br><span style="color: rgb(0, 0, 0);">content</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;&#39;</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">join</span>(<span style="color: rgb(0, 0, 0);">a</span>)<br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">content</span><br></div>
+	</p>
+  
+		<p>方法2： 用字符串的替换占位符替换</p>
+		<p>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">a</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">[</span><span style="color: rgb(0, 0, 255);">&#39;a&#39;</span><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 255);">&#39;b&#39;</span><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 255);">&#39;c&#39;</span><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 255);">&#39;d&#39;</span><span style="color: rgb(0, 0, 0);">]</span><br><span style="color: rgb(0, 0, 0);">content</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;&#39;</span><br><span style="color: rgb(0, 0, 0);">content</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;</span><span style="color: rgb(0, 0, 255);">%s%s%s%s</span><span style="color: rgb(0, 0, 255);">&#39;</span> <span style="color: rgb(0, 0, 0);">%</span> <span style="color: rgb(0, 0, 0);">tuple</span>(<span style="color: rgb(0, 0, 0);">a</span>)<br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">content</span><br></div>
+	</p>
+	<div id="more">想要了解更多,请看<a href="http://www.cnpythoner.com/post/67.html" target="_blank">python字符串连接</a></div>
+        <div class="clearing2"></div>
+		<a name="2"></a>
+		 <h2 class="pro-border">字符串截取</h2>
+        <p>我们可以通过索引来提取想要获取的字符，可以把python的字符串也做为字符串的列表就更好理解<br/><br/>python的字串列表有2种取值顺序<br/>1是从左到右索引默认0开始的，最大范围是字符串长度少1<br/>s = 'ilovepython'<br/>s[0]的结果是i<br/><br/>2是从右到左索引默认-1开始的，最大范围是字符串开头<br/>s = 'ilovepython'<br/>s[-1]的结果是n<br/><br/>上面这个是取得一个字符，如果你的实际要取得一段子串的话，可以用到变量[头下标:尾下标]，就可以截取相应的字符串，其中下标是从0开始算起，可以是正数或负数，下标可以为空表示取到头或尾。<br/><br/>比如<br/>s = 'ilovepython'<br/>s[1:5]的结果是love<br/>当使用以冒号分隔的字符串，python返回一个新的对象，结果包含了以这对偏移标识的连续的内容，左边的开始是包含了下边界，比如<br/>上面的结果包含了s[1]的值l，而取到的最大范围不包括上边界，就是s[5]的值p<br/><br/>
+</p>
+	<div id="more">想要了解更多,请看<a href="http://www.cnpythoner.com/post/48.html" target="_blank">python字符串截取</a></div>
+        <div class="clearing2"></div>
+		<a name="3"></a>
+		 <h2 class="pro-border">字符串替换</h2>
+		 <p>字符串替换可以用内置的方法和正则表达式完成。<Br/>1用字符串本身的replace方法:</p>
+        <p>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">a</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;hello word&#39;</span><br>b <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">replace</span>(<span style="color: rgb(0, 0, 255);">&#39;word&#39;</span><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 255);">&#39;python&#39;</span>)<br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> b<br></div>
+
+<p>2用正则表达式来完成替换:</p>
+
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">import</span> <span style="color: rgb(0, 0, 0);">re</span><br><span style="color: rgb(0, 0, 0);">a</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;hello word&#39;</span><br><span style="color: rgb(0, 0, 0);">strinfo</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">re</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">compile</span>(<span style="color: rgb(0, 0, 255);">&#39;word&#39;</span>)<br>b <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">strinfo</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">sub</span>(<span style="color: rgb(0, 0, 255);">&#39;python&#39;</span><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 0);">a</span>)<br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> b<br></div>
+	<div id="more">想要了解更多,请看<a href="http://www.cnpythoner.com/post/65.html" target="_blank">python 字符串替换</a></div>
+        <div class="clearing2"></div>
+		<a name="4"></a>
+		 <h2 class="pro-border">字符串比较</h2>
+       <p>cmp方法比较两个对象，并根据结果返回一个整数。cmp(x,y)如果X< Y,返回值是负数 如果X>Y 返回的值为正数。</p>
+	   <p>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">sStr1</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;strch&#39;</span><br><span style="color: rgb(0, 0, 0);">sStr2</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;strchr&#39;</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">cmp</span>(<span style="color: rgb(0, 0, 0);">sStr1</span><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 0);">sStr2</span>)<span style="color: rgb(0, 136, 0); font-style: italic;">##-1</span><br></div>
+  </p>
+
+        <div class="clearing2"></div>
+		<a name="5"></a>
+		 <h2 class="pro-border">字符串相加</h2>
+       <p>我们通过操作符号+来进行字符串的相加，不过建议还是用其他的方式来进行字符串的拼接，这样效率高点。</p>
+	   <p>原因：在循环连接字符串的时候，他每次连接一次，就要重新开辟空间，然后把字符串连接起来，再放入新的空间，再一次循环，又要开辟新的空间，把字符串连接起来放入新的空间，如此反复，内存操作比较频繁，每次都要计算内存空间，然后开辟内存空间，再释放内存空间，效率非常低。</p>
+		<p>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">sStr1</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;strch&#39;</span><br><span style="color: rgb(0, 0, 0);">sStr2</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;strchr&#39;</span><br><span style="color: rgb(0, 0, 0);">newstr</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">sStr1</span> <span style="color: rgb(0, 0, 0);">+</span> <span style="color: rgb(0, 0, 0);">sStr2</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">newstr</span><br></div>
+  </p>
+        <div class="clearing2"></div>
+		<a name="6"></a>
+		 <h2 class="pro-border">字符串查找</h2>
+       <p>python 字符串查找有4个方法，1 <a href="http://www.cnpythoner.com/post/226.html" target="_blank">find</a>,2 <a href="http://www.cnpythoner.com/post/224.html" target="_blank">index</a>方法，3 rfind方法,4 rindex方法。</p>
+	   <p>
+	 1 find()方法：<br/>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">info</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;abca&#39;</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">info</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">find</span>(<span style="color: rgb(0, 0, 255);">&#39;a&#39;</span>)<span style="color: rgb(0, 136, 0); font-style: italic;">##从下标0开始，查找在字符串里第一个出现的子串，返回结果：0</span><br><br><span style="color: rgb(0, 0, 0);">info</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;abca&#39;</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">info</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">find</span>(<span style="color: rgb(0, 0, 255);">&#39;a&#39;</span><span style="color: rgb(0, 0, 0);">,</span><span style="color: rgb(0, 0, 255);">1</span>)<span style="color: rgb(0, 136, 0); font-style: italic;">##从下标1开始，查找在字符串里第一个出现的子串：返回结果3</span><br><br><span style="color: rgb(0, 0, 0);">info</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;abca&#39;</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">info</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">find</span>(<span style="color: rgb(0, 0, 255);">&#39;333&#39;</span>)<span style="color: rgb(0, 136, 0); font-style: italic;">##返回-1,查找不到返回-1</span><br></div>
+	   </p>
+		<p>2 index()方法：<br/>
+		<p>
+		python 的index方法是在字符串里查找子串第一次出现的位置，类似字符串的find方法，不过比find方法更好的是，如果查找不到子串，会抛出异常，而不是返回-1</p>
+		<p>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">info</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;abca&#39;</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">info</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">index</span>(<span style="color: rgb(0, 0, 255);">&#39;a&#39;</span>)<br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">info</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">index</span>(<span style="color: rgb(0, 0, 255);">&#39;33&#39;</span>)<br></div>
+  </p>
+        <div class="clearing2"></div>
+		<a name="7"></a>
+        <h2 class="pro-border">字符串分割</h2>
+        <p>字符串分割，可以用split,rsplit方法，通过相应的规则来切割成生成列表对象</p>
+		<p>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">info</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;name:haha,age:20$name:python,age:30$name:fef,age:55&#39;</span><br><span style="color: rgb(0, 0, 0);">content</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">info</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">split</span>(<span style="color: rgb(0, 0, 255);">&#39;$&#39;</span>)<br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">content</span><br></div>
+		</p>
+        <div class="clearing"></div>
+		<a name="8"></a>
+		 <h2 class="pro-border">字符串翻转</h2>
+       <p>通过步进反转[::-1]</p>
+       <p>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">a</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;abcd&#39;</span><br>b <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">[::</span><span style="color: rgb(0, 0, 0);">-</span><span style="color: rgb(0, 0, 255);">1</span><span style="color: rgb(0, 0, 0);">]</span><span style="color: rgb(0, 136, 0); font-style: italic;">##[::-1]通过步进反转</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> b<br></div>
+  </p>
+     <div class="clearing"></div>
+		<a name="9"></a>
+		 <h2 class="pro-border">字符串编码</h2>
+       <p>通过字符串的decode和encode方法</p>
+	   <p>1 encode([encoding,[errors]]) <br/>
+#其中encoding可以有多种值，比如gb2312 gbk gb18030 bz2 zlib big5 bzse64等都支持。errors默认值为"strict"，意思是UnicodeError。可能的值还有'ignore', 'replace', 'xmlcharrefreplace', 'backslashreplace' 和所有的通过codecs.register_error注册的值。
+       <p>
+	   <p>S.decode([encoding,[errors]])
+	   下面是字符串编码应用:<br/>
+	   </p>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">a</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;你好&#39;</span><br>b <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;python&#39;</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">a</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">decode</span>(<span style="color: rgb(0, 0, 255);">&#39;utf-8&#39;</span>)<span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">encode</span>(<span style="color: rgb(0, 0, 255);">&#39;gbk&#39;</span>)<span style="color: rgb(0, 136, 0); font-style: italic;">##decode方法把字符串转换为unicode对象，然后通过encode方法转换为指定的编码字符串对象</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> b<span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">decode</span>(<span style="color: rgb(0, 0, 255);">&#39;utf-8&#39;</span>)<span style="color: rgb(0, 136, 0); font-style: italic;">##decode方法把字符串转换为unicode对象</span><br></div>
+  </p>
+        <div class="clearing2"></div>
+		<a name="10"></a>
+		 <h2 class="pro-border">字符串追加和拼接</h2>
+       <p>通过字符串的占位符来进行字符串的拼接</p>
+	   <p>
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 136, 0); font-style: italic;">#1 元组拼接</span><br><span style="color: rgb(0, 0, 0);">m</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;python&#39;</span><br><span style="color: rgb(0, 0, 0);">astr</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;i love </span><span style="color: rgb(0, 0, 255);">%s</span><span style="color: rgb(0, 0, 255);">&#39;</span> <span style="color: rgb(0, 0, 0);">%</span> <span style="color: rgb(0, 0, 0);">m</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">astr</span><br><br><span style="color: rgb(0, 136, 0); font-style: italic;">#2 字符串的format方法</span><br><span style="color: rgb(0, 0, 0);">m</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;python&#39;</span><br><span style="color: rgb(0, 0, 0);">astr</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&quot;i love {python}&quot;</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">format</span>(<span style="color: rgb(0, 0, 0);">python</span><span style="color: rgb(0, 0, 0);">=</span><span style="color: rgb(0, 0, 0);">m</span>)<br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">astr</span><br><br><span style="color: rgb(0, 136, 0); font-style: italic;">#3 字典格式化字符串</span><br><span style="color: rgb(0, 0, 0);">m</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;python&#39;</span><br><span style="color: rgb(0, 0, 0);">astr</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&quot;i love </span><span style="color: rgb(0, 0, 255);">%(python)s</span><span style="color: rgb(0, 0, 255);"> &quot;</span> <span style="color: rgb(0, 0, 0);">%</span> <span style="color: rgb(0, 0, 0);">{</span><span style="color: rgb(0, 0, 255);">&#39;python&#39;</span><span style="color: rgb(0, 0, 0);">:</span><span style="color: rgb(0, 0, 0);">m</span><span style="color: rgb(0, 0, 0);">}</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">astr</span><br></div>
+  </p>
+        <div class="clearing2"></div>
+		<a name="11"></a>
+		 <h2 class="pro-border">字符串复制</h2>
+<p>通过变量来进行赋值</p>
+<p> 
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">fstr</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;strcpy&#39;</span><br><span style="color: rgb(0, 0, 0);">sstr</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">fstr</span><br><span style="color: rgb(0, 0, 0);">fstr</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;strcpy2&#39;</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">sstr</span><br></div>
+  </p>
+        <div class="clearing2"></div>
+		<a name="12"></a>
+			 <h2 class="pro-border">字符串长度</h2>
+<p>通过内置方法len()来计算字符串的长度，注意这个计算的是字符的长度。</p>
+<p> 
+     
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0); background-color: rgb(249, 247, 237);" class="source"><span style="color: rgb(0, 0, 0);">aa</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;afebb&#39;</span><br>bb <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&#39;你&#39;</span><br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">len</span>(<span style="color: rgb(0, 0, 0);">aa</span>)<br><span style="color: rgb(0, 0, 128); font-weight: bold;">print</span> <span style="color: rgb(0, 0, 0);">len</span>(bb)<br></div>  
+  </p>
+ 
+  <div class="clearing2"></div>
+  <a name="13"></a>
+			 <h2 class="pro-border">字符串大小写</h2>
+<p>通过下面的upper(),lower()等方法来转换大小写</p>
+<p> 
+S.upper()#S中的字母大写 <br/>
+S.lower() #S中的字母小写 <br/>
+S.capitalize() #首字母大写 <br/>
+S.istitle() #S是否是首字母大写的 <br/>
+S.isupper() #S中的字母是否便是大写 <br/>
+S.islower() #S中的字母是否全是小写 <br/>
+  </p>
+    <div class="clearing2"></div>
+	<a name="14"></a>
+			 <h2 class="pro-border">字符串去空格</h2>
+<p>通过strip(),lstrip(),rstrip()方法去除字符串的空格</p>
+<p> 
+S.strip()去掉字符串的左右空格<br/>
+S.lstrip()去掉字符串的左边空格<br/>
+S.rstrip()去掉字符串的右边空格<br/>
+  </p>
+      <div class="clearing2"></div>
+	  <a name="15"></a>
+			 <h2 class="pro-border">字符串其他方法</h2>
+<p>字符串相关的其他方法:count(),join()方法等。</p>
+<p> 
+S.center(width, [fillchar]) #中间对齐<br/>
+S.count(substr, [start, [end]]) #计算substr在S中出现的次数<br/>
+S.expandtabs([tabsize]) #把S中的tab字符替换没空格，每个tab替换为tabsize个空格，默认是8个 <br/>
+S.isalnum() #是否全是字母和数字，并至少有一个字符 <br/>
+S.isalpha() #是否全是字母，并至少有一个字符 <br/>
+S.isspace() #是否全是空白字符，并至少有一个字符<br/>
+S.join()#S中的join，把列表生成一个字符串对象<br/>
+S.ljust(width,[fillchar]) #输出width个字符，S左对齐，不足部分用fillchar填充，默认的为空格。<br/>
+S.rjust(width,[fillchar]) #右对齐 <br/>
+S.splitlines([keepends]) #把S按照行分割符分为一个list，keepends是一个bool值，如果为真每行后而会保留行分割符。<br/>
+S.swapcase() #大小写互换 <br/>
+</p>
+      
+        <div class="jhmoreimg"><br />其他知识点: 
+         </div>
+        <div class="clearing"></div>
+        <br /><br />
+		<div><!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<span class="bds_more">更多</span>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6550125" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END --></div>
+           <!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"laowangpython"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->
+        <div id="middlebottom" class="pro-border2" style="width:100%;"> <span class="top"><a href="#">Top</a></span> <span class="help">Need help?</span> 老王QQ:280026798</span> </div>
+      </div>
+      
+      <div id="right2" style="position: relative;">
+      	<div id="nav-right2">
+        <div id="contact" class="pro-border upper font-bold">知识点导航</div>
+        <div style="height:10px;"></div>
+        <div class="rightnav"><a href="#1">字符串连接</a></div>
+        <div class="rightnav"><a href="#2">字符串截取</a></div>
+        <div class="rightnav"><a href="#3">字符串替换</a></div>
+		<div class="rightnav"><a href="#4">字符串比较</a></div>
+		<div class="rightnav"><a href="#5">字符串相加</a></div>
+		<div class="rightnav"><a href="#6">字符串查找</a></div>
+		<div class="rightnav"><a href="#7">字符串分割</a></div>
+		<div class="rightnav"><a href="#8">字符串翻转</a></div>
+        <div class="rightnav"><a href="#9">字符串编码</a></div>
+        <div class="rightnav"><a href="#10">字符串追加和拼接</a></div>
+		<div class="rightnav"><a href="#11">字符串复制</a></div>
+		<div class="rightnav"><a href="#12">字符串长度</a></div>
+		<div class="rightnav"><a href="#13">字符串大小写</a></div>
+		<div class="rightnav"><a href="#14">字符串去空格</a></div>
+		<div class="rightnav"><a href="#15">字符串其他方法</a></div>
+        <div id="contact">老王email: 280026798@qq.com</div>
+        </div>
+      </div>
+  <div class="clearing"></div>
+  </div>
+  <div class="clearing"></div>
+</div>
+<script type="text/javascript" charset="UTF-8" src="http://s1.kutongji.com/stat.php?site=20682"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

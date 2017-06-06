@@ -7,10 +7,10 @@ lock = threading.RLock()
 
 def getContentsFromUrl():
     while True:
-        lock.acquire()
+        # lock.acquire()
         url = queue.get()
         print url
-        lock.release()
+        # lock.release()
         try:
             opener = urllib.urlopen(url)
             contents = opener.read()

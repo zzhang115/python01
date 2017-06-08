@@ -1,12 +1,12 @@
 a = [1, 2, 3, 4]
 
 if 3 in a:
-    print "yes"
+    print("yes")
 
 try:
-    print a[5]
+    print (a[5])
 except IndexError:
-    print "\033[34;1mindexException\033[0m"
+    print ("\033[34;1mindexException\033[0m")
 '''
 AttributeError # try to access a object which has no attributes
 IOError
@@ -26,9 +26,9 @@ a = { "1" : "abc",
       "2" : "efg"
     }
 try :
-    print a["1"]
+    print (a["1"])
 except KeyError:
-    print "key is not exits in this dic"
+    print ("key is not exits in this dic")
 
 # while 1:
 #     print "run"
@@ -46,19 +46,19 @@ except KeyError:
 
 try:
     for i in a:
-        print i
+        print (i)
         raise IndexError #if in some case we need to create a exception manually, use raise
 except IndexError:
-    print "this a raised IndexError"
+    print ("this a raised IndexError")
 finally: # usually used to close some connection like socket
-    print "arrive finally"
+    print ("arrive finally")
 
-print "after Error"
+print ("after Error")
 try:
     for i in a:
-        print i
+        print (i)
         raise IndexError #if in some case we need to create a exception manually, use raise
 except IndexError:
-    print "this a raised IndexError"
+    print ("this a raised IndexError")
 else:
-    print "no exception"
+    print ("no exception")

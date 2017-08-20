@@ -13,21 +13,21 @@ a = os.popen('ls')
 # print a.readlines() # form a list
 
 for i in a.readlines():
-    print "i: ", i
+    print("i: ", i)
 #os.mkdir("newDir")
 #os.chdir("~")
 import time
 # time.sleep(5)
-print "wake up"
-print time.time()
-print time.strftime("%H:%M:%S %m-%d-%Y")
-print time.timezone
+print("wake up")
+print(time.time())
+print(time.strftime("%H:%M:%S %m-%d-%Y"))
+print(time.timezone)
 
 import datetime
-print datetime.datetime.now()
+print(datetime.datetime.now())
 
 import newModule
-print newModule.version
+print(newModule.version)
 
 import logging
-print logging._acquireLock()
+print(logging._acquireLock())

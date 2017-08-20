@@ -23,11 +23,11 @@ with open("result", "r+") as f:#r+ means it can be changed
     old = f.read() #read everything in the file
     f.seek(10) #rewind it means set the file's current position to 10,
     f.write("new line\n" ) #write the new add new line string after cursor position 10
-w = file("backupfile", "w")
+w = file("backupfile.txt", "w")
 w.write("hello boy, this is test file")
 w.close()
 
-for line in fileinput.input("backupfile", backup=".bak", inplace=1):#for this function, it change the content of backupfile
+for line in fileinput.input("backupfile.txt", backup=".bak", inplace=1):#for this function, it change the content of backupfile.txt
     line = line.replace("hello", "hi")  #and back up one file end with .bak, it wont be replace by hi
     print line
 
